@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node app.js",
+    "collect": "node matsunoya.js",
     "jade": "jade src --obj src/variables.json --out docs"
   },
   "dependencies": {

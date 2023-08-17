@@ -21,19 +21,32 @@ async function getMenu() {
         let itemSelector = await page.waitForSelector(ITEM_LIST_SELECTOR);
         let items = await itemSelector?.evaluate((ul) => {
           return [...ul.querySelectorAll('li.item')].map((li) => {
-                return [
-                    li.querySelector('span.txt')?.textContent,
-                    parseInt(li.querySelector('.price')?.textContent)
-                ];
+                return {
+                    data: [
+                        li.querySelector('span.txt')?.textContent,
+                        parseInt(li.querySelector('.price')?.textContent)
+                    ],
+                    link: li.querySelector('a').href
+                };
           });
         });
+        let newItems = [];
+        for (item of items) {
+            let newPage = await browser.newPage();
+            await newPage.goto(item.link);
+            let nutrient = await newPage.evaluate(() => {
+                return Object.fromEntries([...document.querySelectorAll('p')].filter((p) => p.textContent.includes('カロリー')).pop().innerHTML.split(/<br>/).map((t) => t.split(/／/)));                ;
+            });
+            item.data.push(nutrient);
+            newItems.push(item.data);
+        }
         let isMorning = await page.evaluate(() => {
             return document.querySelector('#container > section.section-main-cmn.main-post-cmn.section-menu-matsuya > h1').textContent.includes('朝メニュー');        
         });
         if (isMorning) {
-            allMorning = allMorning.concat(items);
+            allMorning = allMorning.concat(newItems);
         } else {
-            allMenu = allMenu.concat(items);
+            allMenu = allMenu.concat(newItems);
         }
     }
 
