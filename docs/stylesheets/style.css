@@ -1,8 +1,21 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
 }
+
+.result-item {
+  background-color: rgb(254, 200, 18);
+}
+
+.result-item h4 {
+  color: rgb(59, 34, 19);
+}
+
+.result-item small {
+  color: rgb(119, 84, 62);
+}
+
+/*# sourceMappingURL=style.css.map */

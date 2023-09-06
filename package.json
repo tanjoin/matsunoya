@@ -3,15 +3,19 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js",
-    "collect": "node matsunoya.js",
-    "jade": "jade src --obj src/variables.json --out docs"
+    "collect": "node tools/matsunoya.js",
+    "build:jade": "jade src --obj src/variables.json --out docs",
+    "build:sass": "sass src/*.scss docs/stylesheets/style.css",
+    "build": "npm run build:jade && npm run build:sass",
+    "watch:sass": "sass --watch src/*.scss docs/stylesheets/style.css",
+    "watch": "node tools/watch.js"
   },
   "dependencies": {
     "express": "~4.16.1",
     "puppeteer": "^20.9.0"
   },
   "devDependencies": {
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "sass": "^1.66.1"
   }
 }
