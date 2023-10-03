@@ -50,9 +50,6 @@ async function getMenu() {
         }
     }
 
-    allMorning = allMorning.sort((a, b) => a[0] - b[0]);
-    allMenu = allMenu.sort((a, b) => a[0] - b[0]);
-
     fs.writeFileSync('docs/javascripts/menu_list.js', `const MATSUNOYA_MENU_LIST = ${JSON.stringify(allMenu, null, 2)};`, 'utf8');
     fs.writeFileSync('docs/javascripts/morning_list.js', `const MATSUNOYA_MORNING_LIST = ${JSON.stringify(allMorning, null, 2)};`, 'utf8');
 
