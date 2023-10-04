@@ -38,6 +38,7 @@ async function getMenu() {
                 return Object.fromEntries([...document.querySelectorAll('p')].filter((p) => p.textContent.includes('カロリー')).pop().innerHTML.split(/<br>/).map((t) => t.split(/／/)));                ;
             });
             item.data.push(nutrient);
+            item.data.push(item.link);
             newItems.push(item.data);
         }
         let isMorning = await page.evaluate(() => {

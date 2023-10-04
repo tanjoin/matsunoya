@@ -1,9 +1,22 @@
 extend layout 
 
-block body 
+block variables
+  - var title = index_title
+
+block body
   nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
     .container-fluid.justify-content-center.row-cols-auto 
-      a.navbar-brand= title
+      a.navbar-brand= index_title
+      button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarNav.collapse.navbar-collapse.justify-content-center.row-cols-auto
+        ul.navbar-nav
+          li.nav-item
+            a.nav-link.active(href='#', aria-current="page") ガチャ
+          li.nav-item
+            a.nav-link(href='calendar.html') カレンダー
+          //- li.nav-item
+          //-   a.nav-link(href='/about') このサイトについて      
   #main.container
     .row.justify-content-center.row-cols-auto.mt-5
       .col

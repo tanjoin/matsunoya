@@ -1,0 +1,52 @@
+extend layout 
+
+block variables
+  - var title = calendar_title
+
+
+block body
+  nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+    .container-fluid.justify-content-center.row-cols-auto 
+      a.navbar-brand= calendar_title
+      button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarNav.collapse.navbar-collapse.justify-content-center.row-cols-auto
+        ul.navbar-nav
+          li.nav-item
+            a.nav-link(href='index.html') ガチャ
+          li.nav-item
+            a.nav-link.active(href='#', area-current="page") カレンダー
+        //-   li.nav-item
+        //-     a.nav-link(href='/about') このサイトについて
+  #main.container
+    .input-group.mt-3.mb-3
+      input#search-input.form-control(type="text" placeholder="フィルター" aria-label="フィルター" aria-describedby="basic-addon2")
+    .row
+      .col.d-flex
+        .btn-group(role="group")
+          input(type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked)
+          label.btn.btn-outline-primary(for="btnradio1") 標準
+          input(type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off")
+          label.btn.btn-outline-primary(for="btnradio2") 名前
+          input(type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off")
+          label.btn.btn-outline-primary(for="btnradio3") カロリー
+          input(type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off")
+          label.btn.btn-outline-primary(for="btnradio4") たんぱく質
+          input(type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off")
+          label.btn.btn-outline-primary(for="btnradio5") 脂質
+          input(type="radio" class="btn-check" name="btnradio" id="btnradio6" autocomplete="off")
+          label.btn.btn-outline-primary(for="btnradio6") 炭水化物
+          input(type="radio" class="btn-check" name="btnradio" id="btnradio7" autocomplete="off")
+          label.btn.btn-outline-primary(for="btnradio7") 食塩相当量
+          input(type="radio" class="btn-check" name="btnradio" id="btnradio8" autocomplete="off")
+          label.btn.btn-outline-primary(for="btnradio8") たんぱく質-脂質
+          input(type="radio" class="btn-check" name="btnradio" id="btnradio9" autocomplete="off")
+          label.btn.btn-outline-primary(for="btnradio9") 価格
+        .btn-group.ms-auto(role="group")
+          input(type="checkbox" class="btn-check" name="btnradio" id="btncheck" autocomplete="off")
+          label.btn.btn-outline-secondary(for="btncheck") 逆順
+    #calendar.row.p-3.card-deck
+        
+  script(src='./javascripts/menu_list.js', charset='UTF-8')
+  script(src='./javascripts/morning_list.js', charset='UTF-8')
+  script(src='./javascripts/calendar.js', charset='UTF-8')
