@@ -22,8 +22,8 @@ block body
     .input-group.mt-3.mb-3
       input#search-input.form-control(type="text" placeholder="フィルター" aria-label="フィルター" aria-describedby="basic-addon2")
     .row
-      .col.d-flex
-        .btn-group(role="group")
+      .col.d-flex.flex-wrap
+        .btn-group(role="group").flex-wrap
           input(type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked)
           label.btn.btn-outline-primary(for="btnradio1") 標準
           input(type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off")
@@ -42,7 +42,7 @@ block body
           label.btn.btn-outline-primary(for="btnradio8") たんぱく質-脂質
           input(type="radio" class="btn-check" name="btnradio" id="btnradio9" autocomplete="off")
           label.btn.btn-outline-primary(for="btnradio9") 価格
-        .btn-group.ms-auto(role="group")
+        .btn-group.ms-auto(role="group").flex-grow-1.flex-sm-grow-1.flex-md-grow-1.flex-lg-grow-0.flex-xl-grow-0
           input(type="checkbox" class="btn-check" name="btnradio" id="btncheck" autocomplete="off")
           label.btn.btn-outline-secondary(for="btncheck") 逆順
     #calendar.row.p-3.card-deck
