@@ -166,7 +166,7 @@ class Calendar {
                     + `${encodeURIComponent("\n食塩相当量 " + this.nutritionFacts.食塩相当量)}`
                     + `${encodeURIComponent("\n税込" + this.price + "円\n")}`;
         let location = `${encodeURIComponent(this.link)}}`;
-        let dateString = new Date().toISOString().replace(/-|:|\.\d\d\d/g,"");
+        let dateString = Utils.toISOLocaleString(new Date()).replace(/-|:|\.\d\d\d/g,"");
         let dates = `${dateString}/${dateString}}`;
 
         return `
