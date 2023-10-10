@@ -1,6 +1,6 @@
 {
   "name": "matsunoya",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "collect": "node tools/matsunoya.js",
