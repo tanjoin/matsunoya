@@ -15,11 +15,11 @@ const MATSUNOYA_MORNING_LIST = [
     "玉子丼",
     290,
     {
-      "カロリー": "616kcal",
-      "たんぱく質": "21.6g",
-      "脂質": "11.2g",
-      "炭水化物": "100.9g",
-      "食塩相当量": "4.8g"
+      "カロリー": "840kcal",
+      "たんぱく質": "25.7g",
+      "脂質": "11.5g",
+      "炭水化物": "149.4g",
+      "食塩相当量": "6.2g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_tamagodon_hp.html"
   ],
