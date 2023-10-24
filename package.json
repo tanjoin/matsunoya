@@ -2,6 +2,7 @@
   "name": "matsunoya",
   "version": "0.0.2",
   "private": true,
+  "main": "tools/matsunoya.js",
   "scripts": {
     "collect": "node tools/matsunoya.js",
     "build:jade": "jade src --obj src/variables.json --out docs",

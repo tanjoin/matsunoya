@@ -57,8 +57,8 @@ async function getMenu() {
     await page.close();
     await browser.close();
 }
+module.exports = getMenu;
 
-
-(async () => {
+if (require.main === module) (async () => {
     await getMenu();
 })();
