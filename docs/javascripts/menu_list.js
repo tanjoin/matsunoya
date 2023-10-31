@@ -636,8 +636,20 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_ebi2_hp_220502.html"
   ],
   [
-    "カキフライとじ丼",
+    "カキフライとじ丼 並盛",
     890,
+    {
+      "カロリー": "979kcal",
+      "たんぱく質": "29.8g",
+      "脂質": "37.8g",
+      "炭水化物": "123.2g",
+      "食塩相当量": "5.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_kaki_hp_230927.html"
+  ],
+  [
+    "カキフライとじ丼 大盛",
+    950,
     {
       "カロリー": "1203kcal",
       "たんぱく質": "33.9g",
@@ -648,8 +660,20 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_kaki_hp_230927.html"
   ],
   [
-    "親子ささみかつ丼",
+    "親子ささみかつ丼 並盛",
     690,
+    {
+      "カロリー": "1086kcal",
+      "たんぱく質": "51.1g",
+      "脂質": "40.6g",
+      "炭水化物": "122.6g",
+      "食塩相当量": "5.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_oyako_sasami_hp_230621.html"
+  ],
+  [
+    "親子ささみかつ丼 大盛",
+    750,
     {
       "カロリー": "1310kcal",
       "たんぱく質": "55.1g",
@@ -660,8 +684,20 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_oyako_sasami_hp_230621.html"
   ],
   [
-    "ロースかつ丼",
+    "ロースかつ丼 並盛",
     630,
+    {
+      "カロリー": "1068kcal",
+      "たんぱく質": "43.7g",
+      "脂質": "43.2g",
+      "炭水化物": "119.5g",
+      "食塩相当量": "5.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_hp_221228.html"
+  ],
+  [
+    "ロースかつ丼 大盛",
+    690,
     {
       "カロリー": "1292kcal",
       "たんぱく質": "47.8g",
@@ -672,8 +708,20 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_hp_221228.html"
   ],
   [
-    "味噌ロースかつ丼",
+    "味噌ロースかつ丼 並盛",
     630,
+    {
+      "カロリー": "970kcal",
+      "たんぱく質": "32.5g",
+      "脂質": "36g",
+      "炭水化物": "124g",
+      "食塩相当量": "4.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_miso_hp_221228.html"
+  ],
+  [
+    "味噌ロースかつ丼 大盛",
+    690,
     {
       "カロリー": "1171kcal",
       "たんぱく質": "35.5g",
@@ -684,8 +732,20 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_miso_hp_221228.html"
   ],
   [
-    "ささみかつカレー",
+    "ささみかつカレー 並盛",
     690,
+    {
+      "カロリー": "1339kcal",
+      "たんぱく質": "40.5g",
+      "脂質": "69.5g",
+      "炭水化物": "134.1g",
+      "食塩相当量": "4.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_sasami_hp_230621.html"
+  ],
+  [
+    "ささみかつカレー 大盛",
+    790,
     {
       "カロリー": "1625kcal",
       "たんぱく質": "44.5g",
@@ -696,8 +756,20 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_sasami_hp_230621.html"
   ],
   [
-    "“松のや”のコロッケカレー",
+    "“松のや”のコロッケカレー 並盛",
     590,
+    {
+      "カロリー": "1096kcal",
+      "たんぱく質": "16.9g",
+      "脂質": "45.7g",
+      "炭水化物": "150.9g",
+      "食塩相当量": "4.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_koroke_hp_220810.html"
+  ],
+  [
+    "“松のや”のコロッケカレー 大盛",
+    690,
     {
       "カロリー": "1382kcal",
       "たんぱく質": "20.9g",
@@ -708,8 +780,20 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_koroke_hp_220810.html"
   ],
   [
-    "“松のや”の本格唐揚げカレー",
+    "“松のや”の本格唐揚げカレー 並盛",
     670,
+    {
+      "カロリー": "1155kcal",
+      "たんぱく質": "27.8g",
+      "脂質": "60.1g",
+      "炭水化物": "122.3g",
+      "食塩相当量": "5.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_karaage_hp_230913.html"
+  ],
+  [
+    "“松のや”の本格唐揚げカレー 大盛",
+    770,
     {
       "カロリー": "1441kcal",
       "たんぱく質": "31.8g",
@@ -720,8 +804,20 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_karaage_hp_230913.html"
   ],
   [
-    "“松のや”のロースかつカレー",
+    "“松のや”のロースかつカレー 並盛",
     670,
+    {
+      "カロリー": "1228kcal",
+      "たんぱく質": "32.6g",
+      "脂質": "63.2g",
+      "炭水化物": "128.5g",
+      "食塩相当量": "4.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_rosu_hp_221228.html"
+  ],
+  [
+    "“松のや”のロースかつカレー 大盛",
+    770,
     {
       "カロリー": "1514kcal",
       "たんぱく質": "36.6g",
@@ -732,8 +828,20 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_rosu_hp_221228.html"
   ],
   [
-    "“松のや”の海老フライカレー",
+    "“松のや”の海老フライカレー 並盛",
     900,
+    {
+      "カロリー": "1123kcal",
+      "たんぱく質": "20.4g",
+      "脂質": "57.3g",
+      "炭水化物": "127.5g",
+      "食塩相当量": "5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_ebi_hp_220502.html"
+  ],
+  [
+    "“松のや”の海老フライカレー 大盛",
+    1000,
     {
       "カロリー": "1409kcal",
       "たんぱく質": "24.4g",
@@ -1164,8 +1272,32 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_eggssg_hp_200819.html"
   ],
   [
-    "ライス",
+    "ライス 並盛",
     200,
+    {
+      "カロリー": "336kcal",
+      "たんぱく質": "5g",
+      "脂質": "0.6g",
+      "炭水化物": "74.2g",
+      "食塩相当量": "0g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_rice_hp.html"
+  ],
+  [
+    "ライス 大盛",
+    260,
+    {
+      "カロリー": "588kcal",
+      "たんぱく質": "8.8g",
+      "脂質": "1.1g",
+      "炭水化物": "129.9g",
+      "食塩相当量": "0g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_rice_hp.html"
+  ],
+  [
+    "ライス 特盛",
+    300,
     {
       "カロリー": "722kcal",
       "たんぱく質": "10.8g",

@@ -12,8 +12,20 @@ const MATSUNOYA_MORNING_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_chicken_katsu_hp_230913.html"
   ],
   [
-    "玉子丼",
+    "玉子丼 並盛",
     290,
+    {
+      "カロリー": "616kcal",
+      "たんぱく質": "21.6g",
+      "脂質": "11.2g",
+      "炭水化物": "100.9g",
+      "食塩相当量": "4.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_tamagodon_hp.html"
+  ],
+  [
+    "玉子丼 大盛",
+    350,
     {
       "カロリー": "840kcal",
       "たんぱく質": "25.7g",
