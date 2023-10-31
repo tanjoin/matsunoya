@@ -35,11 +35,38 @@ async function getMenu() {
             let newPage = await browser.newPage();
             await newPage.goto(item.link);
             let nutrient = await newPage.evaluate(() => {
-                return Object.fromEntries([...document.querySelectorAll('p')].filter((p) => p.textContent.includes('カロリー')).pop().innerHTML.split(/<br>/).map((t) => t.split(/／/)));                ;
+                let kdata = [...document.querySelectorAll('p')].filter((p) => p.textContent.includes('カロリー'));
+                let result = [];
+                if (kdata.length > 1) {
+                    let subdata = [...document.querySelectorAll('div.article-info > ul li')].map((li) => li.textContent.split('\n').map((t) => t.replace(/\s+/g, "")).filter((t) => t.length > 0));
+                    for (let index = 0; index < kdata.length; index++) {
+                        const element = kdata[index];
+                        let tdata = Object.fromEntries(element.innerHTML.split(/<br>/).map((t) => t.split(/／/)));
+                        tdata["category"] = subdata[index][0];
+                        tdata["price"] = subdata[index][1];
+                        result.push(tdata);
+                    }
+                    return result;
+                } else {
+                    return Object.fromEntries(kdata.shift().innerHTML.split(/<br>/).map((t) => t.split(/／/)));
+                }
             });
-            item.data.push(nutrient);
-            item.data.push(item.link);
-            newItems.push(item.data);
+            if (Array.isArray(nutrient)) {
+                for (let nu of nutrient) {
+                    let d = JSON.parse(JSON.stringify(item.data));
+                    d[0] = d[0] + ' ' + nu.category;
+                    d[1] = parseInt(nu.price);
+                    delete nu.category
+                    delete nu.price;
+                    d.push(nu);
+                    d.push(item.link);
+                    newItems.push(d);
+                }
+            } else {
+                item.data.push(nutrient);
+                item.data.push(item.link);
+                newItems.push(item.data);
+            }
         }
         let isMorning = await page.evaluate(() => {
             return document.querySelector('#container > section.section-main-cmn.main-post-cmn.section-menu-matsuya > h1').textContent.includes('朝メニュー');        
