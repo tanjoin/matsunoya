@@ -1,5 +1,41 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "チーズトマトささみかつ定食",
+    850,
+    {
+      "カロリー": "1051kcal",
+      "たんぱく質": "45.5g",
+      "脂質": "45.8g",
+      "炭水化物": "112g",
+      "食塩相当量": "4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_cheetoma_sasami_hp_231101.html"
+  ],
+  [
+    "チーズトマトたっぷりささみかつ定食",
+    1050,
+    {
+      "カロリー": "1287kcal",
+      "たんぱく質": "60.3g",
+      "脂質": "60.5g",
+      "炭水化物": "123.2g",
+      "食塩相当量": "4.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_cheetoma_sasami3_hp_231101.html"
+  ],
+  [
+    "ロースかつ＆チーズトマトささみかつ定食",
+    1150,
+    {
+      "カロリー": "1505kcal",
+      "たんぱく質": "67.8g",
+      "脂質": "77.8g",
+      "炭水化物": "131.2g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_cheetoma_sasami_hp_231101.html"
+  ],
+  [
     "角煮かつ定食",
     930,
     {
@@ -60,28 +96,28 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_mustard_sasami3_hp_231018.html"
   ],
   [
-    "ガーリックバターささみかつ定食",
-    790,
+    "チーズトマトささみかつ定食",
+    850,
     {
-      "カロリー": "976kcal",
-      "たんぱく質": "37.7g",
-      "脂質": "43.2g",
-      "炭水化物": "106.7g",
-      "食塩相当量": "3.4g"
+      "カロリー": "1051kcal",
+      "たんぱく質": "45.5g",
+      "脂質": "45.8g",
+      "炭水化物": "112g",
+      "食塩相当量": "4g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_garibata_sasami2_hp_231018.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_cheetoma_sasami_hp_231101.html"
   ],
   [
-    "ガーリックバターたっぷりささみかつ定食",
-    990,
+    "チーズトマトたっぷりささみかつ定食",
+    1050,
     {
-      "カロリー": "1212kcal",
-      "たんぱく質": "52.5g",
-      "脂質": "58g",
-      "炭水化物": "117.8g",
-      "食塩相当量": "3.8g"
+      "カロリー": "1287kcal",
+      "たんぱく質": "60.3g",
+      "脂質": "60.5g",
+      "炭水化物": "123.2g",
+      "食塩相当量": "4.4g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_garibata_sasami3_hp_231018.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_cheetoma_sasami3_hp_231101.html"
   ],
   [
     "角煮かつ定食",
@@ -118,30 +154,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4.3g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_mustard_sasami3_hp_231018.html"
-  ],
-  [
-    "ガーリックバターささみかつ定食",
-    790,
-    {
-      "カロリー": "976kcal",
-      "たんぱく質": "37.7g",
-      "脂質": "43.2g",
-      "炭水化物": "106.7g",
-      "食塩相当量": "3.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_garibata_sasami2_hp_231018.html"
-  ],
-  [
-    "ガーリックバターたっぷりささみかつ定食",
-    990,
-    {
-      "カロリー": "1212kcal",
-      "たんぱく質": "52.5g",
-      "脂質": "58g",
-      "炭水化物": "117.8g",
-      "食塩相当量": "3.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_garibata_sasami3_hp_231018.html"
   ],
   [
     "カキフライ（4個）定食",
@@ -190,54 +202,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.8g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_aji_hp_230920.html"
-  ],
-  [
-    "チキンかつ定食",
-    690,
-    {
-      "カロリー": "865kcal",
-      "たんぱく質": "30.3g",
-      "脂質": "34.7g",
-      "炭水化物": "106.7g",
-      "食塩相当量": "2.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_katsu_hp_230913.html"
-  ],
-  [
-    "鬼おろしポン酢チキンかつ定食",
-    790,
-    {
-      "カロリー": "898kcal",
-      "たんぱく質": "31.7g",
-      "脂質": "34.8g",
-      "炭水化物": "113.6g",
-      "食塩相当量": "4.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_katsu_oni_hp_230913.html"
-  ],
-  [
-    "味噌チキンかつ定食",
-    790,
-    {
-      "カロリー": "960kcal",
-      "たんぱく質": "32.8g",
-      "脂質": "37.2g",
-      "炭水化物": "121.1g",
-      "食塩相当量": "4.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_katsu_miso_hp_230913.html"
-  ],
-  [
-    "タルタルチキンかつ定食",
-    790,
-    {
-      "カロリー": "1057kcal",
-      "たんぱく質": "31.9g",
-      "脂質": "52.5g",
-      "炭水化物": "113g",
-      "食塩相当量": "4.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_katsu_taru_hp_230913.html"
   ],
   [
     "ささみかつ定食",
@@ -372,6 +336,18 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_230913.html"
   ],
   [
+    "ロースかつ＆チーズトマトささみかつ定食",
+    1150,
+    {
+      "カロリー": "1505kcal",
+      "たんぱく質": "67.8g",
+      "脂質": "77.8g",
+      "炭水化物": "131.2g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_cheetoma_sasami_hp_231101.html"
+  ],
+  [
     "ロースかつ＆角煮かつ（1枚）定食",
     890,
     {
@@ -408,18 +384,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_kaki_hp_230927.html"
   ],
   [
-    "チキンかつ＆カキフライ（2個）定食",
-    990,
-    {
-      "カロリー": "1140kcal",
-      "たんぱく質": "35.1g",
-      "脂質": "57g",
-      "炭水化物": "120.6g",
-      "食塩相当量": "4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_kaki_hp_230927.html"
-  ],
-  [
     "海鮮3種（カキフライ2個・アジフライ1枚・海老フライ1尾）盛合せ定食",
     1090,
     {
@@ -442,78 +406,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4.2g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_aji_hp_230920.html"
-  ],
-  [
-    "チキンかつ＆アジフライ定食",
-    890,
-    {
-      "カロリー": "1166kcal",
-      "たんぱく質": "41.6g",
-      "脂質": "56.1g",
-      "炭水化物": "122.7g",
-      "食塩相当量": "4.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_aji_hp_230920.html"
-  ],
-  [
-    "チキンかつ＆ささみかつ（1本）定食",
-    890,
-    {
-      "カロリー": "1226kcal",
-      "たんぱく質": "45.5g",
-      "脂質": "58.3g",
-      "炭水化物": "127.3g",
-      "食塩相当量": "4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_sasami1_hp_230913.html"
-  ],
-  [
-    "チキンかつ＆ささみかつ（2本）定食",
-    1090,
-    {
-      "カロリー": "1462kcal",
-      "たんぱく質": "60.3g",
-      "脂質": "73g",
-      "炭水化物": "138.5g",
-      "食塩相当量": "4.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_sasami2_hp_230913.html"
-  ],
-  [
-    "チキンかつ＆海老フライ（1尾）定食",
-    960,
-    {
-      "カロリー": "1118kcal",
-      "たんぱく質": "35.4g",
-      "脂質": "52.2g",
-      "炭水化物": "124g",
-      "食塩相当量": "4.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_ebi1_hp_230913.html"
-  ],
-  [
-    "チキンかつ＆海老フライ（2尾）定食",
-    1230,
-    {
-      "カロリー": "1247kcal",
-      "たんぱく質": "40.2g",
-      "脂質": "60.9g",
-      "炭水化物": "131.8g",
-      "食塩相当量": "4.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_ebi2_hp_230913.html"
-  ],
-  [
-    "チキンかつ＆唐揚げ定食",
-    960,
-    {
-      "カロリー": "1187kcal",
-      "たんぱく質": "46.9g",
-      "脂質": "54.7g",
-      "炭水化物": "124.1g",
-      "食塩相当量": "4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_karaage_hp_230913.html"
   ],
   [
     "ロースかつ＆ささみかつ（1本）定食",
@@ -912,18 +804,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_aji_hp_230920.html"
   ],
   [
-    "単品チキンかつ",
-    450,
-    {
-      "カロリー": "482kcal",
-      "たんぱく質": "22.6g",
-      "脂質": "33.2g",
-      "炭水化物": "24.3g",
-      "食塩相当量": "1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_chicken_katsu_hp_230913.html"
-  ],
-  [
     "単品ささみかつ（1本）",
     230,
     {
@@ -1044,6 +924,18 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_odoburu_hp_220330.html"
   ],
   [
+    "単品チーズトマトソース",
+    200,
+    {
+      "カロリー": "195kcal",
+      "たんぱく質": "8.2g",
+      "脂質": "14.8g",
+      "炭水化物": "7.3g",
+      "食塩相当量": "1.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_cheese_tomato_sauce_hp_231101.html"
+  ],
+  [
     "単品角煮ダレ",
     50,
     {
@@ -1066,18 +958,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "1.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_sauce_mustard_hp_231018.html"
-  ],
-  [
-    "単品ガーリックバター",
-    130,
-    {
-      "カロリー": "120kcal",
-      "たんぱく質": "0.4g",
-      "脂質": "12.3g",
-      "炭水化物": "1.9g",
-      "食塩相当量": "0.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_sauce_garibata_hp_231018.html"
   ],
   [
     "タルタルソース",
