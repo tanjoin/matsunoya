@@ -36,66 +36,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_cheetoma_sasami_hp_231101.html"
   ],
   [
-    "角煮かつ定食",
-    930,
-    {
-      "カロリー": "1140kcal",
-      "たんぱく質": "26.9g",
-      "脂質": "53.3g",
-      "炭水化物": "134.1g",
-      "食塩相当量": "5.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_kakuni_katsu_hp_231025.html"
-  ],
-  [
-    "ロースかつ＆角煮かつ（1枚）定食",
-    890,
-    {
-      "カロリー": "1146kcal",
-      "たんぱく質": "37.7g",
-      "脂質": "53.1g",
-      "炭水化物": "125g",
-      "食塩相当量": "5.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_kakuni_rosu1_hp_231025.html"
-  ],
-  [
-    "ロースかつ＆角煮かつ（2枚）定食",
-    1150,
-    {
-      "カロリー": "1371kcal",
-      "たんぱく質": "43.4g",
-      "脂質": "69.2g",
-      "炭水化物": "139.1g",
-      "食塩相当量": "5.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_kakuni_rosu2_hp_231025.html"
-  ],
-  [
-    "粒マスタードマヨネーズささみかつ定食",
-    790,
-    {
-      "カロリー": "1132kcal",
-      "たんぱく質": "38.7g",
-      "脂質": "58.9g",
-      "炭水化物": "109.6g",
-      "食塩相当量": "3.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_mustard_sasami2_hp_231018.html"
-  ],
-  [
-    "粒マスタードマヨネーズたっぷりささみかつ定食",
-    990,
-    {
-      "カロリー": "1369kcal",
-      "たんぱく質": "53.6g",
-      "脂質": "73.6g",
-      "炭水化物": "120.7g",
-      "食塩相当量": "4.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_mustard_sasami3_hp_231018.html"
-  ],
-  [
     "チーズトマトささみかつ定食",
     850,
     {
@@ -118,42 +58,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_cheetoma_sasami3_hp_231101.html"
-  ],
-  [
-    "角煮かつ定食",
-    930,
-    {
-      "カロリー": "1140kcal",
-      "たんぱく質": "26.9g",
-      "脂質": "53.3g",
-      "炭水化物": "134.1g",
-      "食塩相当量": "5.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_kakuni_katsu_hp_231025.html"
-  ],
-  [
-    "粒マスタードマヨネーズささみかつ定食",
-    790,
-    {
-      "カロリー": "1132kcal",
-      "たんぱく質": "38.7g",
-      "脂質": "58.9g",
-      "炭水化物": "109.6g",
-      "食塩相当量": "3.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_mustard_sasami2_hp_231018.html"
-  ],
-  [
-    "粒マスタードマヨネーズたっぷりささみかつ定食",
-    990,
-    {
-      "カロリー": "1369kcal",
-      "たんぱく質": "53.6g",
-      "脂質": "73.6g",
-      "炭水化物": "120.7g",
-      "食塩相当量": "4.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_mustard_sasami3_hp_231018.html"
   ],
   [
     "カキフライ（4個）定食",
@@ -346,30 +250,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_cheetoma_sasami_hp_231101.html"
-  ],
-  [
-    "ロースかつ＆角煮かつ（1枚）定食",
-    890,
-    {
-      "カロリー": "1146kcal",
-      "たんぱく質": "37.7g",
-      "脂質": "53.1g",
-      "炭水化物": "125g",
-      "食塩相当量": "5.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_kakuni_rosu1_hp_231025.html"
-  ],
-  [
-    "ロースかつ＆角煮かつ（2枚）定食",
-    1150,
-    {
-      "カロリー": "1371kcal",
-      "たんぱく質": "43.4g",
-      "脂質": "69.2g",
-      "炭水化物": "139.1g",
-      "食塩相当量": "5.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_kakuni_rosu2_hp_231025.html"
   ],
   [
     "ロースかつ＆カキフライ（2個）定食",
@@ -768,18 +648,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
   ],
   [
-    "単品角煮かつ",
-    350,
-    {
-      "カロリー": "225kcal",
-      "たんぱく質": "5.7g",
-      "脂質": "16.1g",
-      "炭水化物": "14.1g",
-      "食塩相当量": "0.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_kakuni_katsu_hp_231025.html"
-  ],
-  [
     "単品カキフライ（2個）",
     400,
     {
@@ -934,30 +802,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "1.5g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_cheese_tomato_sauce_hp_231101.html"
-  ],
-  [
-    "単品角煮ダレ",
-    50,
-    {
-      "カロリー": "84kcal",
-      "たんぱく質": "2g",
-      "脂質": "3.4g",
-      "炭水化物": "9.3g",
-      "食塩相当量": "1.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_kakuni_hp_231025.html"
-  ],
-  [
-    "単品粒マスタードマヨネーズ",
-    130,
-    {
-      "カロリー": "276kcal",
-      "たんぱく質": "1.4g",
-      "脂質": "27.9g",
-      "炭水化物": "4.8g",
-      "食塩相当量": "1.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_sauce_mustard_hp_231018.html"
   ],
   [
     "タルタルソース",
