@@ -1,195 +1,39 @@
 const MATSUNOYA_MENU_LIST = [
   [
-    "大判ヒレかつ定食",
-    890,
-    {
-      "カロリー": "777kcal",
-      "たんぱく質": "34.5g",
-      "脂質": "20.1g",
-      "炭水化物": "110.7g",
-      "食塩相当量": "2.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oohire_hp_231122.html"
-  ],
-  [
-    "鬼おろしポン酢大判ヒレかつ定食",
-    990,
-    {
-      "カロリー": "810kcal",
-      "たんぱく質": "35.9g",
-      "脂質": "20.2g",
-      "炭水化物": "117.7g",
-      "食塩相当量": "4.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oohire_oroshi_hp_231122.html"
-  ],
-  [
-    "味噌大判ヒレかつ定食",
-    990,
-    {
-      "カロリー": "873kcal",
-      "たんぱく質": "37g",
-      "脂質": "22.6g",
-      "炭水化物": "125.2g",
-      "食塩相当量": "5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oohire_miso_hp_231122.html"
-  ],
-  [
-    "ロースかつ＆大判ヒレかつ定食",
-    1190,
-    {
-      "カロリー": "1232kcal",
-      "たんぱく質": "56.8g",
-      "脂質": "52.2g",
-      "炭水化物": "129.9g",
-      "食塩相当量": "3.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_oohire_hp_231122.html"
-  ],
-  [
-    "大判ヒレかつ＆本格唐揚げ定食",
-    1150,
-    {
-      "カロリー": "1067kcal",
-      "たんぱく質": "51.4g",
-      "脂質": "40.2g",
-      "炭水化物": "121.2g",
-      "食塩相当量": "4.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oohire_karaage_hp_231122.html"
-  ],
-  [
-    "大判ヒレかつ＆海老フライ（1尾）定食",
-    1150,
-    {
-      "カロリー": "998kcal",
-      "たんぱく質": "39.9g",
-      "脂質": "37.7g",
-      "炭水化物": "121g",
-      "食塩相当量": "4.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oohire_ebi1_hp_231122.html"
-  ],
-  [
-    "大判ヒレかつ＆海老フライ（2尾）定食",
-    1390,
-    {
-      "カロリー": "1127kcal",
-      "たんぱく質": "44.6g",
-      "脂質": "46.4g",
-      "炭水化物": "128.9g",
-      "食塩相当量": "4.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oohire_ebi2_hp_231122.html"
-  ],
-  [
-    "大判ヒレかつ＆アジフライ定食",
-    1170,
-    {
-      "カロリー": "1079kcal",
-      "たんぱく質": "45.7g",
-      "脂質": "41.5g",
-      "炭水化物": "126.7g",
-      "食塩相当量": "4.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oohire_aji_hp_231122.html"
-  ],
-  [
-    "大判ヒレかつ＆カキフライ定食",
-    1270,
-    {
-      "カロリー": "1053kcal",
-      "たんぱく質": "39.3g",
-      "脂質": "42.4g",
-      "炭水化物": "124.7g",
-      "食塩相当量": "4.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oohire_kaki_hp_231122.html"
-  ],
-  [
-    "大判ヒレかつ丼 並盛",
+    "チキン南蛮定食",
     930,
     {
-      "カロリー": "1007kcal",
-      "たんぱく質": "48.2g",
-      "脂質": "29.8g",
-      "炭水化物": "128.6g",
-      "食塩相当量": "6g"
+      "カロリー": "1514kcal",
+      "たんぱく質": "51.6g",
+      "脂質": "98.4g",
+      "炭水化物": "105.9g",
+      "食塩相当量": "7.1g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_oohire_hp_231122.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_nanban_hp_231206.html"
   ],
   [
-    "大判ヒレかつ丼 大盛",
+    "ロースかつ＆チキン南蛮定食",
     990,
     {
-      "カロリー": "1232kcal",
-      "たんぱく質": "52.3g",
-      "脂質": "30.1g",
-      "炭水化物": "177.1g",
-      "食塩相当量": "7.3g"
+      "カロリー": "1403kcal",
+      "たんぱく質": "51.9g",
+      "脂質": "82g",
+      "炭水化物": "113.1g",
+      "食塩相当量": "5.4g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_oohire_hp_231122.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_chicken_nanban_hp_231206.html"
   ],
   [
-    "大判ヒレかつカレー 並盛",
-    970,
+    "チキン南蛮定食",
+    930,
     {
-      "カロリー": "1168kcal",
-      "たんぱく質": "37.1g",
-      "脂質": "49.8g",
-      "炭水化物": "137.6g",
-      "食塩相当量": "4.3g"
+      "カロリー": "1514kcal",
+      "たんぱく質": "51.6g",
+      "脂質": "98.4g",
+      "炭水化物": "105.9g",
+      "食塩相当量": "7.1g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_oohire_hp_231122.html"
-  ],
-  [
-    "大判ヒレかつカレー 大盛",
-    1070,
-    {
-      "カロリー": "1454kcal",
-      "たんぱく質": "41g",
-      "脂質": "56.9g",
-      "炭水化物": "187.2g",
-      "食塩相当量": "5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_oohire_hp_231122.html"
-  ],
-  [
-    "大判ヒレかつ定食",
-    890,
-    {
-      "カロリー": "777kcal",
-      "たんぱく質": "34.5g",
-      "脂質": "20.1g",
-      "炭水化物": "110.7g",
-      "食塩相当量": "2.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oohire_hp_231122.html"
-  ],
-  [
-    "鬼おろしポン酢大判ヒレかつ定食",
-    990,
-    {
-      "カロリー": "810kcal",
-      "たんぱく質": "35.9g",
-      "脂質": "20.2g",
-      "炭水化物": "117.7g",
-      "食塩相当量": "4.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oohire_oroshi_hp_231122.html"
-  ],
-  [
-    "味噌大判ヒレかつ定食",
-    990,
-    {
-      "カロリー": "873kcal",
-      "たんぱく質": "37g",
-      "脂質": "22.6g",
-      "炭水化物": "125.2g",
-      "食塩相当量": "5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oohire_miso_hp_231122.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_nanban_hp_231206.html"
   ],
   [
     "カキフライ（4個）定食",
@@ -324,76 +168,16 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_230913.html"
   ],
   [
-    "ロースかつ＆大判ヒレかつ定食",
-    1190,
+    "ロースかつ＆チキン南蛮定食",
+    990,
     {
-      "カロリー": "1232kcal",
-      "たんぱく質": "56.8g",
-      "脂質": "52.2g",
-      "炭水化物": "129.9g",
-      "食塩相当量": "3.8g"
+      "カロリー": "1403kcal",
+      "たんぱく質": "51.9g",
+      "脂質": "82g",
+      "炭水化物": "113.1g",
+      "食塩相当量": "5.4g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_oohire_hp_231122.html"
-  ],
-  [
-    "大判ヒレかつ＆本格唐揚げ定食",
-    1150,
-    {
-      "カロリー": "1067kcal",
-      "たんぱく質": "51.4g",
-      "脂質": "40.2g",
-      "炭水化物": "121.2g",
-      "食塩相当量": "4.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oohire_karaage_hp_231122.html"
-  ],
-  [
-    "大判ヒレかつ＆海老フライ（1尾）定食",
-    1150,
-    {
-      "カロリー": "998kcal",
-      "たんぱく質": "39.9g",
-      "脂質": "37.7g",
-      "炭水化物": "121g",
-      "食塩相当量": "4.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oohire_ebi1_hp_231122.html"
-  ],
-  [
-    "大判ヒレかつ＆海老フライ（2尾）定食",
-    1390,
-    {
-      "カロリー": "1127kcal",
-      "たんぱく質": "44.6g",
-      "脂質": "46.4g",
-      "炭水化物": "128.9g",
-      "食塩相当量": "4.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oohire_ebi2_hp_231122.html"
-  ],
-  [
-    "大判ヒレかつ＆アジフライ定食",
-    1170,
-    {
-      "カロリー": "1079kcal",
-      "たんぱく質": "45.7g",
-      "脂質": "41.5g",
-      "炭水化物": "126.7g",
-      "食塩相当量": "4.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oohire_aji_hp_231122.html"
-  ],
-  [
-    "大判ヒレかつ＆カキフライ定食",
-    1270,
-    {
-      "カロリー": "1053kcal",
-      "たんぱく質": "39.3g",
-      "脂質": "42.4g",
-      "炭水化物": "124.7g",
-      "食塩相当量": "4.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oohire_kaki_hp_231122.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_chicken_nanban_hp_231206.html"
   ],
   [
     "ロースかつ＆カキフライ（2個）定食",
@@ -504,30 +288,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_ebi2_hp_220502.html"
   ],
   [
-    "大判ヒレかつ丼 並盛",
-    930,
-    {
-      "カロリー": "1007kcal",
-      "たんぱく質": "48.2g",
-      "脂質": "29.8g",
-      "炭水化物": "128.6g",
-      "食塩相当量": "6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_oohire_hp_231122.html"
-  ],
-  [
-    "大判ヒレかつ丼 大盛",
-    990,
-    {
-      "カロリー": "1232kcal",
-      "たんぱく質": "52.3g",
-      "脂質": "30.1g",
-      "炭水化物": "177.1g",
-      "食塩相当量": "7.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_oohire_hp_231122.html"
-  ],
-  [
     "カキフライとじ丼 並盛",
     890,
     {
@@ -598,30 +358,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4.8g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_miso_hp_221228.html"
-  ],
-  [
-    "大判ヒレかつカレー 並盛",
-    970,
-    {
-      "カロリー": "1168kcal",
-      "たんぱく質": "37.1g",
-      "脂質": "49.8g",
-      "炭水化物": "137.6g",
-      "食塩相当量": "4.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_oohire_hp_231122.html"
-  ],
-  [
-    "大判ヒレかつカレー 大盛",
-    1070,
-    {
-      "カロリー": "1454kcal",
-      "たんぱく質": "41g",
-      "脂質": "56.9g",
-      "炭水化物": "187.2g",
-      "食塩相当量": "5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_oohire_hp_231122.html"
   ],
   [
     "“松のや”のコロッケカレー 並盛",
@@ -744,16 +480,16 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
   ],
   [
-    "単品大判ヒレかつ（1枚）",
-    650,
+    "単品チキン南蛮",
+    510,
     {
-      "カロリー": "394kcal",
-      "たんぱく質": "26.8g",
-      "脂質": "18.6g",
-      "炭水化物": "28.3g",
-      "食塩相当量": "1.1g"
+      "カロリー": "565kcal",
+      "たんぱく質": "21.9g",
+      "脂質": "48.5g",
+      "炭水化物": "11.6g",
+      "食塩相当量": "2.6g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_oohire_hp_231122.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_chicken_nanban_hp_231206.html"
   ],
   [
     "単品カキフライ（2個）",
