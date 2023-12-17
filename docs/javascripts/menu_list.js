@@ -1,5 +1,113 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "チキンかつ定食",
+    690,
+    {
+      "カロリー": "865kcal",
+      "たんぱく質": "30.3g",
+      "脂質": "34.7g",
+      "炭水化物": "106.7g",
+      "食塩相当量": "2.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_katsu_hp_231213.html"
+  ],
+  [
+    "鬼おろしポン酢チキンかつ定食",
+    790,
+    {
+      "カロリー": "898kcal",
+      "たんぱく質": "31.7g",
+      "脂質": "34.8g",
+      "炭水化物": "113.6g",
+      "食塩相当量": "4.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_katsu_oni_hp_231213.html"
+  ],
+  [
+    "ネギ味噌チキンかつ定食",
+    790,
+    {
+      "カロリー": "994kcal",
+      "たんぱく質": "33.5g",
+      "脂質": "41.1g",
+      "炭水化物": "120.8g",
+      "食塩相当量": "5.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_katsu_negi_hp_231213.html"
+  ],
+  [
+    "タルタルチキンかつ定食",
+    790,
+    {
+      "カロリー": "1057kcal",
+      "たんぱく質": "31.9g",
+      "脂質": "52.5g",
+      "炭水化物": "113g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_katsu_taru_hp_231213.html"
+  ],
+  [
+    "チキンかつ＆海老フライ（1尾）定食",
+    960,
+    {
+      "カロリー": "1086kcal",
+      "たんぱく質": "35.7g",
+      "脂質": "52.3g",
+      "炭水化物": "117g",
+      "食塩相当量": "4.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_ebi1_hp_231213.html"
+  ],
+  [
+    "チキンかつ＆海老フライ（2尾）定食",
+    1230,
+    {
+      "カロリー": "1215kcal",
+      "たんぱく質": "40.5g",
+      "脂質": "61g",
+      "炭水化物": "124.8g",
+      "食塩相当量": "4.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_ebi2_hp_231213.html"
+  ],
+  [
+    "チキンかつ＆唐揚げ定食",
+    960,
+    {
+      "カロリー": "1155kcal",
+      "たんぱく質": "47.2g",
+      "脂質": "54.8g",
+      "炭水化物": "117.2g",
+      "食塩相当量": "4.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_karaage_hp_231213.html"
+  ],
+  [
+    "チキンかつ＆アジフライ定食",
+    980,
+    {
+      "カロリー": "1166kcal",
+      "たんぱく質": "41.6g",
+      "脂質": "56.1g",
+      "炭水化物": "122.7g",
+      "食塩相当量": "4.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_aji_hp_231213.html"
+  ],
+  [
+    "チキンかつ＆カキフライ（2個）定食",
+    1080,
+    {
+      "カロリー": "1140kcal",
+      "たんぱく質": "35.1g",
+      "脂質": "57g",
+      "炭水化物": "120.6g",
+      "食塩相当量": "4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_kaki_hp_231213.html"
+  ],
+  [
     "チキン南蛮定食",
     930,
     {
@@ -22,6 +130,54 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "5.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_chicken_nanban_hp_231206.html"
+  ],
+  [
+    "チキンかつ定食",
+    690,
+    {
+      "カロリー": "865kcal",
+      "たんぱく質": "30.3g",
+      "脂質": "34.7g",
+      "炭水化物": "106.7g",
+      "食塩相当量": "2.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_katsu_hp_231213.html"
+  ],
+  [
+    "鬼おろしポン酢チキンかつ定食",
+    790,
+    {
+      "カロリー": "898kcal",
+      "たんぱく質": "31.7g",
+      "脂質": "34.8g",
+      "炭水化物": "113.6g",
+      "食塩相当量": "4.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_katsu_oni_hp_231213.html"
+  ],
+  [
+    "ネギ味噌チキンかつ定食",
+    790,
+    {
+      "カロリー": "994kcal",
+      "たんぱく質": "33.5g",
+      "脂質": "41.1g",
+      "炭水化物": "120.8g",
+      "食塩相当量": "5.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_katsu_negi_hp_231213.html"
+  ],
+  [
+    "タルタルチキンかつ定食",
+    790,
+    {
+      "カロリー": "1057kcal",
+      "たんぱく質": "31.9g",
+      "脂質": "52.5g",
+      "炭水化物": "113g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_katsu_taru_hp_231213.html"
   ],
   [
     "チキン南蛮定食",
@@ -70,18 +226,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_kaki7_hp_230927.html"
-  ],
-  [
-    "アジフライ（2枚）定食",
-    790,
-    {
-      "カロリー": "893kcal",
-      "たんぱく質": "29.6g",
-      "脂質": "35.3g",
-      "炭水化物": "111.9g",
-      "食塩相当量": "3.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_aji_hp_230920.html"
   ],
   [
     "ロースかつ定食",
@@ -166,6 +310,66 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "6.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_230913.html"
+  ],
+  [
+    "チキンかつ＆海老フライ（1尾）定食",
+    960,
+    {
+      "カロリー": "1086kcal",
+      "たんぱく質": "35.7g",
+      "脂質": "52.3g",
+      "炭水化物": "117g",
+      "食塩相当量": "4.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_ebi1_hp_231213.html"
+  ],
+  [
+    "チキンかつ＆海老フライ（2尾）定食",
+    1230,
+    {
+      "カロリー": "1215kcal",
+      "たんぱく質": "40.5g",
+      "脂質": "61g",
+      "炭水化物": "124.8g",
+      "食塩相当量": "4.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_ebi2_hp_231213.html"
+  ],
+  [
+    "チキンかつ＆唐揚げ定食",
+    960,
+    {
+      "カロリー": "1155kcal",
+      "たんぱく質": "47.2g",
+      "脂質": "54.8g",
+      "炭水化物": "117.2g",
+      "食塩相当量": "4.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_karaage_hp_231213.html"
+  ],
+  [
+    "チキンかつ＆アジフライ定食",
+    980,
+    {
+      "カロリー": "1166kcal",
+      "たんぱく質": "41.6g",
+      "脂質": "56.1g",
+      "炭水化物": "122.7g",
+      "食塩相当量": "4.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_aji_hp_231213.html"
+  ],
+  [
+    "チキンかつ＆カキフライ（2個）定食",
+    1080,
+    {
+      "カロリー": "1140kcal",
+      "たんぱく質": "35.1g",
+      "脂質": "57g",
+      "炭水化物": "120.6g",
+      "食塩相当量": "4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_kaki_hp_231213.html"
   ],
   [
     "ロースかつ＆チキン南蛮定食",
@@ -478,6 +682,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "0～0.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
+  ],
+  [
+    "単品チキンかつ",
+    450,
+    {
+      "カロリー": "482kcal",
+      "たんぱく質": "22.6g",
+      "脂質": "33.2g",
+      "炭水化物": "24.3g",
+      "食塩相当量": "1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_chicken_katsu_hp_231213.html"
   ],
   [
     "単品チキン南蛮",
