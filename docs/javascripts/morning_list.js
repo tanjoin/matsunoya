@@ -1,17 +1,5 @@
 const MATSUNOYA_MORNING_LIST = [
   [
-    "得朝チキンかつ定食",
-    530,
-    {
-      "カロリー": "906kcal",
-      "たんぱく質": "30.8g",
-      "脂質": "37.5g",
-      "炭水化物": "110.1g",
-      "食塩相当量": "3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_chicken_katsu_hp_231213.html"
-  ],
-  [
     "玉子丼 並盛",
     290,
     {
