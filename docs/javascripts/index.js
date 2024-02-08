@@ -48,7 +48,7 @@ const decorateHtmlString = (answer) => {
         <li>たんぱく質 ${answer[2][1]}g</li>
         <li>脂質 ${answer[2][2]}g</li>
         <li>炭水化物 ${answer[2][3]}g</li>
-        <li>食塩相当量 ${answer[2][3]}g</li>
+        <li>食塩相当量 ${answer[2][4]}g</li>
       </uL>
       </div>  
     </div>
