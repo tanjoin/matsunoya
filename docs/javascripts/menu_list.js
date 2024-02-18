@@ -1,5 +1,77 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "3種野菜の鶏むね肉巻きかつ定食",
+    890,
+    {
+      "カロリー": "739kcal",
+      "たんぱく質": "20.9g",
+      "脂質": "21.9g",
+      "炭水化物": "114.1g",
+      "食塩相当量": "2.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_yasaikatu_hp_240214.html"
+  ],
+  [
+    "ロースかつ＆3種野菜の鶏むね肉巻きかつ定食",
+    1080,
+    {
+      "カロリー": "1194kcal",
+      "たんぱく質": "43.2g",
+      "脂質": "53.9g",
+      "炭水化物": "133.3g",
+      "食塩相当量": "3.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_yasaikatu_rosu_hp_240214.html"
+  ],
+  [
+    "海老フライ（1尾）＆3種野菜の鶏むね肉巻きかつ定食",
+    1190,
+    {
+      "カロリー": "960kcal",
+      "たんぱく質": "26.3g",
+      "脂質": "39.4g",
+      "炭水化物": "124.4g",
+      "食塩相当量": "3.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_yasaikatu_ebi1_hp_240214.html"
+  ],
+  [
+    "海老フライ（2尾）＆3種野菜の鶏むね肉巻きかつ定食",
+    1460,
+    {
+      "カロリー": "1089kcal",
+      "たんぱく質": "31g",
+      "脂質": "48.1g",
+      "炭水化物": "132.3g",
+      "食塩相当量": "4.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_yasaikatu_ebi2_hp_240214.html"
+  ],
+  [
+    "ささみかつ（1本）＆3種野菜の鶏むね肉巻きかつ定食",
+    980,
+    {
+      "カロリー": "1068kcal",
+      "たんぱく質": "36.3g",
+      "脂質": "45.5g",
+      "炭水化物": "127.8g",
+      "食塩相当量": "3.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_yasaikatu_sasami1_hp_240214.html"
+  ],
+  [
+    "ささみかつ（2本）＆3種野菜の鶏むね肉巻きかつ定食",
+    1180,
+    {
+      "カロリー": "1304kcal",
+      "たんぱく質": "51.1g",
+      "脂質": "60.2g",
+      "炭水化物": "138.9g",
+      "食塩相当量": "3.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_yasaikatu_sasamii1_hp_240214.html"
+  ],
+  [
     "ささみかつ定食",
     690,
     {
@@ -190,6 +262,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "8.3g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_atsu_yakikatsu_hp_240131.html"
+  ],
+  [
+    "3種野菜の鶏むね肉巻きかつ定食",
+    890,
+    {
+      "カロリー": "739kcal",
+      "たんぱく質": "20.9g",
+      "脂質": "21.9g",
+      "炭水化物": "114.1g",
+      "食塩相当量": "2.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_yasaikatu_hp_240214.html"
   ],
   [
     "ささみかつ定食",
@@ -406,6 +490,66 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "6.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_230913.html"
+  ],
+  [
+    "ロースかつ＆3種野菜の鶏むね肉巻きかつ定食",
+    1080,
+    {
+      "カロリー": "1194kcal",
+      "たんぱく質": "43.2g",
+      "脂質": "53.9g",
+      "炭水化物": "133.3g",
+      "食塩相当量": "3.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_yasaikatu_rosu_hp_240214.html"
+  ],
+  [
+    "海老フライ（1尾）＆3種野菜の鶏むね肉巻きかつ定食",
+    1190,
+    {
+      "カロリー": "960kcal",
+      "たんぱく質": "26.3g",
+      "脂質": "39.4g",
+      "炭水化物": "124.4g",
+      "食塩相当量": "3.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_yasaikatu_ebi1_hp_240214.html"
+  ],
+  [
+    "海老フライ（2尾）＆3種野菜の鶏むね肉巻きかつ定食",
+    1460,
+    {
+      "カロリー": "1089kcal",
+      "たんぱく質": "31g",
+      "脂質": "48.1g",
+      "炭水化物": "132.3g",
+      "食塩相当量": "4.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_yasaikatu_ebi2_hp_240214.html"
+  ],
+  [
+    "ささみかつ（1本）＆3種野菜の鶏むね肉巻きかつ定食",
+    980,
+    {
+      "カロリー": "1068kcal",
+      "たんぱく質": "36.3g",
+      "脂質": "45.5g",
+      "炭水化物": "127.8g",
+      "食塩相当量": "3.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_yasaikatu_sasami1_hp_240214.html"
+  ],
+  [
+    "ささみかつ（2本）＆3種野菜の鶏むね肉巻きかつ定食",
+    1180,
+    {
+      "カロリー": "1304kcal",
+      "たんぱく質": "51.1g",
+      "脂質": "60.2g",
+      "炭水化物": "138.9g",
+      "食塩相当量": "3.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_yasaikatu_sasamii1_hp_240214.html"
   ],
   [
     "ロースかつ＆ささみかつ（1本）定食",
@@ -1006,6 +1150,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "0～0.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
+  ],
+  [
+    "単品3種野菜の鶏むね肉巻きかつ",
+    730,
+    {
+      "カロリー": "356kcal",
+      "たんぱく質": "13.2g",
+      "脂質": "20.4g",
+      "炭水化物": "31.7g",
+      "食塩相当量": "0.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_yasaikatu_hp_240214.html"
   ],
   [
     "単品ささみかつ（1枚）",
