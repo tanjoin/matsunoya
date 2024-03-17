@@ -1,5 +1,41 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "中華風あんかけささみかつ",
+    690,
+    {
+      "カロリー": "1101kcal",
+      "たんぱく質": "45.3g",
+      "脂質": "45.7g",
+      "炭水化物": "121.6g",
+      "食塩相当量": "7.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/ankake_sasami_hp_240313.html"
+  ],
+  [
+    "中華風あんかけロースかつ",
+    690,
+    {
+      "カロリー": "1083kcal",
+      "たんぱく質": "38g",
+      "脂質": "48.2g",
+      "炭水化物": "118.5g",
+      "食塩相当量": "7.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/ankake_rosu_hp_240313.html"
+  ],
+  [
+    "中華風あんかけ海老フライ",
+    850,
+    {
+      "カロリー": "885kcal",
+      "たんぱく質": "25.2g",
+      "脂質": "33.5g",
+      "炭水化物": "115g",
+      "食塩相当量": "7.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/ankake_ebi_hp_240313.html"
+  ],
+  [
     "オニオンバターソースのポークフライドステーキ定食",
     930,
     {
@@ -946,18 +982,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "0.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/side_potatofry_hp_220502.html"
-  ],
-  [
-    "松のや特製オードブル",
-    1980,
-    {
-      "カロリー": "2609kcal",
-      "たんぱく質": "96.6g",
-      "脂質": "167.5g",
-      "炭水化物": "177.3g",
-      "食塩相当量": "9.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_odoburu_hp_220330.html"
   ],
   [
     "タルタルソース",
