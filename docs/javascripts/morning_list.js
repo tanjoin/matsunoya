@@ -1,13 +1,25 @@
 const MATSUNOYA_MORNING_LIST = [
   [
+    "得朝チキンかつ定食",
+    530,
+    {
+      "カロリー": "913kcal",
+      "たんぱく質": "30.9g",
+      "脂質": "37.8g",
+      "炭水化物": "117.1g",
+      "食塩相当量": "2.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_chicken_hp_240403.html"
+  ],
+  [
     "玉子丼 並盛",
     290,
     {
-      "カロリー": "616kcal",
-      "たんぱく質": "21.6g",
-      "脂質": "11.2g",
-      "炭水化物": "100.9g",
-      "食塩相当量": "4.8g"
+      "カロリー": "572kcal",
+      "たんぱく質": "21.1g",
+      "脂質": "11.1g",
+      "炭水化物": "96.9g",
+      "食塩相当量": "4.6g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_tamagodon_hp.html"
   ],
@@ -15,11 +27,11 @@ const MATSUNOYA_MORNING_LIST = [
     "玉子丼 大盛",
     350,
     {
-      "カロリー": "840kcal",
-      "たんぱく質": "25.7g",
-      "脂質": "11.5g",
-      "炭水化物": "149.4g",
-      "食塩相当量": "6.2g"
+      "カロリー": "750kcal",
+      "たんぱく質": "24.7g",
+      "脂質": "11.4g",
+      "炭水化物": "138g",
+      "食塩相当量": "6g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_tamagodon_hp.html"
   ],
@@ -27,10 +39,10 @@ const MATSUNOYA_MORNING_LIST = [
     "得朝ささみかつ＆コロッケ定食",
     490,
     {
-      "カロリー": "768kcal",
-      "たんぱく質": "25.2g",
-      "脂質": "23.9g",
-      "炭水化物": "110.9g",
+      "カロリー": "783kcal",
+      "たんぱく質": "24.8g",
+      "脂質": "23.7g",
+      "炭水化物": "122.2g",
       "食塩相当量": "2.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_sasami_koro_hp_240207.html"
@@ -39,11 +51,11 @@ const MATSUNOYA_MORNING_LIST = [
     "得朝ささみかつ定食",
     530,
     {
-      "カロリー": "897kcal",
-      "たんぱく質": "37.8g",
-      "脂質": "33.8g",
-      "炭水化物": "108.2g",
-      "食塩相当量": "2.8g"
+      "カロリー": "823kcal",
+      "たんぱく質": "36.7g",
+      "脂質": "22.4g",
+      "炭水化物": "123.7g",
+      "食塩相当量": "3g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_sasami_hp_240207.html"
   ],
@@ -51,11 +63,11 @@ const MATSUNOYA_MORNING_LIST = [
     "得朝ロースかつ定食",
     530,
     {
-      "カロリー": "879kcal",
-      "たんぱく質": "30.5g",
-      "脂質": "36.3g",
-      "炭水化物": "105g",
-      "食塩相当量": "3g"
+      "カロリー": "872kcal",
+      "たんぱく質": "27.3g",
+      "脂質": "34.6g",
+      "炭水化物": "117.2g",
+      "食塩相当量": "2.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_rosu_hp_210224.html"
   ],
@@ -64,10 +76,10 @@ const MATSUNOYA_MORNING_LIST = [
     430,
     {
       "カロリー": "675kcal",
-      "たんぱく質": "23.3g",
-      "脂質": "23.8g",
-      "炭水化物": "86.9g",
-      "食塩相当量": "2.9g"
+      "たんぱく質": "23.5g",
+      "脂質": "23.3g",
+      "炭水化物": "94g",
+      "食塩相当量": "2.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_soseji_egg_hp_210224.html"
   ],
@@ -75,11 +87,11 @@ const MATSUNOYA_MORNING_LIST = [
     "玉子かけごはん定食",
     280,
     {
-      "カロリー": "437kcal",
-      "たんぱく質": "12.8g",
+      "カロリー": "444kcal",
+      "たんぱく質": "13.1g",
       "脂質": "6.2g",
-      "炭水化物": "78.8g",
-      "食塩相当量": "2g"
+      "炭水化物": "85.9g",
+      "食塩相当量": "1.8g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_tamago_gohan_hp_210224.html"
   ],
@@ -87,9 +99,9 @@ const MATSUNOYA_MORNING_LIST = [
     "コロッケ＜選べる小鉢＞",
     null,
     {
-      "カロリー": "107kcal",
+      "カロリー": "157kcal",
       "たんぱく質": "2.2g",
-      "脂質": "4.9g",
+      "脂質": "10.3g",
       "炭水化物": "13.9g",
       "食塩相当量": "0.4g"
     },
