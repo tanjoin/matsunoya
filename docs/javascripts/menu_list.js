@@ -264,90 +264,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_mune_gb_hp_240515.html"
   ],
   [
-    "海鮮盛合せ定食（イカ・白身魚・海老）",
-    990,
-    {
-      "カロリー": "1113kcal",
-      "たんぱく質": "35.4g",
-      "脂質": "49.8g",
-      "炭水化物": "136g",
-      "食塩相当量": "4.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_kaisen3_ebi_hp_240508.html"
-  ],
-  [
-    "海鮮盛合せ定食（イカ・白身魚・有頭大海老）",
-    1190,
-    {
-      "カロリー": "1191kcal",
-      "たんぱく質": "39.6g",
-      "脂質": "56.6g",
-      "炭水化物": "135.7g",
-      "食塩相当量": "4.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_kaisen3_ooebi_hp_240508.html"
-  ],
-  [
-    "ロースかつ＆イカフライ定食",
-    830,
-    {
-      "カロリー": "1039kcal",
-      "たんぱく質": "34.5g",
-      "脂質": "45.8g",
-      "炭水化物": "127.2g",
-      "食塩相当量": "3.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_ika_hp_240508.html"
-  ],
-  [
-    "ロースかつ＆白身魚フライ定食",
-    830,
-    {
-      "カロリー": "1150kcal",
-      "たんぱく質": "34.5g",
-      "脂質": "58.1g",
-      "炭水化物": "127.1g",
-      "食塩相当量": "3.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_shiromi_hp_240508.html"
-  ],
-  [
-    "有頭大海老フライ定食",
-    1240,
-    {
-      "カロリー": "988kcal",
-      "たんぱく質": "28.3g",
-      "脂質": "47.6g",
-      "炭水化物": "115.7g",
-      "食塩相当量": "3.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ooebi_hp_240501.html"
-  ],
-  [
-    "ロースかつ＆有頭大海老フライ（1尾）定食",
-    1060,
-    {
-      "カロリー": "1178kcal",
-      "たんぱく質": "37.3g",
-      "脂質": "59.3g",
-      "炭水化物": "128.3g",
-      "食塩相当量": "3.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_ooebi1_hp_240501.html"
-  ],
-  [
-    "ロースかつ＆有頭大海老フライ（2尾）定食",
-    1530,
-    {
-      "カロリー": "1431kcal",
-      "たんぱく質": "47.2g",
-      "脂質": "77.9g",
-      "炭水化物": "139.9g",
-      "食塩相当量": "4.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_ooebi2_hp_240501.html"
-  ],
-  [
     "超厚切りロースかつ定食",
     930,
     {
@@ -442,54 +358,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.2g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ooebi_hp_240501.html"
-  ],
-  [
-    "ささみかつ定食",
-    690,
-    {
-      "カロリー": "875kcal",
-      "たんぱく質": "36.8g",
-      "脂質": "28.5g",
-      "炭水化物": "123g",
-      "食塩相当量": "3.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_sasami_hp_240207.html"
-  ],
-  [
-    "鬼おろしポン酢ささみかつ定食",
-    790,
-    {
-      "カロリー": "815kcal",
-      "たんぱく質": "37.5g",
-      "脂質": "19.7g",
-      "炭水化物": "127.1g",
-      "食塩相当量": "4.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_sasami_oni_hp_240207.html"
-  ],
-  [
-    "味噌ささみかつ定食",
-    790,
-    {
-      "カロリー": "877kcal",
-      "たんぱく質": "38.6g",
-      "脂質": "22.1g",
-      "炭水化物": "134.7g",
-      "食塩相当量": "4.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_sasami_miso_hp_240207.html"
-  ],
-  [
-    "たっぷりささみかつ定食",
-    890,
-    {
-      "カロリー": "1072kcal",
-      "たんぱく質": "51g",
-      "脂質": "37.6g",
-      "炭水化物": "138.3g",
-      "食塩相当量": "4.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_sasami3_hp_240207.html"
   ],
   [
     "ロースかつ定食",
@@ -780,54 +648,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_ooebi2_hp_240501.html"
   ],
   [
-    "ロースかつ＆ささみかつ（1本）定食",
-    790,
-    {
-      "カロリー": "1121kcal",
-      "たんぱく質": "41.6g",
-      "脂質": "49.7g",
-      "炭水化物": "131.9g",
-      "食塩相当量": "3.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_sasami1_hp_240207.html"
-  ],
-  [
-    "ロースかつ＆ささみかつ（2本）定食",
-    990,
-    {
-      "カロリー": "1318kcal",
-      "たんぱく質": "55.7g",
-      "脂質": "58.8g",
-      "炭水化物": "147.3g",
-      "食塩相当量": "4.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_sasami2_hp_240207.html"
-  ],
-  [
-    "ささみかつ＆海老フライ（1尾）定食",
-    960,
-    {
-      "カロリー": "1051kcal",
-      "たんぱく質": "42.4g",
-      "脂質": "40.3g",
-      "炭水化物": "135g",
-      "食塩相当量": "4.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_sasami_ebi1_hp_240207.html"
-  ],
-  [
-    "ささみかつ＆海老フライ（2尾）定食",
-    1230,
-    {
-      "カロリー": "1226kcal",
-      "たんぱく質": "48g",
-      "脂質": "52.1g",
-      "炭水化物": "146.9g",
-      "食塩相当量": "5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_sasami_ebi2_hp_240207.html"
-  ],
-  [
     "ロースかつ＆本格唐揚げ定食",
     860,
     {
@@ -922,30 +742,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7.2g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_atsu_rosu_hp_240522.html"
-  ],
-  [
-    "親子ささみかつ丼 並盛",
-    690,
-    {
-      "カロリー": "963kcal",
-      "たんぱく質": "49.1g",
-      "脂質": "29.2g",
-      "炭水化物": "127g",
-      "食塩相当量": "5.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_sasami_hp_240207.html"
-  ],
-  [
-    "親子ささみかつ丼 大盛",
-    750,
-    {
-      "カロリー": "1142kcal",
-      "たんぱく質": "52.7g",
-      "脂質": "29.5g",
-      "炭水化物": "168.1g",
-      "食塩相当量": "7.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_sasami_hp_240207.html"
   ],
   [
     "ロースかつ丼 並盛",
@@ -1198,18 +994,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "0.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_ooebi1_hp_240501.html"
-  ],
-  [
-    "単品ささみかつ（1枚）",
-    230,
-    {
-      "カロリー": "197kcal",
-      "たんぱく質": "14.1g",
-      "脂質": "9.1g",
-      "炭水化物": "15.3g",
-      "食塩相当量": "0.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_sasami_hp_240207.html"
   ],
   [
     "単品ロースかつ（1枚）",
