@@ -1,5 +1,29 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "チキン南蛮定食",
+    950,
+    {
+      "カロリー": "1514kcal",
+      "たんぱく質": "51.5g",
+      "脂質": "98g",
+      "炭水化物": "113g",
+      "食塩相当量": "6.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_nanban_hp_240619.html"
+  ],
+  [
+    "ロースかつ＆チキン南蛮定食",
+    990,
+    {
+      "カロリー": "1393kcal",
+      "たんぱく質": "48.5g",
+      "脂質": "80g",
+      "炭水化物": "125.3g",
+      "食塩相当量": "5.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_nanban_rosu_hp_240619.html"
+  ],
+  [
     "チキンかつ定食",
     690,
     {
@@ -118,6 +142,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_karaage_hp_240612.html"
+  ],
+  [
+    "チキン南蛮定食",
+    950,
+    {
+      "カロリー": "1514kcal",
+      "たんぱく質": "51.5g",
+      "脂質": "98g",
+      "炭水化物": "113g",
+      "食塩相当量": "6.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_nanban_hp_240619.html"
   ],
   [
     "チキンかつ定食",
@@ -310,6 +346,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_230913.html"
+  ],
+  [
+    "ロースかつ＆チキン南蛮定食",
+    990,
+    {
+      "カロリー": "1393kcal",
+      "たんぱく質": "48.5g",
+      "脂質": "80g",
+      "炭水化物": "125.3g",
+      "食塩相当量": "5.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_nanban_rosu_hp_240619.html"
   ],
   [
     "チキンかつ＆海老フライ（1尾）定食",
@@ -814,6 +862,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "0～0.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
+  ],
+  [
+    "単品チキン南蛮",
+    530,
+    {
+      "カロリー": "562kcal",
+      "たんぱく質": "21.8g",
+      "脂質": "48.2g",
+      "炭水化物": "11.5g",
+      "食塩相当量": "2.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_chicken_nanban_hp_240619.html"
   ],
   [
     "単品チキンかつ",
