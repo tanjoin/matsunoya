@@ -288,30 +288,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_shio_hp_240612.html"
   ],
   [
-    "超厚切り鬼おろしポン酢ロースかつ定食",
-    1030,
-    {
-      "カロリー": "1210kcal",
-      "たんぱく質": "44.5g",
-      "脂質": "57.7g",
-      "炭水化物": "127.4g",
-      "食塩相当量": "4.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_atsu_rosu_oni_hp_240522.html"
-  ],
-  [
-    "超厚切り味噌ロースかつ定食",
-    1030,
-    {
-      "カロリー": "1273kcal",
-      "たんぱく質": "45.6g",
-      "脂質": "60.1g",
-      "炭水化物": "134.9g",
-      "食塩相当量": "4.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_atsu_rosu_miso_hp_240522.html"
-  ],
-  [
     "有頭大海老フライ定食",
     1240,
     {
