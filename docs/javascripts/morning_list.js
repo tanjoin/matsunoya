@@ -1,5 +1,29 @@
 const MATSUNOYA_MORNING_LIST = [
   [
+    "得朝ささみかつ＆コロッケ定食",
+    530,
+    {
+      "カロリー": "783kcal",
+      "たんぱく質": "24.8g",
+      "脂質": "23.7g",
+      "炭水化物": "122.2g",
+      "食塩相当量": "2.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_sasami_koro_hp_240710.html"
+  ],
+  [
+    "得朝ささみかつ定食",
+    590,
+    {
+      "カロリー": "823kcal",
+      "たんぱく質": "36.7g",
+      "脂質": "22.4g",
+      "炭水化物": "123.7g",
+      "食塩相当量": "3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_sasami_hp_240710.html"
+  ],
+  [
     "得朝チキンかつ定食",
     590,
     {
