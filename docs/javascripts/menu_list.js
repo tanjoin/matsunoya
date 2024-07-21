@@ -672,18 +672,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_gyukatu2_chicken_hp_240626.html"
   ],
   [
-    "ロースかつ＆チキン南蛮定食",
-    990,
-    {
-      "カロリー": "1393kcal",
-      "たんぱく質": "48.5g",
-      "脂質": "80g",
-      "炭水化物": "125.3g",
-      "食塩相当量": "5.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_nanban_rosu_hp_240619.html"
-  ],
-  [
     "チキンかつ＆海老フライ（1尾）定食",
     960,
     {
@@ -1126,18 +1114,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "0.3g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_gyukatu_hp_240626.html"
-  ],
-  [
-    "単品チキン南蛮",
-    530,
-    {
-      "カロリー": "562kcal",
-      "たんぱく質": "21.8g",
-      "脂質": "48.2g",
-      "炭水化物": "11.5g",
-      "食塩相当量": "2.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_chicken_nanban_hp_240619.html"
   ],
   [
     "単品チキンかつ",

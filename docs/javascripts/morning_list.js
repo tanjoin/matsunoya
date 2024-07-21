@@ -1,5 +1,29 @@
 const MATSUNOYA_MORNING_LIST = [
   [
+    "得朝黒カレー 並盛",
+    430,
+    {
+      "カロリー": "513kcal",
+      "たんぱく質": "12.2g",
+      "脂質": "10.2g",
+      "炭水化物": "96.4g",
+      "食塩相当量": "3.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_cry_black_hp_240717.html"
+  ],
+  [
+    "得朝黒カレー 大盛",
+    530,
+    {
+      "カロリー": "706kcal",
+      "たんぱく質": "16.2g",
+      "脂質": "12.6g",
+      "炭水化物": "136.5g",
+      "食塩相当量": "4.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_cry_black_hp_240717.html"
+  ],
+  [
     "得朝ささみかつ＆コロッケ定食",
     530,
     {
