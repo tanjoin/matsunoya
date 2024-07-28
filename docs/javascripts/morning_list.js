@@ -48,18 +48,6 @@ const MATSUNOYA_MORNING_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_sasami_hp_240710.html"
   ],
   [
-    "得朝チキンかつ定食",
-    590,
-    {
-      "カロリー": "913kcal",
-      "たんぱく質": "30.9g",
-      "脂質": "37.8g",
-      "炭水化物": "117.1g",
-      "食塩相当量": "2.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_chicken_hp_240612.html"
-  ],
-  [
     "得朝ロースかつ定食",
     530,
     {
