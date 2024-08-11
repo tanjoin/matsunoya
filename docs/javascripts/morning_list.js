@@ -1,27 +1,75 @@
 const MATSUNOYA_MORNING_LIST = [
   [
-    "得朝黒カレー 並盛",
-    430,
-    {
-      "カロリー": "513kcal",
-      "たんぱく質": "12.2g",
-      "脂質": "10.2g",
-      "炭水化物": "96.4g",
-      "食塩相当量": "3.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_cry_black_hp_240717.html"
-  ],
-  [
-    "得朝黒カレー 大盛",
+    "得朝ロースかつ定食(小鉢無し)",
     530,
     {
-      "カロリー": "706kcal",
-      "たんぱく質": "16.2g",
-      "脂質": "12.6g",
-      "炭水化物": "136.5g",
-      "食塩相当量": "4.1g"
+      "カロリー": "872kcal",
+      "たんぱく質": "27.3g",
+      "脂質": "34.6g",
+      "炭水化物": "117.2g",
+      "食塩相当量": "2.7g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_cry_black_hp_240717.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_rosu_kobatinasi_hp_240809.html"
+  ],
+  [
+    "得朝ソーセージエッグ定食(小鉢無し)",
+    430,
+    {
+      "カロリー": "675kcal",
+      "たんぱく質": "23.5g",
+      "脂質": "23.3g",
+      "炭水化物": "94g",
+      "食塩相当量": "2.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_soseji_egg_kobatinasi_hp_240809.html"
+  ],
+  [
+    "得朝ささみかつ＆コロッケ定食(小鉢無し)",
+    490,
+    {
+      "カロリー": "783kcal",
+      "たんぱく質": "24.8g",
+      "脂質": "23.7g",
+      "炭水化物": "122.2g",
+      "食塩相当量": "2.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_sasami_kobatinasi_hp_240809.html"
+  ],
+  [
+    "得朝ささみかつ定食(小鉢無し)",
+    550,
+    {
+      "カロリー": "783kcal",
+      "たんぱく質": "24.8g",
+      "脂質": "23.7g",
+      "炭水化物": "122.2g",
+      "食塩相当量": "2.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_sasami_kobatinasi_hp_240809.html"
+  ],
+  [
+    "得朝ロースかつ定食",
+    570,
+    {
+      "カロリー": "872kcal",
+      "たんぱく質": "27.3g",
+      "脂質": "34.6g",
+      "炭水化物": "117.2g",
+      "食塩相当量": "2.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_rosu_hp_240809.html"
+  ],
+  [
+    "得朝ソーセージエッグ定食",
+    470,
+    {
+      "カロリー": "675kcal",
+      "たんぱく質": "23.5g",
+      "脂質": "23.3g",
+      "炭水化物": "94g",
+      "食塩相当量": "2.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_soseji_egg_hp_240809.html"
   ],
   [
     "得朝ささみかつ＆コロッケ定食",
@@ -48,32 +96,80 @@ const MATSUNOYA_MORNING_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_sasami_hp_240710.html"
   ],
   [
-    "得朝ロースかつ定食",
-    530,
+    "コロッケ＜選べる小鉢＞",
+    null,
     {
-      "カロリー": "872kcal",
-      "たんぱく質": "27.3g",
-      "脂質": "34.6g",
-      "炭水化物": "117.2g",
-      "食塩相当量": "2.7g"
+      "カロリー": "157kcal",
+      "たんぱく質": "2.2g",
+      "脂質": "10.3g",
+      "炭水化物": "13.9g",
+      "食塩相当量": "0.4g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_rosu_hp_210224.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_kobachi_koro_hp_240809.html"
   ],
   [
-    "得朝ソーセージエッグ定食",
+    "お新香＜選べる小鉢＞",
+    null,
+    {
+      "カロリー": "17kcal",
+      "たんぱく質": "0.2g",
+      "脂質": "0g",
+      "炭水化物": "3.8g",
+      "食塩相当量": "0.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_kobachi_oshinko_hp_240809.html"
+  ],
+  [
+    "納豆＜選べる小鉢＞",
+    null,
+    {
+      "カロリー": "80kcal",
+      "たんぱく質": "6.4g",
+      "脂質": "3.9g",
+      "炭水化物": "6.4g",
+      "食塩相当量": "0.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_kobachi_natto_hp_240809.html"
+  ],
+  [
+    "得朝黒カレー 並盛",
     430,
     {
-      "カロリー": "675kcal",
-      "たんぱく質": "23.5g",
-      "脂質": "23.3g",
-      "炭水化物": "94g",
-      "食塩相当量": "2.7g"
+      "カロリー": "513kcal",
+      "たんぱく質": "12.2g",
+      "脂質": "10.2g",
+      "炭水化物": "96.4g",
+      "食塩相当量": "3.4g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_soseji_egg_hp_210224.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_cry_black_hp_240809.html"
+  ],
+  [
+    "得朝黒カレー 大盛",
+    540,
+    {
+      "カロリー": "706kcal",
+      "たんぱく質": "16.2g",
+      "脂質": "12.6g",
+      "炭水化物": "136.5g",
+      "食塩相当量": "4.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_cry_black_hp_240809.html"
+  ],
+  [
+    "冷奴＜選べる小鉢＞",
+    null,
+    {
+      "カロリー": "85kcal",
+      "たんぱく質": "7.1g",
+      "脂質": "4.4g",
+      "炭水化物": "4.4g",
+      "食塩相当量": "0g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_kobachi_yakko_hp_240809.html"
   ],
   [
     "玉子かけごはん定食",
-    280,
+    320,
     {
       "カロリー": "444kcal",
       "たんぱく質": "13.1g",
@@ -81,7 +177,7 @@ const MATSUNOYA_MORNING_LIST = [
       "炭水化物": "85.9g",
       "食塩相当量": "1.8g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_tamago_gohan_hp_210224.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_tamago_gohan_hp_240809.html"
   ],
   [
     "玉子丼 並盛",
@@ -97,7 +193,7 @@ const MATSUNOYA_MORNING_LIST = [
   ],
   [
     "玉子丼 大盛",
-    350,
+    360,
     {
       "カロリー": "750kcal",
       "たんぱく質": "24.7g",
@@ -106,53 +202,5 @@ const MATSUNOYA_MORNING_LIST = [
       "食塩相当量": "6g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_tamagodon_hp.html"
-  ],
-  [
-    "コロッケ＜選べる小鉢＞",
-    null,
-    {
-      "カロリー": "157kcal",
-      "たんぱく質": "2.2g",
-      "脂質": "10.3g",
-      "炭水化物": "13.9g",
-      "食塩相当量": "0.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_kobachi_koro_hp_210124.html"
-  ],
-  [
-    "お新香＜選べる小鉢＞",
-    null,
-    {
-      "カロリー": "17kcal",
-      "たんぱく質": "0.2g",
-      "脂質": "0g",
-      "炭水化物": "3.8g",
-      "食塩相当量": "0.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_kobachi_oshinko_hp_210124.html"
-  ],
-  [
-    "納豆＜選べる小鉢＞",
-    null,
-    {
-      "カロリー": "80kcal",
-      "たんぱく質": "6.4g",
-      "脂質": "3.9g",
-      "炭水化物": "6.4g",
-      "食塩相当量": "0.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_kobachi_natto_hp_210124.html"
-  ],
-  [
-    "冷奴＜選べる小鉢＞",
-    null,
-    {
-      "カロリー": "85kcal",
-      "たんぱく質": "7.1g",
-      "脂質": "4.4g",
-      "炭水化物": "4.4g",
-      "食塩相当量": "0g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_kobachi_yakko_hp_210124.html"
   ]
 ];
