@@ -22,12 +22,26 @@ block body
       .col
         #result
           | ↓　「ガチャを回す」ボタンを押してください
-    #gacha.fixed-bottom.mb-5
+    #gacha.sticky-bottom.mb-5
       .row.justify-content-center.row-cols-auto
         .col
           .form-check.form-switch
             input(type="checkbox")#low-calorie.form-check-input
             label(for="low-calorie").form-check-label 1500kcal 以下に抑える
+      .row.justify-content-center.row-cols-auto
+        .col
+          .form-check.form-switch
+            input(type="checkbox")#should-price.form-check-input
+            label(for="low-calorie").form-check-label 金額を厳密にする      
+      .row.justify-content-center.row-cols-auto 
+        .col 
+          label(for="price-range").form-label
+          input(type="range", min="0", max="2000", step="100", value="1000", oninput="document.getElementById('price-value').textContent = this.value").form-range#price-range
+        .col
+            span#price-value 
+              | 1000
+            span
+              | 円
       .row.justify-content-center.row-cols-auto.mt-2
         .col
           button(onclick='show()').btn.btn-primary ガチャを回す
