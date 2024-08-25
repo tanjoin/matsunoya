@@ -1,5 +1,41 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "ラムかつ定食",
+    1290,
+    {
+      "カロリー": "1216kcal",
+      "たんぱく質": "32.1 g",
+      "脂質": "64.2g",
+      "炭水化物": "131.3g",
+      "食塩相当量": "5.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_lamb_katsu_hp_240821.html"
+  ],
+  [
+    "ロースかつ＆ラムかつ（1枚）定食",
+    1030,
+    {
+      "カロリー": "1207kcal",
+      "たんぱく質": "35.0 g",
+      "脂質": "62.6g",
+      "炭水化物": "130.1g",
+      "食塩相当量": "5.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_lamb1_hp_240821.html"
+  ],
+  [
+    "ロースかつ＆ラムかつ（2枚）定食",
+    1430,
+    {
+      "カロリー": "1433kcal",
+      "たんぱく質": "43.0 g",
+      "脂質": "78.5g",
+      "炭水化物": "142.9g",
+      "食塩相当量": "6.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_lamb2_hp_240821.html"
+  ],
+  [
     "レモンおろしロースかつ定食",
     780,
     {
@@ -106,6 +142,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "6.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_hire_black_hp_240809.html"
+  ],
+  [
+    "ラムかつ定食",
+    1290,
+    {
+      "カロリー": "1216kcal",
+      "たんぱく質": "32.1 g",
+      "脂質": "64.2g",
+      "炭水化物": "131.3g",
+      "食塩相当量": "5.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_lamb_katsu_hp_240821.html"
   ],
   [
     "レモンおろしロースかつ定食",
@@ -288,6 +336,30 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_240809.html"
   ],
   [
+    "ロースかつ＆ラムかつ（1枚）定食",
+    1030,
+    {
+      "カロリー": "1207kcal",
+      "たんぱく質": "35.0 g",
+      "脂質": "62.6g",
+      "炭水化物": "130.1g",
+      "食塩相当量": "5.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_lamb1_hp_240821.html"
+  ],
+  [
+    "ロースかつ＆ラムかつ（2枚）定食",
+    1430,
+    {
+      "カロリー": "1433kcal",
+      "たんぱく質": "43.0 g",
+      "脂質": "78.5g",
+      "炭水化物": "142.9g",
+      "食塩相当量": "6.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_lamb2_hp_240821.html"
+  ],
+  [
     "ロースかつ＆ヒレかつ定食（1枚）",
     890,
     {
@@ -340,10 +412,10 @@ const MATSUNOYA_MENU_LIST = [
     1000,
     {
       "カロリー": "1051kcal",
-      "たんぱく質": "42.4g",
-      "脂質": "40.3g",
-      "炭水化物": "135g",
-      "食塩相当量": "4.3g"
+      "たんぱく質": "42.3g",
+      "脂質": "42.4g",
+      "炭水化物": "130.3g",
+      "食塩相当量": "3.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_sasami_ebi1_hp_240809.html"
   ],
@@ -351,11 +423,11 @@ const MATSUNOYA_MENU_LIST = [
     "ささみかつ＆海老フライ（2尾）定食",
     1270,
     {
-      "カロリー": "1226kcal",
-      "たんぱく質": "48g",
-      "脂質": "52.1g",
-      "炭水化物": "146.9g",
-      "食塩相当量": "5g"
+      "カロリー": "1227kcal",
+      "たんぱく質": "47.7g",
+      "脂質": "56.3g",
+      "炭水化物": "137.7g",
+      "食塩相当量": "4.2g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_sasami_ebi2_hp_240809.html"
   ],
@@ -388,10 +460,10 @@ const MATSUNOYA_MENU_LIST = [
     990,
     {
       "カロリー": "1113kcal",
-      "たんぱく質": "35.4g",
-      "脂質": "49.8g",
-      "炭水化物": "136g",
-      "食塩相当量": "4.9g"
+      "たんぱく質": "35.2g",
+      "脂質": "51.9g",
+      "炭水化物": "131.4g",
+      "食塩相当量": "4.5g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_kaisen3_ebi_hp_240809.html"
   ],
@@ -508,10 +580,10 @@ const MATSUNOYA_MENU_LIST = [
     900,
     {
       "カロリー": "1100kcal",
-      "たんぱく質": "33g",
-      "脂質": "52.4g",
-      "炭水化物": "128.5g",
-      "食塩相当量": "4g"
+      "たんぱく質": "32.9g",
+      "脂質": "54.6g",
+      "炭水化物": "123.9g",
+      "食塩相当量": "3.6g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_ebi1_hp_220502.html"
   ],
@@ -519,11 +591,11 @@ const MATSUNOYA_MENU_LIST = [
     "ロースかつ＆海老フライ（2尾）定食",
     1170,
     {
-      "カロリー": "1275kcal",
-      "たんぱく質": "38.6g",
-      "脂質": "64.2g",
-      "炭水化物": "140.5g",
-      "食塩相当量": "4.7g"
+      "カロリー": "1276kcal",
+      "たんぱく質": "38.3g",
+      "脂質": "68.5g",
+      "炭水化物": "131.3g",
+      "食塩相当量": "3.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_ebi2_hp_220502.html"
   ],
@@ -723,11 +795,11 @@ const MATSUNOYA_MENU_LIST = [
     "松のやの海老フライ黒カレー 並盛",
     1020,
     {
-      "カロリー": "958kcal",
-      "たんぱく質": "24.1g",
-      "脂質": "42.7g",
-      "炭水化物": "123.2g",
-      "食塩相当量": "5.7g"
+      "カロリー": "959kcal",
+      "たんぱく質": "23.8g",
+      "脂質": "46.9g",
+      "炭水化物": "113.9g",
+      "食塩相当量": "4.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_ebi_black_hp_240809.html"
   ],
@@ -735,11 +807,11 @@ const MATSUNOYA_MENU_LIST = [
     "松のやの海老フライ黒カレー 大盛",
     1130,
     {
-      "カロリー": "1150kcal",
-      "たんぱく質": "28.1g",
-      "脂質": "45.1g",
-      "炭水化物": "163.2g",
-      "食塩相当量": "6.3g"
+      "カロリー": "1151kcal",
+      "たんぱく質": "27.7g",
+      "脂質": "49.3g",
+      "炭水化物": "154.0 g",
+      "食塩相当量": "5.5g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_ebi_black_hp_240809.html"
   ],
@@ -771,11 +843,11 @@ const MATSUNOYA_MENU_LIST = [
     "お子様プレート",
     500,
     {
-      "カロリー": "760kcal",
-      "たんぱく質": "17.5g",
-      "脂質": "23.4g",
-      "炭水化物": "122g",
-      "食塩相当量": "2.1g"
+      "カロリー": "761kcal",
+      "たんぱく質": "17.4g",
+      "脂質": "25.5g",
+      "炭水化物": "117.4g",
+      "食塩相当量": "1.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/sumikko/ageage_okosama_hp_240809_nn.html"
   ],
@@ -790,6 +862,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "0～0.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
+  ],
+  [
+    "単品ラムかつ",
+    400,
+    {
+      "カロリー": "376kcal",
+      "たんぱく質": "8.2 g",
+      "脂質": "30.8g",
+      "炭水化物": "16.4g",
+      "食塩相当量": "2.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_lamb_katsu_hp_240821.html"
   ],
   [
     "単品ヒレかつ（1枚）",
@@ -868,10 +952,10 @@ const MATSUNOYA_MENU_LIST = [
     300,
     {
       "カロリー": "176kcal",
-      "たんぱく質": "5.6g",
-      "脂質": "11.8g",
-      "炭水化物": "12g",
-      "食塩相当量": "0.7g"
+      "たんぱく質": "5.4g",
+      "脂質": "13.9g",
+      "炭水化物": "7.3g",
+      "食塩相当量": "0.3g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_ebi1_hp_220502.html"
   ],
