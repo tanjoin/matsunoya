@@ -1,5 +1,41 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "油淋鶏定食（5個）",
+    890,
+    {
+      "カロリー": "1032kcal",
+      "たんぱく質": "38.7 g",
+      "脂質": "41.9 g",
+      "炭水化物": "130.5g",
+      "食塩相当量": "6.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_yurinchi5_hp_240828.html"
+  ],
+  [
+    "油淋鶏定食（8個） ",
+    1160,
+    {
+      "カロリー": "1313kcal",
+      "たんぱく質": "55.7 g",
+      "脂質": "59.0 g",
+      "炭水化物": "146.4g",
+      "食塩相当量": "8.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_yurinchi8_hp_240828.html"
+  ],
+  [
+    "ロースかつ＆油淋鶏定食（3個） ",
+    1050,
+    {
+      "カロリー": "1221kcal",
+      "たんぱく質": "45.2 g",
+      "脂質": "56.3 g",
+      "炭水化物": "138.5g",
+      "食塩相当量": "5.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_yurinchi_hp_240828.html"
+  ],
+  [
     "ラムかつ定食",
     1290,
     {
@@ -142,6 +178,30 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "6.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_hire_black_hp_240809.html"
+  ],
+  [
+    "油淋鶏定食（5個）",
+    890,
+    {
+      "カロリー": "1032kcal",
+      "たんぱく質": "38.7 g",
+      "脂質": "41.9 g",
+      "炭水化物": "130.5g",
+      "食塩相当量": "6.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_yurinchi5_hp_240828.html"
+  ],
+  [
+    "油淋鶏定食（8個） ",
+    1160,
+    {
+      "カロリー": "1313kcal",
+      "たんぱく質": "55.7 g",
+      "脂質": "59.0 g",
+      "炭水化物": "146.4g",
+      "食塩相当量": "8.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_yurinchi8_hp_240828.html"
   ],
   [
     "ラムかつ定食",
@@ -334,6 +394,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_240809.html"
+  ],
+  [
+    "ロースかつ＆油淋鶏定食（3個） ",
+    1050,
+    {
+      "カロリー": "1221kcal",
+      "たんぱく質": "45.2 g",
+      "脂質": "56.3 g",
+      "炭水化物": "138.5g",
+      "食塩相当量": "5.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_yurinchi_hp_240828.html"
   ],
   [
     "ロースかつ＆ラムかつ（1枚）定食",
@@ -843,10 +915,10 @@ const MATSUNOYA_MENU_LIST = [
     "お子様プレート",
     500,
     {
-      "カロリー": "761kcal",
-      "たんぱく質": "17.4g",
-      "脂質": "25.5g",
-      "炭水化物": "117.4g",
+      "カロリー": "762kcal",
+      "たんぱく質": "17.5g",
+      "脂質": "25.8g",
+      "炭水化物": "116.8g",
       "食塩相当量": "1.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/sumikko/ageage_okosama_hp_240809_nn.html"
@@ -1032,6 +1104,30 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/side_potatofry_hp_240809.html"
   ],
   [
+    "単品油淋鶏ソース",
+    150,
+    {
+      "カロリー": "175kcal",
+      "たんぱく質": "2.4 g",
+      "脂質": "12.0 g",
+      "炭水化物": "14.6g",
+      "食塩相当量": "2.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_yuurinchi_hp_240828.html"
+  ],
+  [
+    "単品レモン",
+    30,
+    {
+      "カロリー": "2kcal",
+      "たんぱく質": "0.0 g",
+      "脂質": "0.0 g",
+      "炭水化物": "0g",
+      "食塩相当量": "0g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_lemon_hp_240828.html"
+  ],
+  [
     "単品レモンおろし",
     180,
     {
@@ -1071,10 +1167,10 @@ const MATSUNOYA_MENU_LIST = [
     "単品ふりかけ（たまご）",
     60,
     {
-      "カロリー": "10kcal",
-      "たんぱく質": "0.3g",
-      "脂質": "0.2g",
-      "炭水化物": "1.7g",
+      "カロリー": "11kcal",
+      "たんぱく質": "0.4g",
+      "脂質": "0.5g",
+      "炭水化物": "1.2g",
       "食塩相当量": "0.2g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_hurikake_tamago_hp_240809.html"
