@@ -1,5 +1,29 @@
 const MATSUNOYA_MORNING_LIST = [
   [
+    "得朝アジフライ定食(小鉢無し)",
+    430,
+    {
+      "カロリー": "665kcal",
+      "たんぱく質": "18.9g",
+      "脂質": "20g",
+      "炭水化物": "107g",
+      "食塩相当量": "2.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_aji_kobatinasi_hp_240925.html"
+  ],
+  [
+    "得朝アジフライ定食",
+    470,
+    {
+      "カロリー": "665kcal",
+      "たんぱく質": "18.9g",
+      "脂質": "20g",
+      "炭水化物": "107g",
+      "食塩相当量": "2.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_aji_hp_240925.html"
+  ],
+  [
     "得朝チキンかつ定食(小鉢無し)",
     550,
     {
