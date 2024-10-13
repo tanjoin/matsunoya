@@ -156,18 +156,6 @@ const MATSUNOYA_MORNING_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_kobachi_koro_hp_240809.html"
   ],
   [
-    "お新香＜選べる小鉢＞",
-    null,
-    {
-      "カロリー": "17kcal",
-      "たんぱく質": "0.2g",
-      "脂質": "0g",
-      "炭水化物": "3.8g",
-      "食塩相当量": "0.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_kobachi_oshinko_hp_240809.html"
-  ],
-  [
     "納豆＜選べる小鉢＞",
     null,
     {
