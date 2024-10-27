@@ -1,27 +1,39 @@
 const MATSUNOYA_MENU_LIST = [
   [
-    "国産黒毛和牛入りメンチかつ定食",
-    890,
+    "角煮かつ定食",
+    990,
     {
-      "カロリー": "1000kcal",
-      "たんぱく質": "28.2g",
-      "脂質": "39.7g",
-      "炭水化物": "133.6g",
-      "食塩相当量": "5.6g"
+      "カロリー": "1158kcal",
+      "たんぱく質": "27g",
+      "脂質": "54.8g",
+      "炭水化物": "141g",
+      "食塩相当量": "5.1g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_menchi_hp_241016.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_kakuni_katsu_hp_241023.html"
   ],
   [
-    "ロースかつ＆国産黒毛和牛入りメンチかつ定食",
-    930,
+    "ロースかつ＆角煮かつ（1枚）定食",
+    980,
     {
-      "カロリー": "1177kcal",
-      "たんぱく質": "37.2g",
-      "脂質": "53.3g",
-      "炭水化物": "140.1g",
-      "食塩相当量": "5.2g"
+      "カロリー": "1143kcal",
+      "たんぱく質": "34.4g",
+      "脂質": "51.8g",
+      "炭水化物": "137.2g",
+      "食塩相当量": "4.8g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_menchi_hp_241016.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_kakuni_katsu_rosu1_hp_241023.html"
+  ],
+  [
+    "ロースかつ＆角煮かつ（2枚）定食",
+    1330,
+    {
+      "カロリー": "1372kcal",
+      "たんぱく質": "40.1g",
+      "脂質": "68.5g",
+      "炭水化物": "151.2g",
+      "食塩相当量": "5.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_kakuni_katsu_rosu2_hp_241023.html"
   ],
   [
     "アジフライ（2枚）定食",
@@ -120,6 +132,18 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_kaisen_ooebi1_hp_240925.html"
   ],
   [
+    "角煮かつ定食",
+    990,
+    {
+      "カロリー": "1158kcal",
+      "たんぱく質": "27g",
+      "脂質": "54.8g",
+      "炭水化物": "141g",
+      "食塩相当量": "5.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_kakuni_katsu_hp_241023.html"
+  ],
+  [
     "国産黒毛和牛入りメンチかつ定食",
     890,
     {
@@ -130,42 +154,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "5.6g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_menchi_hp_241016.html"
-  ],
-  [
-    "“国産麦小町”ロースかつ定食",
-    1090,
-    {
-      "カロリー": "1015kcal",
-      "たんぱく質": "35.4g",
-      "脂質": "45.6g",
-      "炭水化物": "120.3g",
-      "食塩相当量": "2.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_mugikomachi_hp_241002.html"
-  ],
-  [
-    "“国産麦小町”鬼おろしポン酢ロースかつ定食",
-    1190,
-    {
-      "カロリー": "1048kcal",
-      "たんぱく質": "36.8g",
-      "脂質": "45.7g",
-      "炭水化物": "127.3g",
-      "食塩相当量": "4.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_mugikomachi_oni_hp_241002.html"
-  ],
-  [
-    "“国産麦小町”味噌ロースかつ定食",
-    1190,
-    {
-      "カロリー": "1110kcal",
-      "たんぱく質": "37.9g",
-      "脂質": "48.1g",
-      "炭水化物": "134.8g",
-      "食塩相当量": "4.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_mugikomachi_miso_hp_241002.html"
   ],
   [
     "アジフライ（2枚）定食",
@@ -231,11 +219,11 @@ const MATSUNOYA_MENU_LIST = [
     "鬼おろしポン酢チキンかつ定食",
     830,
     {
-      "カロリー": "904kcal",
+      "カロリー": "903kcal",
       "たんぱく質": "31.8g",
       "脂質": "35.1g",
-      "炭水化物": "120.6g",
-      "食塩相当量": "4.3g"
+      "炭水化物": "120.2g",
+      "食塩相当量": "4.2g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_oni_hp_240918.html"
   ],
@@ -291,10 +279,10 @@ const MATSUNOYA_MENU_LIST = [
     "鬼おろしポン酢ロースかつ定食",
     730,
     {
-      "カロリー": "864kcal",
+      "カロリー": "862kcal",
       "たんぱく質": "28.1g",
-      "脂質": "31.9g",
-      "炭水化物": "120.7g",
+      "脂質": "31.8g",
+      "炭水化物": "120.3g",
       "食塩相当量": "4.2g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_rosu_hp_240809.html"
@@ -339,10 +327,10 @@ const MATSUNOYA_MENU_LIST = [
     "鬼おろしポン酢本格唐揚げ定食（5個）",
     890,
     {
-      "カロリー": "888kcal",
-      "たんぱく質": "37.7g",
+      "カロリー": "887kcal",
+      "たんぱく質": "37.6g",
       "脂質": "30g",
-      "炭水化物": "122.9g",
+      "炭水化物": "122.5g",
       "食塩相当量": "5.8g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage5_hp_240809.html"
@@ -351,13 +339,37 @@ const MATSUNOYA_MENU_LIST = [
     "鬼おろしポン酢本格唐揚げ定食（8個）",
     1160,
     {
-      "カロリー": "1169kcal",
-      "たんぱく質": "54.7g",
+      "カロリー": "1168kcal",
+      "たんぱく質": "54.6g",
       "脂質": "47g",
-      "炭水化物": "138.8g",
+      "炭水化物": "138.4g",
       "食塩相当量": "7.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_240809.html"
+  ],
+  [
+    "ロースかつ＆角煮かつ（1枚）定食",
+    980,
+    {
+      "カロリー": "1143kcal",
+      "たんぱく質": "34.4g",
+      "脂質": "51.8g",
+      "炭水化物": "137.2g",
+      "食塩相当量": "4.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_kakuni_katsu_rosu1_hp_241023.html"
+  ],
+  [
+    "ロースかつ＆角煮かつ（2枚）定食",
+    1330,
+    {
+      "カロリー": "1372kcal",
+      "たんぱく質": "40.1g",
+      "脂質": "68.5g",
+      "炭水化物": "151.2g",
+      "食塩相当量": "5.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_kakuni_katsu_rosu2_hp_241023.html"
   ],
   [
     "ロースかつ＆国産黒毛和牛入りメンチかつ定食",
@@ -370,102 +382,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "5.2g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_menchi_hp_241016.html"
-  ],
-  [
-    "“国産麦小町”ロースかつ＆いつものロースかつ食べ比べ定食",
-    1440,
-    {
-      "カロリー": "1458kcal",
-      "たんぱく質": "54.3g",
-      "脂質": "75.9g",
-      "炭水化物": "144.6g",
-      "食塩相当量": "3.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_mugikomachi_rosu_hp_241002.html"
-  ],
-  [
-    "“国産麦小町”ロースかつ＆アジフライ定食",
-    1280,
-    {
-      "カロリー": "1316kcal",
-      "たんぱく質": "46.4g",
-      "脂質": "67.3g",
-      "炭水化物": "136.7g",
-      "食塩相当量": "4.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_mugikomachi_aji_hp_241002.html"
-  ],
-  [
-    "“国産麦小町”ロースかつ＆カキフライ（2個）定食",
-    1350,
-    {
-      "カロリー": "1263kcal",
-      "たんぱく質": "40.2g",
-      "脂質": "65g",
-      "炭水化物": "134.1g",
-      "食塩相当量": "4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_mugikomachi_kaki_hp_241002.html"
-  ],
-  [
-    "“国産麦小町”ロースかつ＆海老フライ（1尾）定食",
-    1360,
-    {
-      "カロリー": "1256kcal",
-      "たんぱく質": "41.5g",
-      "脂質": "63.4g",
-      "炭水化物": "134.7g",
-      "食塩相当量": "4.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_mugikomachi_ebi1_hp_241002.html"
-  ],
-  [
-    "“国産麦小町”ロースかつ＆海老フライ（2尾）定食",
-    1630,
-    {
-      "カロリー": "1431kcal",
-      "たんぱく質": "47.1g",
-      "脂質": "75.2g",
-      "炭水化物": "146.6g",
-      "食塩相当量": "5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_mugikomachi_ebi2_hp_241002.html"
-  ],
-  [
-    "“国産麦小町”ロースかつ＆有頭大海老フライ（1尾）定食",
-    1560,
-    {
-      "カロリー": "1334kcal",
-      "たんぱく質": "45.8g",
-      "脂質": "70.2g",
-      "炭水化物": "134.4g",
-      "食塩相当量": "4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_mugikomachi_ooebi1_hp_241002.html"
-  ],
-  [
-    "“国産麦小町”ロースかつ＆有頭大海老フライ（2尾）定食",
-    2030,
-    {
-      "カロリー": "1587kcal",
-      "たんぱく質": "55.7g",
-      "脂質": "88.9g",
-      "炭水化物": "146.1g",
-      "食塩相当量": "4.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_mugikomachi_ooebi2_hp_241002.html"
-  ],
-  [
-    "“国産麦小町”ロースかつ＆唐揚定食",
-    1360,
-    {
-      "カロリー": "1295kcal",
-      "たんぱく質": "52.4g",
-      "脂質": "62.6g",
-      "炭水化物": "136.2g",
-      "食塩相当量": "4.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_mugikomachi_karaage_hp_241002.html"
   ],
   [
     "ロースかつ＆アジフライ（１枚）定食",
@@ -663,10 +579,10 @@ const MATSUNOYA_MENU_LIST = [
     "ダブル鬼おろしポン酢ロースかつ定食",
     1080,
     {
-      "カロリー": "1307kcal",
-      "たんぱく質": "47g",
-      "脂質": "62.2g",
-      "炭水化物": "145g",
+      "カロリー": "1305kcal",
+      "たんぱく質": "46.9g",
+      "脂質": "62.1g",
+      "炭水化物": "144.6g",
       "食塩相当量": "5g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_w_rosu_oroshipon_hp_220502.html"
@@ -706,30 +622,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_ebi2_hp_220502.html"
-  ],
-  [
-    "“国産麦小町”ロースかつ丼 並盛",
-    1130,
-    {
-      "カロリー": "1196kcal",
-      "たんぱく質": "48.4g",
-      "脂質": "55.1g",
-      "炭水化物": "127.1g",
-      "食塩相当量": "5.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_mugikomachi_hp_241002.html"
-  ],
-  [
-    "“国産麦小町”ロースかつ丼 大盛",
-    1200,
-    {
-      "カロリー": "1375kcal",
-      "たんぱく質": "52g",
-      "脂質": "55.4g",
-      "炭水化物": "168.2g",
-      "食塩相当量": "7.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_mugikomachi_hp_241002.html"
   ],
   [
     "カキフライとじ丼 並盛",
@@ -850,30 +742,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "5.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_menchi_black_hp_241016.html"
-  ],
-  [
-    "松のやの“国産麦小町”ロースかつ黒カレー 並盛",
-    1290,
-    {
-      "カロリー": "1141kcal",
-      "たんぱく質": "39.8g",
-      "脂質": "54.3g",
-      "炭水化物": "127.3g",
-      "食塩相当量": "4.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_mugikomachi_black_hp_241002.html"
-  ],
-  [
-    "松のやの“国産麦小町”ロースかつ黒カレー 大盛",
-    1400,
-    {
-      "カロリー": "1333kcal",
-      "たんぱく質": "43.7g",
-      "脂質": "56.7g",
-      "炭水化物": "167.3g",
-      "食塩相当量": "5.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_mugikomachi_black_hp_241002.html"
   ],
   [
     "松のやのカキフライ黒カレー 並盛",
@@ -1044,6 +912,18 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
   ],
   [
+    "単品角煮かつ",
+    350,
+    {
+      "カロリー": "229kcal",
+      "たんぱく質": "5.7g",
+      "脂質": "16.6g",
+      "炭水化物": "14.1g",
+      "食塩相当量": "0.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_kakuni_katsu_hp_241023.html"
+  ],
+  [
     "単品国産黒毛和牛入りメンチかつ",
     400,
     {
@@ -1054,18 +934,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "1.3g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_mench_hp_241016.html"
-  ],
-  [
-    "単品“国産麦小町”ロースかつ",
-    850,
-    {
-      "カロリー": "627kcal",
-      "たんぱく質": "27.5g",
-      "脂質": "44.1g",
-      "炭水化物": "30.8g",
-      "食塩相当量": "1.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_mugikomachi_hp_241002.html"
   ],
   [
     "単品アジフライ（1枚）",
@@ -1224,6 +1092,18 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_tonjiru_hp_240809.html"
   ],
   [
+    "単品角煮ダレ",
+    100,
+    {
+      "カロリー": "84kcal",
+      "たんぱく質": "2g",
+      "脂質": "3.4g",
+      "炭水化物": "9.3g",
+      "食塩相当量": "1.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_kakuni_katsu_hp_241023.html"
+  ],
+  [
     "単品デミメンチソース",
     130,
     {
@@ -1371,10 +1251,10 @@ const MATSUNOYA_MENU_LIST = [
     "鬼おろしポン酢",
     140,
     {
-      "カロリー": "33kcal",
+      "カロリー": "32kcal",
       "たんぱく質": "1.4g",
       "脂質": "0.1g",
-      "炭水化物": "7g",
+      "炭水化物": "6.5g",
       "食塩相当量": "1.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_oroshipon_hp_240809.html"
