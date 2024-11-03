@@ -57,9 +57,9 @@ const decorateHtmlString = (answer) => {
     <div class="row justify-content-center row-cols-auto">
       <div class="col">
         <a href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-           data-text="松のや1000円ガチャを回したよ！\n${decodeURIComponent("\n" + answer[0].map((d) => `・${d[0]} ${d[1]}円`).join('\n'))}\n\n"
+           data-text="松のや${document.getElementById('price-range').value}円ガチャを回したよ！\n${decodeURIComponent("\n" + answer[0].map((d) => `・${d[0]} ${d[1]}円`).join('\n'))}\n\n"
            data-url="https://tanjoin.github.io/matsunoya/" 
-           data-hashtags="松のや1000円ガチャ"
+           data-hashtags="松のや${document.getElementById('price-range').value}円ガチャ"
            data-show-count="false"
            data-size="large"
            id="twitter-btn" 
