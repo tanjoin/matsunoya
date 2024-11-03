@@ -1,5 +1,77 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "ポークフライドステーキ（オニオンソース）（2枚）定食",
+    890,
+    {
+      "カロリー": "1052kcal",
+      "たんぱく質": "42.1g",
+      "脂質": "52.1g",
+      "炭水化物": "108.6g",
+      "食塩相当量": "6.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_pork_steak2_onion_hp_241030.html"
+  ],
+  [
+    "ポークフライドステーキ（チャップソース）（2枚）定食",
+    890,
+    {
+      "カロリー": "1070kcal",
+      "たんぱく質": "41.8g",
+      "脂質": "54.7g",
+      "炭水化物": "106.5g",
+      "食塩相当量": "5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_pork_steak2_chap_hp_241030.html"
+  ],
+  [
+    "ポークフライドステーキ（オニオンソース）（3枚）定食",
+    1190,
+    {
+      "カロリー": "1365kcal",
+      "たんぱく質": "59.2g",
+      "脂質": "75.4g",
+      "炭水化物": "118.2g",
+      "食塩相当量": "8.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_pork_steak3_onion_hp_241030.html"
+  ],
+  [
+    "ロースかつ＆ポークフライドステーキ（オニオンソース）（1枚）定食",
+    990,
+    {
+      "カロリー": "1182kcal",
+      "たんぱく質": "43.9g",
+      "脂質": "59.2g",
+      "炭水化物": "123.4g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_pork_steak_onion_rosu_hp_241030.html"
+  ],
+  [
+    "ポークフライドステーキ（チャップソース）（3枚）定食",
+    1190,
+    {
+      "カロリー": "1392kcal",
+      "たんぱく質": "58.7g",
+      "脂質": "79.2g",
+      "炭水化物": "114.9g",
+      "食塩相当量": "6.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_pork_steak3_chap_hp_241030.html"
+  ],
+  [
+    "ロースかつ＆ポークフライドステーキ（チャップソース）（1枚）定食",
+    990,
+    {
+      "カロリー": "1190kcal",
+      "たんぱく質": "43.7g",
+      "脂質": "60.4g",
+      "炭水化物": "122.3g",
+      "食塩相当量": "4.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_pork_steak_chap_rosu_hp_241030.html"
+  ],
+  [
     "角煮かつ定食",
     990,
     {
@@ -130,6 +202,54 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_kaisen_ooebi1_hp_240925.html"
+  ],
+  [
+    "ポークフライドステーキ（オニオンソース）（2枚）定食",
+    890,
+    {
+      "カロリー": "1052kcal",
+      "たんぱく質": "42.1g",
+      "脂質": "52.1g",
+      "炭水化物": "108.6g",
+      "食塩相当量": "6.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_pork_steak2_onion_hp_241030.html"
+  ],
+  [
+    "ポークフライドステーキ（チャップソース）（2枚）定食",
+    890,
+    {
+      "カロリー": "1070kcal",
+      "たんぱく質": "41.8g",
+      "脂質": "54.7g",
+      "炭水化物": "106.5g",
+      "食塩相当量": "5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_pork_steak2_chap_hp_241030.html"
+  ],
+  [
+    "ポークフライドステーキ（オニオンソース）（3枚）定食",
+    1190,
+    {
+      "カロリー": "1365kcal",
+      "たんぱく質": "59.2g",
+      "脂質": "75.4g",
+      "炭水化物": "118.2g",
+      "食塩相当量": "8.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_pork_steak3_onion_hp_241030.html"
+  ],
+  [
+    "ポークフライドステーキ（チャップソース）（3枚）定食",
+    1190,
+    {
+      "カロリー": "1392kcal",
+      "たんぱく質": "58.7g",
+      "脂質": "79.2g",
+      "炭水化物": "114.9g",
+      "食塩相当量": "6.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_pork_steak3_chap_hp_241030.html"
   ],
   [
     "角煮かつ定食",
@@ -346,6 +466,30 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_240809.html"
+  ],
+  [
+    "ロースかつ＆ポークフライドステーキ（オニオンソース）（1枚）定食",
+    990,
+    {
+      "カロリー": "1182kcal",
+      "たんぱく質": "43.9g",
+      "脂質": "59.2g",
+      "炭水化物": "123.4g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_pork_steak_onion_rosu_hp_241030.html"
+  ],
+  [
+    "ロースかつ＆ポークフライドステーキ（チャップソース）（1枚）定食",
+    990,
+    {
+      "カロリー": "1190kcal",
+      "たんぱく質": "43.7g",
+      "脂質": "60.4g",
+      "炭水化物": "122.3g",
+      "食塩相当量": "4.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_pork_steak_chap_rosu_hp_241030.html"
   ],
   [
     "ロースかつ＆角煮かつ（1枚）定食",
@@ -912,6 +1056,30 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
   ],
   [
+    "単品ポークフライドステーキ（オニオンソース）（2枚）",
+    690,
+    {
+      "カロリー": "664kcal",
+      "たんぱく質": "34.2g",
+      "脂質": "50.6g",
+      "炭水化物": "19.1g",
+      "食塩相当量": "4.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_pork_steak_onion_hp_241030.html"
+  ],
+  [
+    "単品ポークフライドステーキ（チャップソース）（2枚）",
+    690,
+    {
+      "カロリー": "682kcal",
+      "たんぱく質": "33.9g",
+      "脂質": "53.2g",
+      "炭水化物": "17g",
+      "食塩相当量": "3.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_pork_steak_chap_hp_241030.html"
+  ],
+  [
     "単品角煮かつ",
     350,
     {
@@ -1090,6 +1258,30 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_tonjiru_hp_240809.html"
+  ],
+  [
+    "単品オニオンソース",
+    200,
+    {
+      "カロリー": "189kcal",
+      "たんぱく質": "2.2g",
+      "脂質": "13.2g",
+      "炭水化物": "15.5g",
+      "食塩相当量": "3.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_sauce_onion_hp_241030.html"
+  ],
+  [
+    "単品チャップソース",
+    200,
+    {
+      "カロリー": "207kcal",
+      "たんぱく質": "1.9g",
+      "脂質": "15.8g",
+      "炭水化物": "13.3g",
+      "食塩相当量": "2.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_sauce_chap_hp_241030.html"
   ],
   [
     "単品角煮ダレ",

@@ -4,9 +4,9 @@ const MATSUNOYA_MORNING_LIST = [
     430,
     {
       "カロリー": "665kcal",
-      "たんぱく質": "18.9g",
-      "脂質": "20g",
-      "炭水化物": "107g",
+      "たんぱく質": "18.8g",
+      "脂質": "19.9g",
+      "炭水化物": "106.9g",
       "食塩相当量": "2.6g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_aji_kobatinasi_hp_240925.html"
@@ -16,9 +16,9 @@ const MATSUNOYA_MORNING_LIST = [
     470,
     {
       "カロリー": "665kcal",
-      "たんぱく質": "18.9g",
-      "脂質": "20g",
-      "炭水化物": "107g",
+      "たんぱく質": "18.8g",
+      "脂質": "19.9g",
+      "炭水化物": "106.9g",
       "食塩相当量": "2.6g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_aji_hp_240925.html"
@@ -28,9 +28,9 @@ const MATSUNOYA_MORNING_LIST = [
     550,
     {
       "カロリー": "913kcal",
-      "たんぱく質": "30.9g",
+      "たんぱく質": "30.8g",
       "脂質": "37.8g",
-      "炭水化物": "117.1g",
+      "炭水化物": "117g",
       "食塩相当量": "2.8g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_chicken_kobatinasi_hp_240918.html"
@@ -40,9 +40,9 @@ const MATSUNOYA_MORNING_LIST = [
     590,
     {
       "カロリー": "913kcal",
-      "たんぱく質": "30.9g",
+      "たんぱく質": "30.8g",
       "脂質": "37.8g",
-      "炭水化物": "117.1g",
+      "炭水化物": "117g",
       "食塩相当量": "2.8g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_chicken_hp_240918.html"
@@ -52,9 +52,9 @@ const MATSUNOYA_MORNING_LIST = [
     530,
     {
       "カロリー": "872kcal",
-      "たんぱく質": "27.3g",
+      "たんぱく質": "27.2g",
       "脂質": "34.6g",
-      "炭水化物": "117.2g",
+      "炭水化物": "117.1g",
       "食塩相当量": "2.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_rosu_kobatinasi_hp_240809.html"
@@ -76,9 +76,9 @@ const MATSUNOYA_MORNING_LIST = [
     570,
     {
       "カロリー": "872kcal",
-      "たんぱく質": "27.3g",
+      "たんぱく質": "27.2g",
       "脂質": "34.6g",
-      "炭水化物": "117.2g",
+      "炭水化物": "117.1g",
       "食塩相当量": "2.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_rosu_hp_240809.html"
