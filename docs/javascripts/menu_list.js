@@ -1,5 +1,41 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "鶏の竜田揚げ定食",
+    850,
+    {
+      "カロリー": "738kcal",
+      "たんぱく質": "29.4g",
+      "脂質": "19.4g",
+      "炭水化物": "116.4g",
+      "食塩相当量": "5.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_tatsuta_hp_250305.html"
+  ],
+  [
+    "鶏の竜田揚げダブル定食",
+    1290,
+    {
+      "カロリー": "1085kcal",
+      "たんぱく質": "50.7g",
+      "脂質": "37.3g",
+      "炭水化物": "142.6g",
+      "食塩相当量": "9.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/tei_chicken_tatsuta_w_hp_250305.html"
+  ],
+  [
+    "ロースかつ＆鶏の竜田揚げ定食",
+    1230,
+    {
+      "カロリー": "1181kcal",
+      "たんぱく質": "48.2g",
+      "脂質": "49.7g",
+      "炭水化物": "140.6g",
+      "食塩相当量": "6.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_chicken_tatsuta_hp_250305.html"
+  ],
+  [
     "カニクリームコロッケ（2個）定食",
     990,
     {
@@ -360,6 +396,18 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_kaisen_ooebi1_hp_250221.html"
   ],
   [
+    "鶏の竜田揚げ定食",
+    850,
+    {
+      "カロリー": "738kcal",
+      "たんぱく質": "29.4g",
+      "脂質": "19.4g",
+      "炭水化物": "116.4g",
+      "食塩相当量": "5.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_tatsuta_hp_250305.html"
+  ],
+  [
     "カニクリームコロッケ（2個）定食",
     990,
     {
@@ -694,6 +742,30 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_250221.html"
+  ],
+  [
+    "鶏の竜田揚げダブル定食",
+    1290,
+    {
+      "カロリー": "1085kcal",
+      "たんぱく質": "50.7g",
+      "脂質": "37.3g",
+      "炭水化物": "142.6g",
+      "食塩相当量": "9.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/tei_chicken_tatsuta_w_hp_250305.html"
+  ],
+  [
+    "ロースかつ＆鶏の竜田揚げ定食",
+    1230,
+    {
+      "カロリー": "1181kcal",
+      "たんぱく質": "48.2g",
+      "脂質": "49.7g",
+      "炭水化物": "140.6g",
+      "食塩相当量": "6.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_chicken_tatsuta_hp_250305.html"
   ],
   [
     "ロースかつ＆カニクリームコロッケ（1個）定食",
@@ -1488,6 +1560,18 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
   ],
   [
+    "単品鶏の竜田揚げ",
+    610,
+    {
+      "カロリー": "350kcal",
+      "たんぱく質": "21.5g",
+      "脂質": "17.9g",
+      "炭水化物": "26.9g",
+      "食塩相当量": "3.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_chicken_tatsuta_hp_250305.html"
+  ],
+  [
     "単品カニクリームコロッケ",
     450,
     {
@@ -1666,6 +1750,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "0.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/side_potatofry_hp_240809.html"
+  ],
+  [
+    "豚汁",
+    200,
+    {
+      "カロリー": "144kcal",
+      "たんぱく質": "7.4g",
+      "脂質": "7.2g",
+      "炭水化物": "12.4g",
+      "食塩相当量": "3.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_tonjiru_hp_240809.html"
   ],
   [
     "単品デミメンチソース",
