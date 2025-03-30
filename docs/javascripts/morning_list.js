@@ -3,10 +3,10 @@ const MATSUNOYA_MORNING_LIST = [
     "得朝チキンかつ定食(小鉢無し)",
     590,
     {
-      "カロリー": "913kcal",
-      "たんぱく質": "30.8g",
-      "脂質": "37.8g",
-      "炭水化物": "117g",
+      "カロリー": "912kcal",
+      "たんぱく質": "30.9g",
+      "脂質": "37.9g",
+      "炭水化物": "116.7g",
       "食塩相当量": "2.8g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_chicken_kobatinasi_hp_250221.html"
@@ -15,10 +15,10 @@ const MATSUNOYA_MORNING_LIST = [
     "得朝ささみかつ＆コロッケ定食(小鉢無し)",
     510,
     {
-      "カロリー": "783kcal",
+      "カロリー": "782kcal",
       "たんぱく質": "24.7g",
       "脂質": "23.7g",
-      "炭水化物": "122.1g",
+      "炭水化物": "121.8g",
       "食塩相当量": "2.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_sasami_koro_kobatinasi_hp_250221.html"
@@ -27,10 +27,10 @@ const MATSUNOYA_MORNING_LIST = [
     "得朝ささみかつ定食(小鉢無し)",
     590,
     {
-      "カロリー": "823kcal",
+      "カロリー": "822kcal",
       "たんぱく質": "36.6g",
-      "脂質": "22.4g",
-      "炭水化物": "123.5g",
+      "脂質": "22.5g",
+      "炭水化物": "123.1g",
       "食塩相当量": "3g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_sasami_kobatinasi_hp_250221.html"
@@ -54,7 +54,7 @@ const MATSUNOYA_MORNING_LIST = [
       "カロリー": "872kcal",
       "たんぱく質": "27.2g",
       "脂質": "34.6g",
-      "炭水化物": "117.1g",
+      "炭水化物": "116.8g",
       "食塩相当量": "2.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_rosu_kobatinasi_hp_250221.html"
@@ -75,10 +75,10 @@ const MATSUNOYA_MORNING_LIST = [
     "得朝チキンかつ定食",
     630,
     {
-      "カロリー": "913kcal",
-      "たんぱく質": "30.8g",
-      "脂質": "37.8g",
-      "炭水化物": "117g",
+      "カロリー": "912kcal",
+      "たんぱく質": "30.9g",
+      "脂質": "37.9g",
+      "炭水化物": "116.7g",
       "食塩相当量": "2.8g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_chicken_hp_250221.html"
@@ -87,10 +87,10 @@ const MATSUNOYA_MORNING_LIST = [
     "得朝ささみかつ＆コロッケ定食",
     550,
     {
-      "カロリー": "783kcal",
-      "たんぱく質": "24.8g",
+      "カロリー": "782kcal",
+      "たんぱく質": "24.7g",
       "脂質": "23.7g",
-      "炭水化物": "122.2g",
+      "炭水化物": "121.8g",
       "食塩相当量": "2.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_sasami_koro_hp_250221.html"
@@ -99,10 +99,10 @@ const MATSUNOYA_MORNING_LIST = [
     "得朝ささみかつ定食",
     630,
     {
-      "カロリー": "823kcal",
-      "たんぱく質": "36.7g",
-      "脂質": "22.4g",
-      "炭水化物": "123.7g",
+      "カロリー": "822kcal",
+      "たんぱく質": "36.6g",
+      "脂質": "22.5g",
+      "炭水化物": "123.1g",
       "食塩相当量": "3g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_sasami_hp_250221.html"
@@ -126,7 +126,7 @@ const MATSUNOYA_MORNING_LIST = [
       "カロリー": "872kcal",
       "たんぱく質": "27.2g",
       "脂質": "34.6g",
-      "炭水化物": "117.1g",
+      "炭水化物": "116.8g",
       "食塩相当量": "2.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_rosu_hp_250221.html"
