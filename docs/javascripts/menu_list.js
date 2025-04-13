@@ -1,5 +1,53 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "桜クリームシチュー 並盛",
+    650,
+    {
+      "カロリー": "664kcal",
+      "たんぱく質": "13.7g",
+      "脂質": "22.5g",
+      "炭水化物": "104.7g",
+      "食塩相当量": "3.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_sakura_stew_hp_250409.html"
+  ],
+  [
+    "桜クリームシチュー 大盛",
+    800,
+    {
+      "カロリー": "885kcal",
+      "たんぱく質": "17.8g",
+      "脂質": "27.3g",
+      "炭水化物": "146.2g",
+      "食塩相当量": "4.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_sakura_stew_hp_250409.html"
+  ],
+  [
+    "ロースかつ桜クリームシチュー 並盛",
+    990,
+    {
+      "カロリー": "1106kcal",
+      "たんぱく質": "32.5g",
+      "脂質": "52.8g",
+      "炭水化物": "128.6g",
+      "食塩相当量": "4.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_sakura_stew_rosu_hp_250409.html"
+  ],
+  [
+    "ロースかつ桜クリームシチュー 大盛",
+    1140,
+    {
+      "カロリー": "1328kcal",
+      "たんぱく質": "36.7g",
+      "脂質": "57.6g",
+      "炭水化物": "170.2g",
+      "食塩相当量": "5.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_sakura_stew_rosu_hp_250409.html"
+  ],
+  [
     "“肉厚”チキンムネかつ定食",
     890,
     {
@@ -1354,6 +1402,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_tonjiru_hp_240809.html"
+  ],
+  [
+    "単品桜クリームシチュー",
+    450,
+    {
+      "カロリー": "314kcal",
+      "たんぱく質": "8g",
+      "脂質": "21.8g",
+      "炭水化物": "21.6g",
+      "食塩相当量": "3.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_sakura_stew_hp_250409.html"
   ],
   [
     "単品ガーリックバターソース  ",
