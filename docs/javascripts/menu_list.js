@@ -1,5 +1,29 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "にんにく醤油の“揚げる”豚テキ定食 ",
+    1150,
+    {
+      "カロリー": "1059kcal",
+      "たんぱく質": "40g",
+      "脂質": "47.1g",
+      "炭水化物": "117.4g",
+      "食塩相当量": "6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_age_tonteki_hp_250430.html"
+  ],
+  [
+    "にんにく醤油の“揚げる”豚テキ（ダブル）定食 ",
+    1750,
+    {
+      "カロリー": "1671kcal",
+      "たんぱく質": "72.1g",
+      "脂質": "86.3g",
+      "炭水化物": "145.2g",
+      "食塩相当量": "10.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_age_tonteki_w_hp_250430.html"
+  ],
+  [
     "厚切りロースかつ定食",
     990,
     {
@@ -240,40 +264,16 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsu_mune_triple_hp_250402.html"
   ],
   [
-    "ムートート定食",
-    990,
+    "にんにく醤油の“揚げる”豚テキ定食 ",
+    1150,
     {
-      "カロリー": "1167kcal",
-      "たんぱく質": "30.3g",
-      "脂質": "61.8g",
-      "炭水化物": "119.6g",
-      "食塩相当量": "4.8g"
+      "カロリー": "1059kcal",
+      "たんぱく質": "40g",
+      "脂質": "47.1g",
+      "炭水化物": "117.4g",
+      "食塩相当量": "6g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_mootote_hp_250319.html"
-  ],
-  [
-    "ロースかつ＆ムートート定食",
-    990,
-    {
-      "カロリー": "1265kcal",
-      "たんぱく質": "38.3g",
-      "脂質": "62.7g",
-      "炭水化物": "137.8g",
-      "食塩相当量": "4.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/tei_rosu_mootote_hp_250319.html"
-  ],
-  [
-    "唐揚げ＆ムートート定食",
-    990,
-    {
-      "カロリー": "1104kcal",
-      "たんぱく質": "36.5g",
-      "脂質": "49.4g",
-      "炭水化物": "129.8g",
-      "食塩相当量": "5.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_karaage_mootote_hp_250319.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_age_tonteki_hp_250430.html"
   ],
   [
     "厚切りロースかつ定食",
@@ -322,18 +322,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.8g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_atsu_mune_hp_250402.html"
-  ],
-  [
-    "ムートート定食",
-    990,
-    {
-      "カロリー": "1167kcal",
-      "たんぱく質": "30.3g",
-      "脂質": "61.8g",
-      "炭水化物": "119.6g",
-      "食塩相当量": "4.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_mootote_hp_250319.html"
   ],
   [
     "チキンかつ定食",
@@ -564,6 +552,18 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_250221.html"
   ],
   [
+    "にんにく醤油の“揚げる”豚テキ（ダブル）定食 ",
+    1750,
+    {
+      "カロリー": "1671kcal",
+      "たんぱく質": "72.1g",
+      "脂質": "86.3g",
+      "炭水化物": "145.2g",
+      "食塩相当量": "10.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_age_tonteki_w_hp_250430.html"
+  ],
+  [
     "厚切りロースかつ＆唐揚げ定食",
     1270,
     {
@@ -706,30 +706,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "6.3g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsu_mune_triple_hp_250402.html"
-  ],
-  [
-    "ロースかつ＆ムートート定食",
-    990,
-    {
-      "カロリー": "1265kcal",
-      "たんぱく質": "38.3g",
-      "脂質": "62.7g",
-      "炭水化物": "137.8g",
-      "食塩相当量": "4.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/tei_rosu_mootote_hp_250319.html"
-  ],
-  [
-    "唐揚げ＆ムートート定食",
-    990,
-    {
-      "カロリー": "1104kcal",
-      "たんぱく質": "36.5g",
-      "脂質": "49.4g",
-      "炭水化物": "129.8g",
-      "食塩相当量": "5.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_karaage_mootote_hp_250319.html"
   ],
   [
     "チキンかつ＆唐揚げ定食",
@@ -960,30 +936,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_atu_rosu_hp_250423.html"
   ],
   [
-    "ムートート丼 並盛",
-    890,
-    {
-      "カロリー": "1259kcal",
-      "たんぱく質": "37.3g",
-      "脂質": "73g",
-      "炭水化物": "108.4g",
-      "食塩相当量": "6.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_mootote_hp_250319.html"
-  ],
-  [
-    "ムートート丼 大盛",
-    970,
-    {
-      "カロリー": "1415kcal",
-      "たんぱく質": "39.8g",
-      "脂質": "73.3g",
-      "炭水化物": "145.5g",
-      "食塩相当量": "6.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_mootote_hp_250319.html"
-  ],
-  [
     "親子チキンかつ丼 並盛",
     750,
     {
@@ -1104,6 +1056,18 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
   ],
   [
+    "単品にんにく醤油の“揚げる”豚テキ ",
+    830,
+    {
+      "カロリー": "612kcal",
+      "たんぱく質": "32.1g",
+      "脂質": "39.3g",
+      "炭水化物": "27.8g",
+      "食塩相当量": "4.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_age_tonteki_hp_250430.html"
+  ],
+  [
     "単品厚切りロースかつ",
     710,
     {
@@ -1126,18 +1090,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "1.2g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_atsu_mune_hp_250402.html"
-  ],
-  [
-    "単品ムートート",
-    600,
-    {
-      "カロリー": "688kcal",
-      "たんぱく質": "21.7g",
-      "脂質": "58.8g",
-      "炭水化物": "11.4g",
-      "食塩相当量": "2.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_mootote_hp_250319.html"
   ],
   [
     "単品チキンかつ",
@@ -1294,18 +1246,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_sauce_garibata_hp_250402.html"
-  ],
-  [
-    "単品スイートチリソース",
-    150,
-    {
-      "カロリー": "91kcal",
-      "たんぱく質": "0.7g",
-      "脂質": "1.5g",
-      "炭水化物": "18.7g",
-      "食塩相当量": "0.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_sauce_sweet_chili_hp_250319.html"
   ],
   [
     "タルタルソース",
