@@ -192,18 +192,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_atu_rosu_miso_hp_250423.html"
   ],
   [
-    "“肉厚”チキンムネかつ定食",
-    890,
-    {
-      "カロリー": "1045kcal",
-      "たんぱく質": "51g",
-      "脂質": "41.8g",
-      "炭水化物": "122.6g",
-      "食塩相当量": "3.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_atsu_mune_hp_250402.html"
-  ],
-  [
     "チキンかつ定食",
     770,
     {
@@ -552,90 +540,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atu_rosu_ooebi2_hp_250423.html"
   ],
   [
-    "“肉厚”チキンムネかつ＆ロースかつ定食",
-    1280,
-    {
-      "カロリー": "1488kcal",
-      "たんぱく質": "69.9g",
-      "脂質": "72.1g",
-      "炭水化物": "146.5g",
-      "食塩相当量": "4.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsu_mune_rosu_hp_250402.html"
-  ],
-  [
-    "“肉厚”チキンムネかつ＆本格唐揚げ定食",
-    1170,
-    {
-      "カロリー": "1326kcal",
-      "たんぱく質": "68g",
-      "脂質": "58.8g",
-      "炭水化物": "138.5g",
-      "食塩相当量": "5.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsu_mune_karaage_hp_250402.html"
-  ],
-  [
-    "“肉厚”チキンムネかつ＆ささみかつ（1本）定食",
-    1120,
-    {
-      "カロリー": "1307kcal",
-      "たんぱく質": "65.7g",
-      "脂質": "56.9g",
-      "炭水化物": "140.1g",
-      "食塩相当量": "5.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsu_mune_sasami1_hp_250402.html"
-  ],
-  [
-    "“肉厚”チキンムネかつ＆ささみかつ（2本）定食",
-    1350,
-    {
-      "カロリー": "1504kcal",
-      "たんぱく質": "79.8g",
-      "脂質": "66g",
-      "炭水化物": "155.2g",
-      "食塩相当量": "5.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsu_mune_sasami2_hp_250402.html"
-  ],
-  [
-    "“肉厚”チキンムネかつ＆海老フライ1尾定食",
-    1170,
-    {
-      "カロリー": "1287kcal",
-      "たんぱく質": "57g",
-      "脂質": "61.7g",
-      "炭水化物": "132.3g",
-      "食塩相当量": "5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsu_mune_ebi1_hp_250402.html"
-  ],
-  [
-    "“肉厚”チキンムネかつ＆海老フライ2尾定食",
-    1420,
-    {
-      "カロリー": "1463kcal",
-      "たんぱく質": "62.4g",
-      "脂質": "75.6g",
-      "炭水化物": "139.7g",
-      "食塩相当量": "5.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsu_mune_ebi2_hp_250402.html"
-  ],
-  [
-    "トリプルチキン（肉厚ムネ・ささみかつ・本格唐揚げ）定食",
-    1320,
-    {
-      "カロリー": "1495kcal",
-      "たんぱく質": "77g",
-      "脂質": "68.3g",
-      "炭水化物": "150.7g",
-      "食塩相当量": "6.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsu_mune_triple_hp_250402.html"
-  ],
-  [
     "チキンかつ＆唐揚げ定食",
     1050,
     {
@@ -960,6 +864,102 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_miso_hp_250221.html"
   ],
   [
+    "松のやのロースかつ黒カレー 並盛",
+    850,
+    {
+      "カロリー": "970kcal",
+      "たんぱく質": "31.4g",
+      "脂質": "40.8g",
+      "炭水化物": "122.7g",
+      "食塩相当量": "4.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_rosu_black_hp_250423.html"
+  ],
+  [
+    "松のやのロースかつ黒カレー 大盛",
+    1000,
+    {
+      "カロリー": "1165kcal",
+      "たんぱく質": "35.5g",
+      "脂質": "43.3g",
+      "炭水化物": "163.2g",
+      "食塩相当量": "5.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_rosu_black_hp_250423.html"
+  ],
+  [
+    "松のやの本格唐揚げ黒カレー 並盛",
+    800,
+    {
+      "カロリー": "874kcal",
+      "たんぱく質": "30.1g",
+      "脂質": "33.6g",
+      "炭水化物": "117g",
+      "食塩相当量": "6.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_karaage_black_hp_250423.html"
+  ],
+  [
+    "松のやの本格唐揚げ黒カレー 大盛",
+    950,
+    {
+      "カロリー": "1069kcal",
+      "たんぱく質": "34.2g",
+      "脂質": "36g",
+      "炭水化物": "157.5g",
+      "食塩相当量": "6.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_karaage_black_hp_250423.html"
+  ],
+  [
+    "松のやの海老フライ黒カレー 並盛",
+    1050,
+    {
+      "カロリー": "945kcal",
+      "たんぱく質": "23.9g",
+      "脂質": "44.3g",
+      "炭水化物": "115.8g",
+      "食塩相当量": "5.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_ebi_black_hp_250423.html"
+  ],
+  [
+    "松のやの海老フライ黒カレー 大盛",
+    1200,
+    {
+      "カロリー": "1141kcal",
+      "たんぱく質": "28g",
+      "脂質": "46.8g",
+      "炭水化物": "156.4g",
+      "食塩相当量": "6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_ebi_black_hp_250423.html"
+  ],
+  [
+    "松のやのコロッケ黒カレー 並盛",
+    700,
+    {
+      "カロリー": "997kcal",
+      "たんぱく質": "19.2g",
+      "脂質": "41.4g",
+      "炭水化物": "140.3g",
+      "食塩相当量": "5.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_korokke_black_hp_250423.html"
+  ],
+  [
+    "松のやのコロッケ黒カレー 大盛",
+    850,
+    {
+      "カロリー": "1193kcal",
+      "たんぱく質": "23.3g",
+      "脂質": "43.9g",
+      "炭水化物": "180.9g",
+      "食塩相当量": "5.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_korokke_black_hp_250423.html"
+  ],
+  [
     "お子様プレート",
     500,
     {
@@ -1030,18 +1030,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "1.2g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_atu_rosu_hp_250423.html"
-  ],
-  [
-    "単品“肉厚”チキンムネかつ ",
-    610,
-    {
-      "カロリー": "606kcal",
-      "たんぱく質": "42.7g",
-      "脂質": "36g",
-      "炭水化物": "30.4g",
-      "食塩相当量": "1.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_atsu_mune_hp_250402.html"
   ],
   [
     "単品チキンかつ",
@@ -1174,18 +1162,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "0.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/side_potatofry_hp_240809.html"
-  ],
-  [
-    "単品ガーリックバターソース  ",
-    150,
-    {
-      "カロリー": "52kcal",
-      "たんぱく質": "0.4g",
-      "脂質": "4.3g",
-      "炭水化物": "2.8g",
-      "食塩相当量": "1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_sauce_garibata_hp_250402.html"
   ],
   [
     "タルタルソース",
