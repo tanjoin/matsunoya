@@ -168,30 +168,6 @@ const MATSUNOYA_MORNING_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_kobachi_yakko_hp_240809.html"
   ],
   [
-    "得朝黒カレー 並盛",
-    450,
-    {
-      "カロリー": "528kcal",
-      "たんぱく質": "12.6g",
-      "脂質": "10.5g",
-      "炭水化物": "98.7g",
-      "食塩相当量": "3.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_cry_black_hp_250423.html"
-  ],
-  [
-    "得朝黒カレー 大盛",
-    600,
-    {
-      "カロリー": "723kcal",
-      "たんぱく質": "16.6g",
-      "脂質": "13g",
-      "炭水化物": "139.3g",
-      "食塩相当量": "4.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_cry_black_hp_250423.html"
-  ],
-  [
     "玉子丼 並盛",
     300,
     {
