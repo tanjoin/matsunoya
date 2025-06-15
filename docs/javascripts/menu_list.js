@@ -960,6 +960,90 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_miso_hp_250221.html"
   ],
   [
+    "創業ビーフカレー",
+    780,
+    {
+      "カロリー": "737kcal",
+      "たんぱく質": "17.1g",
+      "脂質": "26g",
+      "炭水化物": "109.5g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_sougyou_hp_250610.html"
+  ],
+  [
+    "創業ビーフロースかつカレー",
+    1000,
+    {
+      "カロリー": "1179kcal",
+      "たんぱく質": "35.9g",
+      "脂質": "56.4g",
+      "炭水化物": "133.4g",
+      "食塩相当量": "5.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_rosu_sougyou_hp_250610.html"
+  ],
+  [
+    "創業ビーフ雪国ロースかつカレー",
+    1200,
+    {
+      "カロリー": "1347kcal",
+      "たんぱく質": "44.3g",
+      "脂質": "69.6g",
+      "炭水化物": "137.4g",
+      "食塩相当量": "6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_yukiguni_rosu_sougyo_hp_250610.html"
+  ],
+  [
+    "創業ビーフヒレかつカレー",
+    1200,
+    {
+      "カロリー": "1146kcal",
+      "たんぱく質": "43.2g",
+      "脂質": "48g",
+      "炭水化物": "137.4g",
+      "食塩相当量": "6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_hire_sougyo_hp_250610.html"
+  ],
+  [
+    "創業ビーフ海鮮カレー",
+    1200,
+    {
+      "カロリー": "1435kcal",
+      "たんぱく質": "44.2g",
+      "脂質": "73.6g",
+      "炭水化物": "150.9g",
+      "食塩相当量": "7.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_seafood_sougyou_hp_250610.html"
+  ],
+  [
+    "チーズ創業ビーフカレー",
+    980,
+    {
+      "カロリー": "928kcal",
+      "たんぱく質": "28.1g",
+      "脂質": "41.8g",
+      "炭水化物": "110.3g",
+      "食塩相当量": "5.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/cry_cheese_sougyou_hp_250610.html"
+  ],
+  [
+    "単品創業ビーフカレーソース",
+    660,
+    {
+      "カロリー": "360kcal",
+      "たんぱく質": "10g",
+      "脂質": "24.7g",
+      "炭水化物": "22.6g",
+      "食塩相当量": "2.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/side_sougyou_hp_250610.html"
+  ],
+  [
     "お子様プレート",
     500,
     {
@@ -1174,6 +1258,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_tonjiru_hp_240809.html"
+  ],
+  [
+    "単品創業ビーフカレーソース",
+    660,
+    {
+      "カロリー": "360kcal",
+      "たんぱく質": "10g",
+      "脂質": "24.7g",
+      "炭水化物": "22.6g",
+      "食塩相当量": "2.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/curry_rice/side_sougyou_hp_250610.html"
   ],
   [
     "タルタルソース",
