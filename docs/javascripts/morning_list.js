@@ -1,17 +1,5 @@
 const MATSUNOYA_MORNING_LIST = [
   [
-    "得朝チキンかつ定食(小鉢無し)",
-    590,
-    {
-      "カロリー": "912kcal",
-      "たんぱく質": "30.9g",
-      "脂質": "37.9g",
-      "炭水化物": "116.7g",
-      "食塩相当量": "2.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_chicken_kobatinasi_hp_250221.html"
-  ],
-  [
     "得朝ささみかつ＆コロッケ定食(小鉢無し)",
     510,
     {
@@ -58,18 +46,6 @@ const MATSUNOYA_MORNING_LIST = [
       "食塩相当量": "2.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_soseji_egg_kobatinasi_hp_250221.html"
-  ],
-  [
-    "得朝チキンかつ定食",
-    630,
-    {
-      "カロリー": "912kcal",
-      "たんぱく質": "30.9g",
-      "脂質": "37.9g",
-      "炭水化物": "116.7g",
-      "食塩相当量": "2.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_chicken_hp_250221.html"
   ],
   [
     "得朝ささみかつ＆コロッケ定食",
@@ -142,6 +118,18 @@ const MATSUNOYA_MORNING_LIST = [
       "食塩相当量": "0.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_kobachi_koro_hp_240809.html"
+  ],
+  [
+    "お新香＜選べる小鉢＞",
+    null,
+    {
+      "カロリー": "17kcal",
+      "たんぱく質": "0.2g",
+      "脂質": "0g",
+      "炭水化物": "3.8g",
+      "食塩相当量": "0.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_kobachi_oshinko_hp_250619.html"
   ],
   [
     "納豆＜選べる小鉢＞",

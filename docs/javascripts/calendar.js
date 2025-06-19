@@ -22,13 +22,13 @@ window.onload = () => {
 
 class Controller {
     constructor() {
-        this.menuList = MATSUNOYA_MENU_LIST
+        this.menuList = MATSUNOYA_MENU_LIST.concat(MATSUNOYA_MORNING_LIST)
             .map((menu) => new Calendar(menu))
             .reverse();
     }
 
     reset() {
-        this.menuList = MATSUNOYA_MENU_LIST
+        this.menuList = MATSUNOYA_MENU_LIST.concat(MATSUNOYA_MORNING_LIST)
             .map((menu) => new Calendar(menu))
             .reverse();
     }
@@ -164,7 +164,7 @@ class Calendar {
                     + `${encodeURIComponent("\n脂質 " + this.nutritionFacts.脂質)}`
                     + `${encodeURIComponent("\n炭水化物 " + this.nutritionFacts.炭水化物)}`
                     + `${encodeURIComponent("\n食塩相当量 " + this.nutritionFacts.食塩相当量)}`
-                    + `${encodeURIComponent("\n税込" + this.price + "円\n")}`;
+                    + `${this.price ? encodeURIComponent("\n税込" + this.price + "円\n") : ""}`;
         let location = `${encodeURIComponent(this.link)}}`;
         let dateString = Utils.toISOLocaleString(new Date()).replace(/-|:|\.\d\d\d/g,"");
         let dates = `${dateString}/${dateString}}`;
@@ -175,7 +175,7 @@ class Calendar {
                 <h3 class="card-title fw-bolder">
                     <a href="${this.link}" target="_blank" class="text-decoration-none text-dark">${this.name}</a>
                 </h3>
-                <p class="card-subtitle text-secondary mt-auto ms-auto text-end">${this.price}円</p>
+                <p class="card-subtitle text-secondary mt-auto ms-auto text-end">${this.price ? this.price + "円" : ""}</p>
                 <p class="card-text ms-auto text-end">
                   <span class="fw-bolder fs-5">${this.nutritionFacts.カロリー}</span><br>
                   たんぱく質 ${this.nutritionFacts.たんぱく質}<br>
