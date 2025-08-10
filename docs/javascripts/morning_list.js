@@ -37,7 +37,7 @@ const MATSUNOYA_MORNING_LIST = [
   ],
   [
     "得朝ソーセージエッグ定食(小鉢無し)",
-    450,
+    490,
     {
       "カロリー": "675kcal",
       "たんぱく質": "23.5g",
@@ -45,7 +45,7 @@ const MATSUNOYA_MORNING_LIST = [
       "炭水化物": "94g",
       "食塩相当量": "2.7g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_soseji_egg_kobatinasi_hp_250221.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_soseji_egg_kobatinasi_hp_250808.html"
   ],
   [
     "得朝ささみかつ＆コロッケ定食",
@@ -85,7 +85,7 @@ const MATSUNOYA_MORNING_LIST = [
   ],
   [
     "得朝ソーセージエッグ定食",
-    490,
+    530,
     {
       "カロリー": "675kcal",
       "たんぱく質": "23.5g",
@@ -93,11 +93,11 @@ const MATSUNOYA_MORNING_LIST = [
       "炭水化物": "94g",
       "食塩相当量": "2.7g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_soseji_egg_hp_250221.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_soseji_egg_hp_250808.html"
   ],
   [
     "玉子かけごはん定食",
-    350,
+    380,
     {
       "カロリー": "444kcal",
       "たんぱく質": "13.1g",
@@ -105,7 +105,7 @@ const MATSUNOYA_MORNING_LIST = [
       "炭水化物": "85.9g",
       "食塩相当量": "1.8g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_tamago_gohan_hp_250221.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_tamago_gohan_hp_250808.html"
   ],
   [
     "コロッケ＜選べる小鉢＞",
@@ -157,7 +157,7 @@ const MATSUNOYA_MORNING_LIST = [
   ],
   [
     "玉子丼 並盛",
-    300,
+    330,
     {
       "カロリー": "572kcal",
       "たんぱく質": "21.1g",
@@ -165,11 +165,11 @@ const MATSUNOYA_MORNING_LIST = [
       "炭水化物": "96.9g",
       "食塩相当量": "4.6g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_tamagodon_hp_250221.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_tamagodon_hp_250808.html"
   ],
   [
     "玉子丼 大盛",
-    380,
+    410,
     {
       "カロリー": "750kcal",
       "たんぱく質": "24.7g",
@@ -177,6 +177,6 @@ const MATSUNOYA_MORNING_LIST = [
       "炭水化物": "138g",
       "食塩相当量": "6g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_tamagodon_hp_250221.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_tamagodon_hp_250808.html"
   ]
 ];
