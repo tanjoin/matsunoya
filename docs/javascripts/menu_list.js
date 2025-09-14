@@ -1,5 +1,29 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "ローストポーク丼 並盛",
+    930,
+    {
+      "カロリー": "804kcal",
+      "たんぱく質": "27.6g",
+      "脂質": "38.5g",
+      "炭水化物": "88.7g",
+      "食塩相当量": "3.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_roast_pork_hp_250910.html"
+  ],
+  [
+    "ローストポーク丼 大盛",
+    930,
+    {
+      "カロリー": "991kcal",
+      "たんぱく質": "30.6g",
+      "脂質": "38.9g",
+      "炭水化物": "133.2g",
+      "食塩相当量": "3.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_roast_pork_hp_250910.html"
+  ],
+  [
     "粒マスタードマヨチキンむねかつ定食",
     890,
     {
@@ -166,30 +190,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4.2g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_tmt_hayashi_rosu_hp_250813.html"
-  ],
-  [
-    "サーモンいくら丼  並盛",
-    1090,
-    {
-      "カロリー": "759kcal",
-      "たんぱく質": "27.8g",
-      "脂質": "31.1g",
-      "炭水化物": "93.4g",
-      "食塩相当量": "4.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_salmon_ikura_hp_250806.html"
-  ],
-  [
-    "サーモンいくら丼  大盛",
-    1170,
-    {
-      "カロリー": "946kcal",
-      "たんぱく質": "30.8g",
-      "脂質": "31.5g",
-      "炭水化物": "138g",
-      "食塩相当量": "4.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_salmon_ikura_hp_250806.html"
   ],
   [
     "海鮮盛合せ定食（イカ・サーモンフライ・海老）",
@@ -708,6 +708,30 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_ebi2_hp_250808.html"
   ],
   [
+    "ローストポーク丼 並盛",
+    930,
+    {
+      "カロリー": "804kcal",
+      "たんぱく質": "27.6g",
+      "脂質": "38.5g",
+      "炭水化物": "88.7g",
+      "食塩相当量": "3.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_roast_pork_hp_250910.html"
+  ],
+  [
+    "ローストポーク丼 大盛",
+    930,
+    {
+      "カロリー": "991kcal",
+      "たんぱく質": "30.6g",
+      "脂質": "38.9g",
+      "炭水化物": "133.2g",
+      "食塩相当量": "3.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_roast_pork_hp_250910.html"
+  ],
+  [
     "チキンむねかつ丼 並盛",
     830,
     {
@@ -730,30 +754,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7.2g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_munekatsu_hp_250903.html"
-  ],
-  [
-    "サーモンいくら丼  並盛",
-    1090,
-    {
-      "カロリー": "759kcal",
-      "たんぱく質": "27.8g",
-      "脂質": "31.1g",
-      "炭水化物": "93.4g",
-      "食塩相当量": "4.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_salmon_ikura_hp_250806.html"
-  ],
-  [
-    "サーモンいくら丼  大盛",
-    1170,
-    {
-      "カロリー": "946kcal",
-      "たんぱく質": "30.8g",
-      "脂質": "31.5g",
-      "炭水化物": "138g",
-      "食塩相当量": "4.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_salmon_ikura_hp_250806.html"
   ],
   [
     "親子チキンかつ丼 並盛",
