@@ -1,5 +1,29 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "紅生姜タルタルチキンかつ定食",
+    890,
+    {
+      "カロリー": "1092kcal",
+      "たんぱく質": "33g",
+      "脂質": "55g",
+      "炭水化物": "122g",
+      "食塩相当量": "5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_taru_red_hp_250917.html"
+  ],
+  [
+    "バジルタルタルチキンかつ定食",
+    890,
+    {
+      "カロリー": "1098kcal",
+      "たんぱく質": "33g",
+      "脂質": "55g",
+      "炭水化物": "122g",
+      "食塩相当量": "5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_taru_basio_hp_250917.html"
+  ],
+  [
     "ローストポーク丼 並盛",
     930,
     {
@@ -226,6 +250,30 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_salmon_rosu_hp_250808.html"
+  ],
+  [
+    "紅生姜タルタルチキンかつ定食",
+    890,
+    {
+      "カロリー": "1092kcal",
+      "たんぱく質": "33g",
+      "脂質": "55g",
+      "炭水化物": "122g",
+      "食塩相当量": "5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_taru_red_hp_250917.html"
+  ],
+  [
+    "バジルタルタルチキンかつ定食",
+    890,
+    {
+      "カロリー": "1098kcal",
+      "たんぱく質": "33g",
+      "脂質": "55g",
+      "炭水化物": "122g",
+      "食塩相当量": "5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_taru_basio_hp_250917.html"
   ],
   [
     "粒マスタードマヨチキンむねかつ定食",
@@ -1018,6 +1066,30 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_tonjiru_hp_240809.html"
+  ],
+  [
+    "単品紅生姜タルタル",
+    150,
+    {
+      "カロリー": "203kcal",
+      "たんぱく質": "1.8g",
+      "脂質": "19.8g",
+      "炭水化物": "4.9g",
+      "食塩相当量": "1.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_taru_red_hp_250917.html"
+  ],
+  [
+    "単品バジルタルタル",
+    150,
+    {
+      "カロリー": "209kcal",
+      "たんぱく質": "1.8g",
+      "脂質": "20.3g",
+      "炭水化物": "4.9g",
+      "食塩相当量": "1.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_taru_basi_hp_250917.html"
   ],
   [
     "単品粒マスタードマヨソース",
