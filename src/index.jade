@@ -23,37 +23,50 @@ block body
         #result
           | ↓　「ガチャを回す」ボタンを押してください
     #gacha.sticky-bottom.mb-5
-      .row.justify-content-center.row-cols-auto
-        .col
-          .form-check.form-switch
-            input(type="checkbox")#set-menu.form-check-input
-            label(for="set-menu").form-check-label 定食のみ
-      .row.justify-content-center.row-cols-auto
-        .col
-          .form-check.form-switch
-            input(type="checkbox")#low-calorie.form-check-input
-            label(for="low-calorie").form-check-label 1500kcal 以下に抑える
-      .row.justify-content-center.row-cols-auto
-        .col
-          .form-check.form-switch
-            input(type="checkbox")#should-price.form-check-input
-            label(for="low-calorie").form-check-label 金額を厳密にする
-      .row.justify-content-center.row-cols-auto 
-        .col 
-          label(for="price-range").form-label
-          input(type="range", min="0", max="2000", step="100", value="1000", oninput="document.getElementById('price-value').textContent = this.value").form-range#price-range
-        .col
-            span#price-value 
-              | 1000
-            span
-              | 円
+      #options
+        .row.justify-content-center.row-cols-auto
+          .col 
+            span 対象を絞る
+        .row.justify-content-center.row-cols-auto
+          .col#set-menu-col
+            .form-check.form-switch
+              input(type="checkbox")#set-menu.form-check-input
+              label(for="set-menu").form-check-label 定食
+          .col#bowl-menu-col
+            .form-check.form-switch
+              input(type="checkbox")#bowl-menu.form-check-input
+              label(for="bowl-menu").form-check-label 丼
+          .col#curry-menu-col
+            .form-check.form-switch
+              input(type="checkbox")#curry-menu.form-check-input
+              label(for="curry-menu").form-check-label カレー
+        .row.justify-content-center.row-cols-auto
+          .col
+            .form-check.form-switch
+              input(type="checkbox")#low-calorie.form-check-input
+              label(for="low-calorie").form-check-label 1500kcal 以下に抑える
+        .row.justify-content-center.row-cols-auto
+          .col
+            .form-check.form-switch
+              input(type="checkbox")#should-price.form-check-input
+              label(for="low-calorie").form-check-label 金額を厳密にする
+        .row.justify-content-center.row-cols-auto 
+          .col 
+            label(for="price-range").form-label
+            input(type="range", min="0", max="2000", step="100", value="1000", oninput="document.getElementById('price-value').textContent = this.value").form-range#price-range
+          .col
+              span#price-value 
+                | 1000
+              span
+                | 円
       .row.justify-content-center.row-cols-auto.mt-2
         .col
           button(onclick='show()').btn.btn-primary ガチャを回す
       .row.justify-content-center.row-cols-auto.mt-2
         .col
-          a(href='https://www.matsuyafoods.co.jp/matsunoya/menu/') メニュー
-          はこちら (※朝メニューは除く)
+          span 
+            a(href='https://www.matsuyafoods.co.jp/matsunoya/menu/') メニュー
+          span はこちら (※朝メニューは除く)
   script(src='./javascripts/menu_list.js', charset='UTF-8')
   script(src='./javascripts/morning_list.js', charset='UTF-8')
   script(src='./javascripts/index.js', charset='UTF-8')

@@ -3,9 +3,11 @@ const show = () => {
     let lowCalorie = document.getElementById('low-calorie');
     let sholdPrice = document.getElementById('should-price');
     let setMenu = document.getElementById("set-menu");
+    let bowlMenu = document.getElementById("bowl-menu");
+    let curryMenu = document.getElementById("curry-menu");
     result.textContent = "処理中";
     let price = document.getElementById('price-range').value;
-    let answer = selectMenu(MATSUNOYA_MENU_LIST, price, lowCalorie.checked, sholdPrice.checked, setMenu.checked);
+    let answer = selectMenu(MATSUNOYA_MENU_LIST, price, lowCalorie.checked, sholdPrice.checked, setMenu.checked, bowlMenu.checked, curryMenu.checked);
     result.textContent = '';
     result.insertAdjacentHTML('afterbegin', decorateHtmlString(answer));
     twttr.widgets.load();
@@ -70,7 +72,7 @@ const decorateHtmlString = (answer) => {
     `;
 }
 
-const selectMenu = (items, limit, isU1500kcal, isStrict, isSetMenu) => {
+const selectMenu = (items, limit, isU1500kcal, isStrict, isSetMenu, isBowlMenu, isCurryMenu) => {
     const CALORIE_LIMIT = 1500;
     let sum = 0;
     let selected = [];
@@ -82,16 +84,27 @@ const selectMenu = (items, limit, isU1500kcal, isStrict, isSetMenu) => {
         });
     }
 
-    if (isSetMenu) {
-        items = items.filter((item) => {
-            return item[0].includes("定食");
-        });
-    }
+    items = items.filter((item) => {
+        if (!isSetMenu && !isBowlMenu && !isCurryMenu) {
+            return true;
+        }
+        if (isSetMenu && item[0].includes("定食")) {
+            return true;
+        }
+        if (isBowlMenu && item[0].includes("丼")) {
+            return true;
+        }
+        if (isCurryMenu && item[0].includes("カレー")) {
+            return true;
+        }
+        return false;
+    });
 
     while (items.length !== 0) {
         let selected_index = Math.floor(Math.random() * items.length);
         let selected_item = items[selected_index];
         if (isStrict && selected_item[1] > limit) {
+            items = items.filter((item, index) => index !== selected_index);
             continue;
         }
         sum = sum + selected_item[1];
@@ -114,3 +127,21 @@ const selectMenu = (items, limit, isU1500kcal, isStrict, isSetMenu) => {
     }
     return [selected, sum, [calorie, tanpaku, shi, tansui, salt]];
 }
+
+/**
+ * メニューの表示制御を行うクラス
+ * 
+ * メニューリストに定食、丼、カレーが含まれているかどうかで
+ * それぞれのチェックボックスの表示・非表示を切り替える
+ */
+class MenuVisibilityController {
+    load() {
+        MATSUNOYA_MENU_LIST.filter((menu) => menu[0].includes("定食")).length > 0 ? document.getElementById("set-menu-col").style.display = "block" : document.getElementById("set-menu-col").style.display = "none";
+        MATSUNOYA_MENU_LIST.filter((menu) => menu[0].includes("丼")).length > 0 ? document.getElementById("bowl-menu-col").style.display = "block" : document.getElementById("bowl-menu-col").style.display = "none";
+        MATSUNOYA_MENU_LIST.filter((menu) => menu[0].includes("カレー")).length > 0 ? document.getElementById("curry-menu-col").style.display = "block" : document.getElementById("curry-menu-col").style.display = "none";
+    }
+};
+
+document.addEventListener('DOMContentLoaded', function() {
+    new MenuVisibilityController().load();
+});
