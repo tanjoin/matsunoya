@@ -2,9 +2,10 @@ const show = () => {
     let result = document.getElementById('result');
     let lowCalorie = document.getElementById('low-calorie');
     let sholdPrice = document.getElementById('should-price');
+    let setMenu = document.getElementById("set-menu");
     result.textContent = "処理中";
     let price = document.getElementById('price-range').value;
-    let answer = selectMenu(MATSUNOYA_MENU_LIST, price, lowCalorie.checked, sholdPrice.checked);
+    let answer = selectMenu(MATSUNOYA_MENU_LIST, price, lowCalorie.checked, sholdPrice.checked, setMenu.checked);
     result.textContent = '';
     result.insertAdjacentHTML('afterbegin', decorateHtmlString(answer));
     twttr.widgets.load();
@@ -69,7 +70,7 @@ const decorateHtmlString = (answer) => {
     `;
 }
 
-const selectMenu = (items, limit, isU1500kcal, isStrict) => {
+const selectMenu = (items, limit, isU1500kcal, isStrict, isSetMenu) => {
     const CALORIE_LIMIT = 1500;
     let sum = 0;
     let selected = [];
@@ -78,6 +79,12 @@ const selectMenu = (items, limit, isU1500kcal, isStrict) => {
     if (isU1500kcal) {
         items = items.filter((item) => {
             return parseInt(item[2]["カロリー"]) <= CALORIE_LIMIT;
+        });
+    }
+
+    if (isSetMenu) {
+        items = items.filter((item) => {
+            return item[0].includes("定食");
         });
     }
 
