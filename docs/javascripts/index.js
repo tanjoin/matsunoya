@@ -140,8 +140,11 @@ class MenuVisibilityController {
         MATSUNOYA_MENU_LIST.filter((menu) => menu[0].includes("丼")).length > 0 ? document.getElementById("bowl-menu-col").style.display = "block" : document.getElementById("bowl-menu-col").style.display = "none";
         MATSUNOYA_MENU_LIST.filter((menu) => menu[0].includes("カレー")).length > 0 ? document.getElementById("curry-menu-col").style.display = "block" : document.getElementById("curry-menu-col").style.display = "none";
     }
-};
 
-document.addEventListener('DOMContentLoaded', function() {
-    new MenuVisibilityController().load();
-});
+    main() {
+        document.addEventListener('DOMContentLoaded', () => {
+            this.load();
+        });
+    }
+};
+new MenuVisibilityController().main();
