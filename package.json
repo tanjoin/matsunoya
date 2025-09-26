@@ -1,6 +1,6 @@
 {
   "name": "matsunoya",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "main": "tools/matsunoya.js",
   "scripts": {
@@ -12,11 +12,11 @@
     "watch": "node tools/watch.js"
   },
   "dependencies": {
-    "express": "~4.16.1",
-    "puppeteer": "^24.10.2"
+    "express": "^5.1.0",
+    "puppeteer": "^24.22.3"
   },
   "devDependencies": {
     "jade": "^1.11.0",
-    "sass": "^1.66.1"
+    "sass": "^1.93.2"
   }
 }
