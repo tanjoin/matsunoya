@@ -1,5 +1,41 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "背脂生姜タレのポークフライドステーキ定食",
+    990,
+    {
+      "カロリー": "1218kcal",
+      "たんぱく質": "44.8g",
+      "脂質": "69.4g",
+      "炭水化物": "108.4g",
+      "食塩相当量": "6.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ginger_fpork_hp_251022.html"
+  ],
+  [
+    "背脂生姜タレのポークフライドステーキ＆ロースかつ定食",
+    990,
+    {
+      "カロリー": "1280kcal",
+      "たんぱく質": "45.3g",
+      "脂質": "69.5g",
+      "炭水化物": "123.2g",
+      "食塩相当量": "4.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_ginger_fpork_rosu_hp_251022.html"
+  ],
+  [
+    "背脂生姜タレのポークフライドステーキ＆本格唐揚げ定食",
+    990,
+    {
+      "カロリー": "1118kcal",
+      "たんぱく質": "43.4g",
+      "脂質": "56.2g",
+      "炭水化物": "115.1g",
+      "食塩相当量": "5.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_ginger_fpork_karaage_hp_251022.html"
+  ],
+  [
     "うまトマロースかつ定食",
     980,
     {
@@ -202,6 +238,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_salmon_rosu_hp_250808.html"
+  ],
+  [
+    "背脂生姜タレのポークフライドステーキ定食",
+    990,
+    {
+      "カロリー": "1218kcal",
+      "たんぱく質": "44.8g",
+      "脂質": "69.4g",
+      "炭水化物": "108.4g",
+      "食塩相当量": "6.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ginger_fpork_hp_251022.html"
   ],
   [
     "うまトマロースかつ定食",
@@ -478,6 +526,30 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_250221.html"
+  ],
+  [
+    "背脂生姜タレのポークフライドステーキ＆ロースかつ定食",
+    990,
+    {
+      "カロリー": "1280kcal",
+      "たんぱく質": "45.3g",
+      "脂質": "69.5g",
+      "炭水化物": "123.2g",
+      "食塩相当量": "4.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_ginger_fpork_rosu_hp_251022.html"
+  ],
+  [
+    "背脂生姜タレのポークフライドステーキ＆本格唐揚げ定食",
+    990,
+    {
+      "カロリー": "1118kcal",
+      "たんぱく質": "43.4g",
+      "脂質": "56.2g",
+      "炭水化物": "115.1g",
+      "食塩相当量": "5.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_ginger_fpork_karaage_hp_251022.html"
   ],
   [
     "ロースかつ＆うまトマメンチかつ定食",
