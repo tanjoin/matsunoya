@@ -1,5 +1,29 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "チキン南蛮（2枚）定食",
+    990,
+    {
+      "カロリー": "1333kcal",
+      "たんぱく質": "53.1g",
+      "脂質": "77.4g",
+      "炭水化物": "112.3g",
+      "食塩相当量": "6.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_nanban_hp_251029.html"
+  ],
+  [
+    "ロースかつ＆チキン南蛮（1枚）定食",
+    990,
+    {
+      "カロリー": "1301kcal",
+      "たんぱく質": "49.3g",
+      "脂質": "69.8g",
+      "炭水化物": "124.6g",
+      "食塩相当量": "5.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_nanban_rosu_hp_251029.html"
+  ],
+  [
     "背脂生姜タレのポークフライドステーキ定食",
     990,
     {
@@ -238,6 +262,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_salmon_rosu_hp_250808.html"
+  ],
+  [
+    "チキン南蛮（2枚）定食",
+    990,
+    {
+      "カロリー": "1333kcal",
+      "たんぱく質": "53.1g",
+      "脂質": "77.4g",
+      "炭水化物": "112.3g",
+      "食塩相当量": "6.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_nanban_hp_251029.html"
   ],
   [
     "背脂生姜タレのポークフライドステーキ定食",
@@ -526,6 +562,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_250221.html"
+  ],
+  [
+    "ロースかつ＆チキン南蛮（1枚）定食",
+    990,
+    {
+      "カロリー": "1301kcal",
+      "たんぱく質": "49.3g",
+      "脂質": "69.8g",
+      "炭水化物": "124.6g",
+      "食塩相当量": "5.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_nanban_rosu_hp_251029.html"
   ],
   [
     "背脂生姜タレのポークフライドステーキ＆ロースかつ定食",
@@ -946,6 +994,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "0～0.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
+  ],
+  [
+    "単品チキン南蛮（1枚）",
+    390,
+    {
+      "カロリー": "472kcal",
+      "たんぱく質": "22.6g",
+      "脂質": "38g",
+      "炭水化物": "11.2g",
+      "食塩相当量": "2.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_chicken_nanban_hp_251029.html"
   ],
   [
     "単品うまトマロースかつ",
