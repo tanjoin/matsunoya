@@ -1,5 +1,125 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "超厚切りロースかつ定食",
+    1030,
+    {
+      "カロリー": "1162kcal",
+      "たんぱく質": "43.4g",
+      "脂質": "57.3g",
+      "炭水化物": "117.2g",
+      "食塩相当量": "2.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_atsurosu_hp_251112.html"
+  ],
+  [
+    "超厚切り鬼おろしポン酢ロースかつ定食",
+    1130,
+    {
+      "カロリー": "1194kcal",
+      "たんぱく質": "44.8g",
+      "脂質": "57.4g",
+      "炭水化物": "123.7g",
+      "食塩相当量": "4.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_atsurosu_oni_hp_251112.html"
+  ],
+  [
+    "超厚切り味噌ロースかつ定食",
+    1130,
+    {
+      "カロリー": "1258kcal",
+      "たんぱく質": "45.9g",
+      "脂質": "59.8g",
+      "炭水化物": "131.6g",
+      "食塩相当量": "4.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_atsurosu_miso_hp_251112.html"
+  ],
+  [
+    "超厚切りロースかつ＆海老フライ（1尾）定食",
+    1290,
+    {
+      "カロリー": "1404kcal",
+      "たんぱく質": "49.4g",
+      "脂質": "77.2g",
+      "炭水化物": "126.9g",
+      "食塩相当量": "3.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurosu_ebi1_hp_251112.html"
+  ],
+  [
+    "超厚切りロースかつ＆海老フライ（2尾）定食",
+    1570,
+    {
+      "カロリー": "1580kcal",
+      "たんぱく質": "54.8g",
+      "脂質": "91.1g",
+      "炭水化物": "134.2g",
+      "食塩相当量": "4.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurosu_ebi2_hp_251112.html"
+  ],
+  [
+    "超厚切りロースかつ＆有頭大海老フライ（1尾）定食",
+    1490,
+    {
+      "カロリー": "1481kcal",
+      "たんぱく質": "53.9g",
+      "脂質": "82g",
+      "炭水化物": "131.2g",
+      "食塩相当量": "4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurosu_ooebi1_hp_251112.html"
+  ],
+  [
+    "超厚切りロースかつ＆有頭大海老フライ（2尾）定食",
+    1970,
+    {
+      "カロリー": "1735kcal",
+      "たんぱく質": "63.7g",
+      "脂質": "100.6g",
+      "炭水化物": "142.9g",
+      "食塩相当量": "4.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurosu_ooebi2_hp_251112.html"
+  ],
+  [
+    "超厚切りロースかつ＆唐揚げ定食",
+    1290,
+    {
+      "カロリー": "1443kcal",
+      "たんぱく質": "60.5g",
+      "脂質": "74.3g",
+      "炭水化物": "133g",
+      "食塩相当量": "4.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurosu_karaage_hp_251112.html"
+  ],
+  [
+    "超厚切りロースかつ＆カキフライ（2個）定食",
+    1290,
+    {
+      "カロリー": "1404kcal",
+      "たんぱく質": "47.4g",
+      "脂質": "76.2g",
+      "炭水化物": "131.4g",
+      "食塩相当量": "4.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurosu_kaki2_hp_251112.html"
+  ],
+  [
+    "超厚切りロースかつ＆アジフライ（1枚）定食",
+    1290,
+    {
+      "カロリー": "1464kcal",
+      "たんぱく質": "54.5g",
+      "脂質": "79g",
+      "炭水化物": "133.5g",
+      "食塩相当量": "4.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurosu_aji_hp_251112.html"
+  ],
+  [
     "コチュマヨ唐揚げ定食（5個）",
     930,
     {
@@ -58,42 +178,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "5.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_nanban_rosu_hp_251029.html"
-  ],
-  [
-    "背脂生姜タレのポークフライドステーキ定食",
-    990,
-    {
-      "カロリー": "1218kcal",
-      "たんぱく質": "44.8g",
-      "脂質": "69.4g",
-      "炭水化物": "108.4g",
-      "食塩相当量": "6.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ginger_fpork_hp_251022.html"
-  ],
-  [
-    "背脂生姜タレのポークフライドステーキ＆ロースかつ定食",
-    990,
-    {
-      "カロリー": "1280kcal",
-      "たんぱく質": "45.3g",
-      "脂質": "69.5g",
-      "炭水化物": "123.2g",
-      "食塩相当量": "4.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_ginger_fpork_rosu_hp_251022.html"
-  ],
-  [
-    "背脂生姜タレのポークフライドステーキ＆本格唐揚げ定食",
-    990,
-    {
-      "カロリー": "1118kcal",
-      "たんぱく質": "43.4g",
-      "脂質": "56.2g",
-      "炭水化物": "115.1g",
-      "食塩相当量": "5.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_ginger_fpork_karaage_hp_251022.html"
   ],
   [
     "うまトマロースかつ定食",
@@ -252,6 +336,42 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_salmon_rosu_hp_250808.html"
   ],
   [
+    "超厚切りロースかつ定食",
+    1030,
+    {
+      "カロリー": "1162kcal",
+      "たんぱく質": "43.4g",
+      "脂質": "57.3g",
+      "炭水化物": "117.2g",
+      "食塩相当量": "2.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_atsurosu_hp_251112.html"
+  ],
+  [
+    "超厚切り鬼おろしポン酢ロースかつ定食",
+    1130,
+    {
+      "カロリー": "1194kcal",
+      "たんぱく質": "44.8g",
+      "脂質": "57.4g",
+      "炭水化物": "123.7g",
+      "食塩相当量": "4.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_atsurosu_oni_hp_251112.html"
+  ],
+  [
+    "超厚切り味噌ロースかつ定食",
+    1130,
+    {
+      "カロリー": "1258kcal",
+      "たんぱく質": "45.9g",
+      "脂質": "59.8g",
+      "炭水化物": "131.6g",
+      "食塩相当量": "4.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_atsurosu_miso_hp_251112.html"
+  ],
+  [
     "コチュマヨ唐揚げ定食（5個）",
     930,
     {
@@ -286,18 +406,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "6.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_nanban_hp_251029.html"
-  ],
-  [
-    "背脂生姜タレのポークフライドステーキ定食",
-    990,
-    {
-      "カロリー": "1218kcal",
-      "たんぱく質": "44.8g",
-      "脂質": "69.4g",
-      "炭水化物": "108.4g",
-      "食塩相当量": "6.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ginger_fpork_hp_251022.html"
   ],
   [
     "うまトマロースかつ定食",
@@ -552,6 +660,90 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_250221.html"
   ],
   [
+    "超厚切りロースかつ＆海老フライ（1尾）定食",
+    1290,
+    {
+      "カロリー": "1404kcal",
+      "たんぱく質": "49.4g",
+      "脂質": "77.2g",
+      "炭水化物": "126.9g",
+      "食塩相当量": "3.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurosu_ebi1_hp_251112.html"
+  ],
+  [
+    "超厚切りロースかつ＆海老フライ（2尾）定食",
+    1570,
+    {
+      "カロリー": "1580kcal",
+      "たんぱく質": "54.8g",
+      "脂質": "91.1g",
+      "炭水化物": "134.2g",
+      "食塩相当量": "4.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurosu_ebi2_hp_251112.html"
+  ],
+  [
+    "超厚切りロースかつ＆有頭大海老フライ（1尾）定食",
+    1490,
+    {
+      "カロリー": "1481kcal",
+      "たんぱく質": "53.9g",
+      "脂質": "82g",
+      "炭水化物": "131.2g",
+      "食塩相当量": "4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurosu_ooebi1_hp_251112.html"
+  ],
+  [
+    "超厚切りロースかつ＆有頭大海老フライ（2尾）定食",
+    1970,
+    {
+      "カロリー": "1735kcal",
+      "たんぱく質": "63.7g",
+      "脂質": "100.6g",
+      "炭水化物": "142.9g",
+      "食塩相当量": "4.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurosu_ooebi2_hp_251112.html"
+  ],
+  [
+    "超厚切りロースかつ＆唐揚げ定食",
+    1290,
+    {
+      "カロリー": "1443kcal",
+      "たんぱく質": "60.5g",
+      "脂質": "74.3g",
+      "炭水化物": "133g",
+      "食塩相当量": "4.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurosu_karaage_hp_251112.html"
+  ],
+  [
+    "超厚切りロースかつ＆カキフライ（2個）定食",
+    1290,
+    {
+      "カロリー": "1404kcal",
+      "たんぱく質": "47.4g",
+      "脂質": "76.2g",
+      "炭水化物": "131.4g",
+      "食塩相当量": "4.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurosu_kaki2_hp_251112.html"
+  ],
+  [
+    "超厚切りロースかつ＆アジフライ（1枚）定食",
+    1290,
+    {
+      "カロリー": "1464kcal",
+      "たんぱく質": "54.5g",
+      "脂質": "79g",
+      "炭水化物": "133.5g",
+      "食塩相当量": "4.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurosu_aji_hp_251112.html"
+  ],
+  [
     "ロースかつ＆コチュマヨ唐揚げ定食 ",
     1050,
     {
@@ -574,30 +766,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "5.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_nanban_rosu_hp_251029.html"
-  ],
-  [
-    "背脂生姜タレのポークフライドステーキ＆ロースかつ定食",
-    990,
-    {
-      "カロリー": "1280kcal",
-      "たんぱく質": "45.3g",
-      "脂質": "69.5g",
-      "炭水化物": "123.2g",
-      "食塩相当量": "4.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_ginger_fpork_rosu_hp_251022.html"
-  ],
-  [
-    "背脂生姜タレのポークフライドステーキ＆本格唐揚げ定食",
-    990,
-    {
-      "カロリー": "1118kcal",
-      "たんぱく質": "43.4g",
-      "脂質": "56.2g",
-      "炭水化物": "115.1g",
-      "食塩相当量": "5.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_ginger_fpork_karaage_hp_251022.html"
   ],
   [
     "ロースかつ＆うまトマメンチかつ定食",
@@ -946,6 +1114,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "0～0.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
+  ],
+  [
+    "単品超厚切りロースかつ",
+    730,
+    {
+      "カロリー": "775kcal",
+      "たんぱく質": "35.5g",
+      "脂質": "55.8g",
+      "炭水化物": "27.7g",
+      "食塩相当量": "1.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_atsurosu_hp_250813.html"
   ],
   [
     "単品チキン南蛮（1枚）",
