@@ -1,5 +1,29 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "にんにく醤油の“揚げる”豚テキ定食",
+    1050,
+    {
+      "カロリー": "1141kcal",
+      "たんぱく質": "45.3g",
+      "脂質": "51.1g",
+      "炭水化物": "123.1g",
+      "食塩相当量": "7.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_pork_fried_steak_hp_251119.html"
+  ],
+  [
+    "にんにく醤油の“揚げる”鶏テキ定食",
+    1050,
+    {
+      "カロリー": "1116kcal",
+      "たんぱく質": "52.6g",
+      "脂質": "48.5g",
+      "炭水化物": "122.7g",
+      "食塩相当量": "7.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_fried_steak_hp_251119.html"
+  ],
+  [
     "超厚切りロースかつ定食",
     1030,
     {
@@ -154,30 +178,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "5.2g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_km_karaage_hp_251105.html"
-  ],
-  [
-    "チキン南蛮（2枚）定食",
-    990,
-    {
-      "カロリー": "1333kcal",
-      "たんぱく質": "53.1g",
-      "脂質": "77.4g",
-      "炭水化物": "112.3g",
-      "食塩相当量": "6.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_nanban_hp_251029.html"
-  ],
-  [
-    "ロースかつ＆チキン南蛮（1枚）定食",
-    990,
-    {
-      "カロリー": "1301kcal",
-      "たんぱく質": "49.3g",
-      "脂質": "69.8g",
-      "炭水化物": "124.6g",
-      "食塩相当量": "5.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_nanban_rosu_hp_251029.html"
   ],
   [
     "うまトマロースかつ定食",
@@ -336,6 +336,30 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_salmon_rosu_hp_250808.html"
   ],
   [
+    "にんにく醤油の“揚げる”豚テキ定食",
+    1050,
+    {
+      "カロリー": "1141kcal",
+      "たんぱく質": "45.3g",
+      "脂質": "51.1g",
+      "炭水化物": "123.1g",
+      "食塩相当量": "7.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_pork_fried_steak_hp_251119.html"
+  ],
+  [
+    "にんにく醤油の“揚げる”鶏テキ定食",
+    1050,
+    {
+      "カロリー": "1116kcal",
+      "たんぱく質": "52.6g",
+      "脂質": "48.5g",
+      "炭水化物": "122.7g",
+      "食塩相当量": "7.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_fried_steak_hp_251119.html"
+  ],
+  [
     "超厚切りロースかつ定食",
     1030,
     {
@@ -394,18 +418,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "8.2g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_km_karaage8_hp_251105.html"
-  ],
-  [
-    "チキン南蛮（2枚）定食",
-    990,
-    {
-      "カロリー": "1333kcal",
-      "たんぱく質": "53.1g",
-      "脂質": "77.4g",
-      "炭水化物": "112.3g",
-      "食塩相当量": "6.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_nanban_hp_251029.html"
   ],
   [
     "うまトマロースかつ定食",
@@ -756,18 +768,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_km_karaage_hp_251105.html"
   ],
   [
-    "ロースかつ＆チキン南蛮（1枚）定食",
-    990,
-    {
-      "カロリー": "1301kcal",
-      "たんぱく質": "49.3g",
-      "脂質": "69.8g",
-      "炭水化物": "124.6g",
-      "食塩相当量": "5.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chicken_nanban_rosu_hp_251029.html"
-  ],
-  [
     "ロースかつ＆うまトマメンチかつ定食",
     1030,
     {
@@ -1116,6 +1116,30 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
   ],
   [
+    "単品にんにく醤油の“揚げる”豚テキ",
+    830,
+    {
+      "カロリー": "693kcal",
+      "たんぱく質": "37.4g",
+      "脂質": "43.3g",
+      "炭水化物": "33.5g",
+      "食塩相当量": "5.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_pork_fried_steak_hp_251119.html"
+  ],
+  [
+    "単品にんにく醤油の“揚げる”鶏テキ",
+    830,
+    {
+      "カロリー": "668kcal",
+      "たんぱく質": "44.7g",
+      "脂質": "40.7g",
+      "炭水化物": "33.2g",
+      "食塩相当量": "6.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_chicken_fried_steak_hp_251119.html"
+  ],
+  [
     "単品超厚切りロースかつ",
     730,
     {
@@ -1126,18 +1150,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "1.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_atsurosu_hp_250813.html"
-  ],
-  [
-    "単品チキン南蛮（1枚）",
-    390,
-    {
-      "カロリー": "472kcal",
-      "たんぱく質": "22.6g",
-      "脂質": "38g",
-      "炭水化物": "11.2g",
-      "食塩相当量": "2.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_chicken_nanban_hp_251029.html"
   ],
   [
     "単品うまトマロースかつ",
