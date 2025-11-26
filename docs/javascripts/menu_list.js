@@ -144,102 +144,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurosu_aji_hp_251112.html"
   ],
   [
-    "コチュマヨ唐揚げ定食（5個）",
-    930,
-    {
-      "カロリー": "1138kcal",
-      "たんぱく質": "36.7g",
-      "脂質": "57.3g",
-      "炭水化物": "124.3g",
-      "食塩相当量": "5.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_km_karaage5_hp_251105.html"
-  ],
-  [
-    "コチュマヨ唐揚げ定食（8個）",
-    1200,
-    {
-      "カロリー": "1702kcal",
-      "たんぱく質": "54g",
-      "脂質": "101.8g",
-      "炭水化物": "148.4g",
-      "食塩相当量": "8.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_km_karaage8_hp_251105.html"
-  ],
-  [
-    "ロースかつ＆コチュマヨ唐揚げ定食 ",
-    1050,
-    {
-      "カロリー": "1393kcal",
-      "たんぱく質": "44.2g",
-      "脂質": "76.3g",
-      "炭水化物": "137.6g",
-      "食塩相当量": "5.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_km_karaage_hp_251105.html"
-  ],
-  [
-    "うまトマロースかつ定食",
-    980,
-    {
-      "カロリー": "1039kcal",
-      "たんぱく質": "35.3g",
-      "脂質": "44.5g",
-      "炭水化物": "126.9g",
-      "食塩相当量": "5.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_umatoma_rosu_hp_251008.html"
-  ],
-  [
-    "うまトマメンチかつ定食　",
-    1080,
-    {
-      "カロリー": "1218kcal",
-      "たんぱく質": "36.3g",
-      "脂質": "57.3g",
-      "炭水化物": "138.5g",
-      "食塩相当量": "7.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_umatoma_menchi_hp_251008.html"
-  ],
-  [
-    "デミメンチかつ定食",
-    1080,
-    {
-      "カロリー": "1320kcal",
-      "たんぱく質": "35.8g",
-      "脂質": "63.6g",
-      "炭水化物": "151.3g",
-      "食塩相当量": "8.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_demi_menchi_hp_251008.html"
-  ],
-  [
-    "ロースかつ＆うまトマメンチかつ定食",
-    1030,
-    {
-      "カロリー": "1186kcal",
-      "たんぱく質": "37.6g",
-      "脂質": "56g",
-      "炭水化物": "135.6g",
-      "食塩相当量": "4.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_umatoma_menchi_hp_251008.html"
-  ],
-  [
-    "ロースかつ＆デミメンチかつ定食",
-    1030,
-    {
-      "カロリー": "1220kcal",
-      "たんぱく質": "37.4g",
-      "脂質": "58.1g",
-      "炭水化物": "139.9g",
-      "食塩相当量": "5.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_demi_menchi_hp_251008.html"
-  ],
-  [
     "カキフライ（5個）定食",
     990,
     {
@@ -394,66 +298,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4.8g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_atsurosu_miso_hp_251112.html"
-  ],
-  [
-    "コチュマヨ唐揚げ定食（5個）",
-    930,
-    {
-      "カロリー": "1138kcal",
-      "たんぱく質": "36.7g",
-      "脂質": "57.3g",
-      "炭水化物": "124.3g",
-      "食塩相当量": "5.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_km_karaage5_hp_251105.html"
-  ],
-  [
-    "コチュマヨ唐揚げ定食（8個）",
-    1200,
-    {
-      "カロリー": "1702kcal",
-      "たんぱく質": "54g",
-      "脂質": "101.8g",
-      "炭水化物": "148.4g",
-      "食塩相当量": "8.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_km_karaage8_hp_251105.html"
-  ],
-  [
-    "うまトマロースかつ定食",
-    980,
-    {
-      "カロリー": "1039kcal",
-      "たんぱく質": "35.3g",
-      "脂質": "44.5g",
-      "炭水化物": "126.9g",
-      "食塩相当量": "5.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_umatoma_rosu_hp_251008.html"
-  ],
-  [
-    "うまトマメンチかつ定食　",
-    1080,
-    {
-      "カロリー": "1218kcal",
-      "たんぱく質": "36.3g",
-      "脂質": "57.3g",
-      "炭水化物": "138.5g",
-      "食塩相当量": "7.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_umatoma_menchi_hp_251008.html"
-  ],
-  [
-    "デミメンチかつ定食",
-    1080,
-    {
-      "カロリー": "1320kcal",
-      "たんぱく質": "35.8g",
-      "脂質": "63.6g",
-      "炭水化物": "151.3g",
-      "食塩相当量": "8.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_demi_menchi_hp_251008.html"
   ],
   [
     "カキフライ（5個）定食",
@@ -756,42 +600,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurosu_aji_hp_251112.html"
   ],
   [
-    "ロースかつ＆コチュマヨ唐揚げ定食 ",
-    1050,
-    {
-      "カロリー": "1393kcal",
-      "たんぱく質": "44.2g",
-      "脂質": "76.3g",
-      "炭水化物": "137.6g",
-      "食塩相当量": "5.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_km_karaage_hp_251105.html"
-  ],
-  [
-    "ロースかつ＆うまトマメンチかつ定食",
-    1030,
-    {
-      "カロリー": "1186kcal",
-      "たんぱく質": "37.6g",
-      "脂質": "56g",
-      "炭水化物": "135.6g",
-      "食塩相当量": "4.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_umatoma_menchi_hp_251008.html"
-  ],
-  [
-    "ロースかつ＆デミメンチかつ定食",
-    1030,
-    {
-      "カロリー": "1220kcal",
-      "たんぱく質": "37.4g",
-      "脂質": "58.1g",
-      "炭水化物": "139.9g",
-      "食塩相当量": "5.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_demi_menchi_hp_251008.html"
-  ],
-  [
     "ロースかつ＆カキフライ（2個）定食",
     990,
     {
@@ -1092,6 +900,18 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_miso_hp_250221.html"
   ],
   [
+    "お子様パンケーキプレート",
+    500,
+    {
+      "カロリー": "413kcal",
+      "たんぱく質": "4.2g",
+      "脂質": "8.5g",
+      "炭水化物": "79.5g",
+      "食塩相当量": "1.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/sumikko/okosama_pan_hp_251126.html"
+  ],
+  [
     "お子様プレート",
     500,
     {
@@ -1150,42 +970,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "1.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_atsurosu_hp_250813.html"
-  ],
-  [
-    "単品うまトマロースかつ",
-    780,
-    {
-      "カロリー": "652kcal",
-      "たんぱく質": "27.4g",
-      "脂質": "43g",
-      "炭水化物": "37.4g",
-      "食塩相当量": "3.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_umatoma_rosu_hp_251008.html"
-  ],
-  [
-    "単品うまトマメンチかつ",
-    880,
-    {
-      "カロリー": "830kcal",
-      "たんぱく質": "28.4g",
-      "脂質": "55.8g",
-      "炭水化物": "49g",
-      "食塩相当量": "5.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_umatoma_menchi_hp_251008.html"
-  ],
-  [
-    "単品デミメンチかつ",
-    880,
-    {
-      "カロリー": "933kcal",
-      "たんぱく質": "27.9g",
-      "脂質": "62.2g",
-      "炭水化物": "61.8g",
-      "食塩相当量": "6.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_demi_mench_hp_251008.html"
   ],
   [
     "単品カキフライ（2個）",
@@ -1366,18 +1150,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_tonjiru_hp_240809.html"
-  ],
-  [
-    "単品コチュマヨソース",
-    150,
-    {
-      "カロリー": "283kcal",
-      "たんぱく質": "0.4g",
-      "脂質": "27.4g",
-      "炭水化物": "8.3g",
-      "食塩相当量": "1.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_sauce_kochumayo_hp_251105.html"
   ],
   [
     "タルタルソース",

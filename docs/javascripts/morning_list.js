@@ -1,29 +1,5 @@
 const MATSUNOYA_MORNING_LIST = [
   [
-    "明太ごはん定食(小鉢無し)",
-    380,
-    {
-      "カロリー": "461kcal",
-      "たんぱく質": "15g",
-      "脂質": "6.5g",
-      "炭水化物": "87.2g",
-      "食塩相当量": "2.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_mentai_gohan_kobatinasi_hp_250924.html"
-  ],
-  [
-    "明太ごはん定食",
-    420,
-    {
-      "カロリー": "461kcal",
-      "たんぱく質": "15g",
-      "脂質": "6.5g",
-      "炭水化物": "87.2g",
-      "食塩相当量": "2.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_mentai_gohan_hp_250924.html"
-  ],
-  [
     "得朝チキンかつ定食(小鉢無し)",
     590,
     {
