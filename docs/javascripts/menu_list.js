@@ -1,5 +1,29 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "極厚“レア”ヒレかつ定食",
+    1390,
+    {
+      "カロリー": "863kcal",
+      "たんぱく質": "50.6g",
+      "脂質": "29.1g",
+      "炭水化物": "103.5g",
+      "食塩相当量": "6.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_rare_hire_hp_251210.html"
+  ],
+  [
+    "ロースかつ＆極厚“レア”ヒレかつ定食",
+    1590,
+    {
+      "カロリー": "1305kcal",
+      "たんぱく質": "69.5g",
+      "脂質": "59.4g",
+      "炭水化物": "127.4g",
+      "食塩相当量": "7.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_rare_hire_hp_251210.html"
+  ],
+  [
     "国産雪国育ち厚切りロースかつ定食",
     1090,
     {
@@ -238,6 +262,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_salmon_rosu_hp_250808.html"
+  ],
+  [
+    "極厚“レア”ヒレかつ定食",
+    1390,
+    {
+      "カロリー": "863kcal",
+      "たんぱく質": "50.6g",
+      "脂質": "29.1g",
+      "炭水化物": "103.5g",
+      "食塩相当量": "6.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_rare_hire_hp_251210.html"
   ],
   [
     "国産雪国育ち厚切りロースかつ定食",
@@ -514,6 +550,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_250221.html"
+  ],
+  [
+    "ロースかつ＆極厚“レア”ヒレかつ定食",
+    1590,
+    {
+      "カロリー": "1305kcal",
+      "たんぱく質": "69.5g",
+      "脂質": "59.4g",
+      "炭水化物": "127.4g",
+      "食塩相当量": "7.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_rare_hire_hp_251210.html"
   ],
   [
     "国産雪国育ち厚切りロースかつ＆海老フライ（1尾）定食",
@@ -958,6 +1006,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "0～0.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
+  ],
+  [
+    "単品極厚“レア”ヒレかつ",
+    1090,
+    {
+      "カロリー": "475kcal",
+      "たんぱく質": "42.7g",
+      "脂質": "27.6g",
+      "炭水化物": "14g",
+      "食塩相当量": "5.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_rare_hire_hp_251210.html"
   ],
   [
     "単品国産雪国育ち厚切りロースかつ",
