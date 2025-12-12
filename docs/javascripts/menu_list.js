@@ -24,6 +24,18 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_rare_hire_hp_251210.html"
   ],
   [
+    "国産雪国育ち厚切りロースかつ＆極厚“レア”ヒレかつ定食",
+    2090,
+    {
+      "カロリー": "1544kcal",
+      "たんぱく質": "82.3g",
+      "脂質": "78.9g",
+      "炭水化物": "131.1g",
+      "食塩相当量": "7.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_yuki_rosu_rare_hire_hp_251212.html"
+  ],
+  [
     "国産雪国育ち厚切りロースかつ定食",
     1090,
     {
@@ -142,30 +154,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "5.8g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_yuki_rosu_aji_hp_251203.html"
-  ],
-  [
-    "にんにく醤油の“揚げる”豚テキ定食",
-    1050,
-    {
-      "カロリー": "1141kcal",
-      "たんぱく質": "45.3g",
-      "脂質": "51.1g",
-      "炭水化物": "123.1g",
-      "食塩相当量": "7.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_pork_fried_steak_hp_251119.html"
-  ],
-  [
-    "にんにく醤油の“揚げる”鶏テキ定食",
-    1050,
-    {
-      "カロリー": "1116kcal",
-      "たんぱく質": "52.6g",
-      "脂質": "48.5g",
-      "炭水化物": "122.7g",
-      "食塩相当量": "7.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_fried_steak_hp_251119.html"
   ],
   [
     "カキフライ（5個）定食",
@@ -310,30 +298,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "6.3g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_yuki_rosu_miso_hp_251203.html"
-  ],
-  [
-    "にんにく醤油の“揚げる”豚テキ定食",
-    1050,
-    {
-      "カロリー": "1141kcal",
-      "たんぱく質": "45.3g",
-      "脂質": "51.1g",
-      "炭水化物": "123.1g",
-      "食塩相当量": "7.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_pork_fried_steak_hp_251119.html"
-  ],
-  [
-    "にんにく醤油の“揚げる”鶏テキ定食",
-    1050,
-    {
-      "カロリー": "1116kcal",
-      "たんぱく質": "52.6g",
-      "脂質": "48.5g",
-      "炭水化物": "122.7g",
-      "食塩相当量": "7.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chicken_fried_steak_hp_251119.html"
   ],
   [
     "カキフライ（5個）定食",
@@ -562,6 +526,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7.6g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_rare_hire_hp_251210.html"
+  ],
+  [
+    "国産雪国育ち厚切りロースかつ＆極厚“レア”ヒレかつ定食",
+    2090,
+    {
+      "カロリー": "1544kcal",
+      "たんぱく質": "82.3g",
+      "脂質": "78.9g",
+      "炭水化物": "131.1g",
+      "食塩相当量": "7.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_yuki_rosu_rare_hire_hp_251212.html"
   ],
   [
     "国産雪国育ち厚切りロースかつ＆海老フライ（1尾）定食",
@@ -1030,30 +1006,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "2.6g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_yuki_rosu_hp_251203.html"
-  ],
-  [
-    "単品にんにく醤油の“揚げる”豚テキ",
-    830,
-    {
-      "カロリー": "693kcal",
-      "たんぱく質": "37.4g",
-      "脂質": "43.3g",
-      "炭水化物": "33.5g",
-      "食塩相当量": "5.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_pork_fried_steak_hp_251119.html"
-  ],
-  [
-    "単品にんにく醤油の“揚げる”鶏テキ",
-    830,
-    {
-      "カロリー": "668kcal",
-      "たんぱく質": "44.7g",
-      "脂質": "40.7g",
-      "炭水化物": "33.2g",
-      "食塩相当量": "6.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_chicken_fried_steak_hp_251119.html"
   ],
   [
     "単品カキフライ（2個）",
