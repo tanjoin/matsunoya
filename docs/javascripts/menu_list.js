@@ -1,5 +1,29 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "オニオンチーズ肉厚チキンむねかつ定食",
+    990,
+    {
+      "カロリー": "1295kcal",
+      "たんぱく質": "56.8g",
+      "脂質": "60.4g",
+      "炭水化物": "137g",
+      "食塩相当量": "5.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_onion_cheese_chicken_mune_hp_260114.html"
+  ],
+  [
+    "オニオンチーズチキンももかつ",
+    990,
+    {
+      "カロリー": "1206kcal",
+      "たんぱく質": "39.7g",
+      "脂質": "60.4g",
+      "炭水化物": "130.6g",
+      "食塩相当量": "5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_onion_cheese_chicken_momo_hp_260114.html"
+  ],
+  [
     "“肉厚”チキンムネかつ定食",
     890,
     {
@@ -154,6 +178,30 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_salmon_rosu_hp_250808.html"
+  ],
+  [
+    "オニオンチーズ肉厚チキンむねかつ定食",
+    990,
+    {
+      "カロリー": "1295kcal",
+      "たんぱく質": "56.8g",
+      "脂質": "60.4g",
+      "炭水化物": "137g",
+      "食塩相当量": "5.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_onion_cheese_chicken_mune_hp_260114.html"
+  ],
+  [
+    "オニオンチーズチキンももかつ",
+    990,
+    {
+      "カロリー": "1206kcal",
+      "たんぱく質": "39.7g",
+      "脂質": "60.4g",
+      "炭水化物": "130.6g",
+      "食塩相当量": "5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_onion_cheese_chicken_momo_hp_260114.html"
   ],
   [
     "“肉厚”チキンムネかつ定食",
@@ -564,18 +612,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_salmon_rosu_hp_250808.html"
   ],
   [
-    "ロースかつ＆イカフライ定食",
-    970,
-    {
-      "カロリー": "1085kcal",
-      "たんぱく質": "35g",
-      "脂質": "49g",
-      "炭水化物": "131g",
-      "食塩相当量": "4.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_ika_hp_250808.html"
-  ],
-  [
     "ロースかつ＆有頭大海老フライ（1尾）定食",
     1170,
     {
@@ -828,18 +864,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_salmon_hp_250618.html"
   ],
   [
-    "単品イカフライ",
-    300,
-    {
-      "カロリー": "115kcal",
-      "たんぱく質": "7.1g",
-      "脂質": "5.1g",
-      "炭水化物": "10.6g",
-      "食塩相当量": "0.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_ika_hp_250507.html"
-  ],
-  [
     "単品有頭大海老フライ",
     500,
     {
@@ -958,6 +982,30 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_tonjiru_hp_240809.html"
+  ],
+  [
+    "単品チーズ",
+    200,
+    {
+      "カロリー": "159kcal",
+      "たんぱく質": "8.2g",
+      "脂質": "13.4g",
+      "炭水化物": "1.5g",
+      "食塩相当量": "0.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_cheese_hp_260114.html"
+  ],
+  [
+    "単品オニオンソース",
+    150,
+    {
+      "カロリー": "115kcal",
+      "たんぱく質": "1.7g",
+      "脂質": "8.8g",
+      "炭水化物": "7g",
+      "食塩相当量": "1.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_sauce_onion_hp_260114.html"
   ],
   [
     "単品ガーリックバターソース",
