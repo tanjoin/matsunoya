@@ -1,5 +1,149 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "超厚切りリブロースかつ定食",
+    990,
+    {
+      "カロリー": "1121kcal",
+      "たんぱく質": "39.9g",
+      "脂質": "57.3g",
+      "炭水化物": "117g",
+      "食塩相当量": "2.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_atsurib_hp_260121.html"
+  ],
+  [
+    "超厚切りリブ鬼おろしポン酢ロースかつ定食",
+    1090,
+    {
+      "カロリー": "1152kcal",
+      "たんぱく質": "41.3g",
+      "脂質": "57.4g",
+      "炭水化物": "123.5g",
+      "食塩相当量": "4.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_atsurib_oni_hp_260121.html"
+  ],
+  [
+    "超厚切りリブ味噌ロースかつ定食",
+    1090,
+    {
+      "カロリー": "1216kcal",
+      "たんぱく質": "42.4g",
+      "脂質": "59.8g",
+      "炭水化物": "131.5g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_atsurib_miso_hp_260121.html"
+  ],
+  [
+    "超厚切りリブロースかつ＆海老フライ（1尾）定食",
+    1250,
+    {
+      "カロリー": "1362kcal",
+      "たんぱく質": "45.9g",
+      "脂質": "77.2g",
+      "炭水化物": "126.7g",
+      "食塩相当量": "3.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurib_ebi1_hp_260121.html"
+  ],
+  [
+    "超厚切りリブロースかつ＆海老フライ（2尾）定食",
+    1530,
+    {
+      "カロリー": "1538kcal",
+      "たんぱく質": "51.3g",
+      "脂質": "91.1g",
+      "炭水化物": "134.1g",
+      "食塩相当量": "4.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurib_ebi2_hp_260121.html"
+  ],
+  [
+    "超厚切りリブロースかつ＆有頭大海老フライ（1尾）定食",
+    1450,
+    {
+      "カロリー": "1440kcal",
+      "たんぱく質": "50.3g",
+      "脂質": "82g",
+      "炭水化物": "131.1g",
+      "食塩相当量": "4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurib_ooebi1_hp_260121.html"
+  ],
+  [
+    "超厚切りリブロースかつ＆有頭大海老フライ（2尾）定食",
+    1930,
+    {
+      "カロリー": "1693kcal",
+      "たんぱく質": "60.2g",
+      "脂質": "100.6g",
+      "炭水化物": "142.7g",
+      "食塩相当量": "4.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurib_ooebi2_hp_260121.html"
+  ],
+  [
+    "超厚切りリブロースかつ＆唐揚げ定食",
+    1250,
+    {
+      "カロリー": "1402kcal",
+      "たんぱく質": "56.9g",
+      "脂質": "74.3g",
+      "炭水化物": "132.9g",
+      "食塩相当量": "4.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurib_karaage_hp_260121.html"
+  ],
+  [
+    "超厚切りリブロースかつ＆カキフライ（2個）定食",
+    1250,
+    {
+      "カロリー": "1363kcal",
+      "たんぱく質": "43.9g",
+      "脂質": "76.2g",
+      "炭水化物": "131.2g",
+      "食塩相当量": "4.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurib_kaki2_hp_260121.html"
+  ],
+  [
+    "超厚切りリブロースかつ＆アジフライ（1枚）定食",
+    1250,
+    {
+      "カロリー": "1422kcal",
+      "たんぱく質": "50.9g",
+      "脂質": "79g",
+      "炭水化物": "133.4g",
+      "食塩相当量": "4.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurib_aji_hp_260121.html"
+  ],
+  [
+    "超厚切りリブロースかつ丼 並盛",
+    990,
+    {
+      "カロリー": "1302kcal",
+      "たんぱく質": "52.9g",
+      "脂質": "66.8g",
+      "炭水化物": "123.8g",
+      "食塩相当量": "5.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_atsurib_hp_260121.html"
+  ],
+  [
+    "超厚切りリブロースかつ丼 大盛",
+    1170,
+    {
+      "カロリー": "1481kcal",
+      "たんぱく質": "56.5g",
+      "脂質": "67.1g",
+      "炭水化物": "164.9g",
+      "食塩相当量": "7.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_atsurib_hp_260121.html"
+  ],
+  [
     "オニオンチーズ肉厚チキンむねかつ定食",
     990,
     {
@@ -178,6 +322,42 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_salmon_rosu_hp_250808.html"
+  ],
+  [
+    "超厚切りリブロースかつ定食",
+    990,
+    {
+      "カロリー": "1121kcal",
+      "たんぱく質": "39.9g",
+      "脂質": "57.3g",
+      "炭水化物": "117g",
+      "食塩相当量": "2.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_atsurib_hp_260121.html"
+  ],
+  [
+    "超厚切りリブ鬼おろしポン酢ロースかつ定食",
+    1090,
+    {
+      "カロリー": "1152kcal",
+      "たんぱく質": "41.3g",
+      "脂質": "57.4g",
+      "炭水化物": "123.5g",
+      "食塩相当量": "4.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_atsurib_oni_hp_260121.html"
+  ],
+  [
+    "超厚切りリブ味噌ロースかつ定食",
+    1090,
+    {
+      "カロリー": "1216kcal",
+      "たんぱく質": "42.4g",
+      "脂質": "59.8g",
+      "炭水化物": "131.5g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_atsurib_miso_hp_260121.html"
   ],
   [
     "オニオンチーズ肉厚チキンむねかつ定食",
@@ -432,6 +612,90 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_250221.html"
   ],
   [
+    "超厚切りリブロースかつ＆海老フライ（1尾）定食",
+    1250,
+    {
+      "カロリー": "1362kcal",
+      "たんぱく質": "45.9g",
+      "脂質": "77.2g",
+      "炭水化物": "126.7g",
+      "食塩相当量": "3.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurib_ebi1_hp_260121.html"
+  ],
+  [
+    "超厚切りリブロースかつ＆海老フライ（2尾）定食",
+    1530,
+    {
+      "カロリー": "1538kcal",
+      "たんぱく質": "51.3g",
+      "脂質": "91.1g",
+      "炭水化物": "134.1g",
+      "食塩相当量": "4.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurib_ebi2_hp_260121.html"
+  ],
+  [
+    "超厚切りリブロースかつ＆有頭大海老フライ（1尾）定食",
+    1450,
+    {
+      "カロリー": "1440kcal",
+      "たんぱく質": "50.3g",
+      "脂質": "82g",
+      "炭水化物": "131.1g",
+      "食塩相当量": "4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurib_ooebi1_hp_260121.html"
+  ],
+  [
+    "超厚切りリブロースかつ＆有頭大海老フライ（2尾）定食",
+    1930,
+    {
+      "カロリー": "1693kcal",
+      "たんぱく質": "60.2g",
+      "脂質": "100.6g",
+      "炭水化物": "142.7g",
+      "食塩相当量": "4.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurib_ooebi2_hp_260121.html"
+  ],
+  [
+    "超厚切りリブロースかつ＆唐揚げ定食",
+    1250,
+    {
+      "カロリー": "1402kcal",
+      "たんぱく質": "56.9g",
+      "脂質": "74.3g",
+      "炭水化物": "132.9g",
+      "食塩相当量": "4.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurib_karaage_hp_260121.html"
+  ],
+  [
+    "超厚切りリブロースかつ＆カキフライ（2個）定食",
+    1250,
+    {
+      "カロリー": "1363kcal",
+      "たんぱく質": "43.9g",
+      "脂質": "76.2g",
+      "炭水化物": "131.2g",
+      "食塩相当量": "4.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurib_kaki2_hp_260121.html"
+  ],
+  [
+    "超厚切りリブロースかつ＆アジフライ（1枚）定食",
+    1250,
+    {
+      "カロリー": "1422kcal",
+      "たんぱく質": "50.9g",
+      "脂質": "79g",
+      "炭水化物": "133.4g",
+      "食塩相当量": "4.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_atsurib_aji_hp_260121.html"
+  ],
+  [
     "“肉厚”チキンムネかつ＆ロースかつ定食",
     1280,
     {
@@ -672,6 +936,30 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_ebi2_hp_250808.html"
   ],
   [
+    "超厚切りリブロースかつ丼 並盛",
+    990,
+    {
+      "カロリー": "1302kcal",
+      "たんぱく質": "52.9g",
+      "脂質": "66.8g",
+      "炭水化物": "123.8g",
+      "食塩相当量": "5.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_atsurib_hp_260121.html"
+  ],
+  [
+    "超厚切りリブロースかつ丼 大盛",
+    1170,
+    {
+      "カロリー": "1481kcal",
+      "たんぱく質": "56.5g",
+      "脂質": "67.1g",
+      "炭水化物": "164.9g",
+      "食塩相当量": "7.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_atsurib_hp_260121.html"
+  ],
+  [
     "カキフライとじ丼 並盛",
     890,
     {
@@ -802,6 +1090,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "0～0.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
+  ],
+  [
+    "単品超厚切りリブロースかつ",
+    690,
+    {
+      "カロリー": "733kcal",
+      "たんぱく質": "32g",
+      "脂質": "55.8g",
+      "炭水化物": "27.5g",
+      "食塩相当量": "1.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_atsurib_hp_260121.html"
   ],
   [
     "単品“肉厚”チキンムネかつ",
