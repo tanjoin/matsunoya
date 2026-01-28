@@ -1,5 +1,17 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "シュクメルリチキンかつ定食",
+    990,
+    {
+      "カロリー": "1187kcal",
+      "たんぱく質": "39.3g",
+      "脂質": "52g",
+      "炭水化物": "145.6g",
+      "食塩相当量": "4.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_shkmeruli_chicken_hp_260128.html"
+  ],
+  [
     "超厚切りリブロースかつ定食",
     990,
     {
@@ -322,6 +334,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_salmon_rosu_hp_250808.html"
+  ],
+  [
+    "シュクメルリチキンかつ定食",
+    990,
+    {
+      "カロリー": "1187kcal",
+      "たんぱく質": "39.3g",
+      "脂質": "52g",
+      "炭水化物": "145.6g",
+      "食塩相当量": "4.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_shkmeruli_chicken_hp_260128.html"
   ],
   [
     "超厚切りリブロースかつ定食",
@@ -1090,6 +1114,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "0～0.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
+  ],
+  [
+    "単品シュクメルリチキンかつ",
+    730,
+    {
+      "カロリー": "799kcal",
+      "たんぱく質": "31.4g",
+      "脂質": "50.5g",
+      "炭水化物": "56.1g",
+      "食塩相当量": "3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_shkmeruli_chicken_hp_260128.html"
   ],
   [
     "単品超厚切りリブロースかつ",
