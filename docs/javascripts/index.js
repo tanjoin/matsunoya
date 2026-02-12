@@ -5,9 +5,10 @@ const show = () => {
     let setMenu = document.getElementById("set-menu");
     let bowlMenu = document.getElementById("bowl-menu");
     let curryMenu = document.getElementById("curry-menu");
+    let morningMenu = document.getElementById("morning-menu");
     result.textContent = "処理中";
     let price = document.getElementById('price-range').value;
-    let answer = selectMenu(MATSUNOYA_MENU_LIST, price, lowCalorie.checked, sholdPrice.checked, setMenu.checked, bowlMenu.checked, curryMenu.checked);
+    let answer = selectMenu(morningMenu.checked ? MATSUNOYA_MORNING_LIST : MATSUNOYA_MENU_LIST, price, lowCalorie.checked, sholdPrice.checked, setMenu.checked, bowlMenu.checked, curryMenu.checked, morningMenu.checked);
     result.textContent = '';
     result.insertAdjacentHTML('afterbegin', decorateHtmlString(answer));
     twttr.widgets.load();
@@ -72,7 +73,7 @@ const decorateHtmlString = (answer) => {
     `;
 }
 
-const selectMenu = (items, limit, isU1500kcal, isStrict, isSetMenu, isBowlMenu, isCurryMenu) => {
+const selectMenu = (items, limit, isU1500kcal, isStrict, isSetMenu, isBowlMenu, isCurryMenu, isMorning) => {
     const CALORIE_LIMIT = 1500;
     let sum = 0;
     let selected = [];
