@@ -48,30 +48,6 @@ const MATSUNOYA_MORNING_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_sasami_koro_hp_260211.html"
   ],
   [
-    "得朝チキンかつ定食(小鉢無し)",
-    590,
-    {
-      "カロリー": "913kcal",
-      "たんぱく質": "31g",
-      "脂質": "37.9g",
-      "炭水化物": "116.8g",
-      "食塩相当量": "2.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_chicken_kobatinasi_hp_250813.html"
-  ],
-  [
-    "得朝チキンかつ定食",
-    630,
-    {
-      "カロリー": "913kcal",
-      "たんぱく質": "31g",
-      "脂質": "37.9g",
-      "炭水化物": "116.8g",
-      "食塩相当量": "2.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_chicken_hp_250813.html"
-  ],
-  [
     "得朝アジフライ（1枚）定食（小鉢なし）",
     550,
     {
