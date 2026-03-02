@@ -86,6 +86,10 @@ const selectMenu = (items, limit, isU1500kcal, isStrict, isSetMenu, isBowlMenu, 
     }
 
     items = items.filter((item) => {
+        if (item.price === null) {
+            return false;
+        }
+
         if (!isSetMenu && !isBowlMenu && !isCurryMenu) {
             return true;
         }
