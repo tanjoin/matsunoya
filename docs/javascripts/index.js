@@ -8,7 +8,8 @@ const show = () => {
     let morningMenu = document.getElementById("morning-menu");
     result.textContent = "処理中";
     let price = document.getElementById('price-range').value;
-    let answer = selectMenu(morningMenu.checked ? MATSUNOYA_MORNING_LIST : MATSUNOYA_MENU_LIST, price, lowCalorie.checked, sholdPrice.checked, setMenu.checked, bowlMenu.checked, curryMenu.checked, morningMenu.checked);
+    let calorie = document.getElementById('calorie-range').value;
+    let answer = selectMenu(morningMenu.checked ? MATSUNOYA_MORNING_LIST : MATSUNOYA_MENU_LIST, price, lowCalorie.checked, sholdPrice.checked, setMenu.checked, bowlMenu.checked, curryMenu.checked, calorie);
     result.textContent = '';
     result.insertAdjacentHTML('afterbegin', decorateHtmlString(answer));
     twttr.widgets.load();
@@ -73,8 +74,8 @@ const decorateHtmlString = (answer) => {
     `;
 }
 
-const selectMenu = (items, limit, isU1500kcal, isStrict, isSetMenu, isBowlMenu, isCurryMenu, isMorning) => {
-    const CALORIE_LIMIT = 1500;
+const selectMenu = (items, limit, isU1500kcal, isStrict, isSetMenu, isBowlMenu, isCurryMenu, limitCalorie) => {
+    const CALORIE_LIMIT = limitCalorie ? limitCalorie : 1500;
     let sum = 0;
     let selected = [];
     let calorie = tanpaku = shi = tansui = salt = 0;
