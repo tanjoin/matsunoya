@@ -22,56 +22,51 @@ block body
       .col
         #result
           | ↓　「ガチャを回す」ボタンを押してください
-    #gacha.sticky-bottom.mb-5
-      #options
-        .row.justify-content-center.row-cols-auto
-          .col 
+    #gacha.mb-5
+      details#options-collapsible
+        summary オプションを表示
+        #options.options-panel
+          .options-header
             span 対象を絞る
-        .row.justify-content-center.row-cols-auto
-          .col#set-menu-col
-            .form-check.form-switch
-              input(type="checkbox")#set-menu.form-check-input
-              label(for="set-menu").form-check-label 定食
-          .col#bowl-menu-col
-            .form-check.form-switch
-              input(type="checkbox")#bowl-menu.form-check-input
-              label(for="bowl-menu").form-check-label 丼
-          .col#curry-menu-col
-            .form-check.form-switch
-              input(type="checkbox")#curry-menu.form-check-input
-              label(for="curry-menu").form-check-label カレー
-          .col#morning-menu-col
-            .form-check.form-switch
-              input(type="checkbox")#morning-menu.form-check-input
-              label(for="morning-menu").form-check-label 朝メニュー
-        .row.justify-content-center.row-cols-auto
-          .col
-            .form-check.form-switch
-              input(type="checkbox")#low-calorie.form-check-input
-              label(for="low-calorie").form-check-label カロリーを抑える
-        .row.justify-content-center.row-cols-auto 
-          .col 
-            label(for="calorie-range").form-label
-            input(type="range", min="0", max="2000", step="100", value="1500", oninput="document.getElementById('calorie-value').textContent = this.value").form-range#calorie-range
-          .col
-              span#calorie-value 
+          .options-switches
+            #set-menu-col.option-item
+              .form-check.form-switch
+                input(type="checkbox")#set-menu.form-check-input
+                label(for="set-menu").form-check-label 定食
+            #bowl-menu-col.option-item
+              .form-check.form-switch
+                input(type="checkbox")#bowl-menu.form-check-input
+                label(for="bowl-menu").form-check-label 丼
+            #curry-menu-col.option-item
+              .form-check.form-switch
+                input(type="checkbox")#curry-menu.form-check-input
+                label(for="curry-menu").form-check-label カレー
+            #morning-menu-col.option-item
+              .form-check.form-switch
+                input(type="checkbox")#morning-menu.form-check-input
+                label(for="morning-menu").form-check-label 朝メニュー
+            .option-item.option-item-wide
+              .form-check.form-switch
+                input(type="checkbox")#low-calorie.form-check-input
+                label(for="low-calorie").form-check-label カロリーを抑える
+            .option-item.option-item-wide
+              .form-check.form-switch
+                input(type="checkbox")#should-price.form-check-input
+                label(for="should-price").form-check-label 金額を厳密にする
+          .option-range
+            label(for="calorie-range").form-label カロリー上限
+            input(type="range", min="0", max="3000", step="100", value="1500", oninput="document.getElementById('calorie-value').textContent = this.value").form-range#calorie-range
+            .option-range-value
+              span#calorie-value
                 | 1500
-              span
-                | kcal
-        .row.justify-content-center.row-cols-auto
-          .col
-            .form-check.form-switch
-              input(type="checkbox")#should-price.form-check-input
-              label(for="should-price").form-check-label 金額を厳密にする
-        .row.justify-content-center.row-cols-auto 
-          .col 
-            label(for="price-range").form-label
-            input(type="range", min="0", max="2000", step="100", value="1000", oninput="document.getElementById('price-value').textContent = this.value").form-range#price-range
-          .col
-              span#price-value 
+              span.unit kcal
+          .option-range
+            label(for="price-range").form-label 予算上限
+            input(type="range", min="0", max="10000", step="100", value="1000", oninput="document.getElementById('price-value').textContent = this.value").form-range#price-range
+            .option-range-value
+              span#price-value
                 | 1000
-              span
-                | 円
+              span.unit 円
       .row.justify-content-center.row-cols-auto.mt-2
         .col
           button(onclick='show()').btn.btn-primary ガチャを回す

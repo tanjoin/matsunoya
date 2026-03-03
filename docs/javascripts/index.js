@@ -43,23 +43,21 @@ const decorateHtmlString = (answer) => {
             </ul>
         </div>
     </div>
-    <div class="row mt-2">
-        <div class="col">
-            <h3>栄養成分</h3>
+        <div class="row mt-2">
+            <div class="col">
+                <div class="nutrition-panel">
+                    <h3 class="nutrition-title">栄養成分</h3>
+                    <div class="nutrition-grid">
+                        <div class="nutrition-item"><span class="nutrition-label">カロリー</span><span class="nutrition-value">${answer[2][0]}kcal</span></div>
+                        <div class="nutrition-item"><span class="nutrition-label">たんぱく質</span><span class="nutrition-value">${answer[2][1]}g</span></div>
+                        <div class="nutrition-item"><span class="nutrition-label">脂質</span><span class="nutrition-value">${answer[2][2]}g</span></div>
+                        <div class="nutrition-item"><span class="nutrition-label">炭水化物</span><span class="nutrition-value">${answer[2][3]}g</span></div>
+                        <div class="nutrition-item"><span class="nutrition-label">食塩相当量</span><span class="nutrition-value">${answer[2][4]}g</span></div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="row">
-      <div class="col">
-      <ul>
-        <li>カロリー ${answer[2][0]}kcal</li>
-        <li>たんぱく質 ${answer[2][1]}g</li>
-        <li>脂質 ${answer[2][2]}g</li>
-        <li>炭水化物 ${answer[2][3]}g</li>
-        <li>食塩相当量 ${answer[2][4]}g</li>
-      </uL>
-      </div>  
-    </div>
-    <div class="row justify-content-center row-cols-auto">
+        <div class="row justify-content-center row-cols-auto share-row">
       <div class="col">
         <a href="https://twitter.com/share?ref_src=twsrc%5Etfw"
            data-text="松のや${document.getElementById('price-range').value}円ガチャを回したよ！\n${decodeURIComponent("\n" + answer[0].map((d) => `・${d[0]} ${d[1]}円`).join('\n'))}\n\n"
@@ -154,3 +152,35 @@ class MenuVisibilityController {
     }
 };
 new MenuVisibilityController().main();
+
+class CalorieRangeController {
+    load() {
+        const lowCalorie = document.getElementById('low-calorie');
+        const calorieRange = document.getElementById('calorie-range');
+
+        if (!lowCalorie || !calorieRange) {
+            return;
+        }
+
+        const calorieRangeContainer = calorieRange.closest('.option-range');
+
+        const toggle = () => {
+            const isEnabled = lowCalorie.checked;
+            calorieRange.disabled = !isEnabled;
+            calorieRange.setAttribute('aria-disabled', String(!isEnabled));
+            if (calorieRangeContainer) {
+                calorieRangeContainer.classList.toggle('is-disabled', !isEnabled);
+            }
+        };
+
+        lowCalorie.addEventListener('change', toggle);
+        toggle();
+    }
+
+    main() {
+        document.addEventListener('DOMContentLoaded', () => {
+            this.load();
+        });
+    }
+}
+new CalorieRangeController().main();
