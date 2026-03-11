@@ -1,5 +1,17 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "角煮かつ定食",
+    1290,
+    {
+      "カロリー": "1256kcal",
+      "たんぱく質": "38g",
+      "脂質": "68.7g",
+      "炭水化物": "123.4g",
+      "食塩相当量": "8.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_kakuni_hp_260311.html"
+  ],
+  [
     "ハニーレモン唐揚げ定食(5個)",
     990,
     {
@@ -418,6 +430,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_kaisen_ooebi1_hp_250924.html"
+  ],
+  [
+    "角煮かつ定食",
+    1290,
+    {
+      "カロリー": "1256kcal",
+      "たんぱく質": "38g",
+      "脂質": "68.7g",
+      "炭水化物": "123.4g",
+      "食塩相当量": "8.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_kakuni_hp_260311.html"
   ],
   [
     "ハニーレモン唐揚げ定食(5個)",
@@ -1092,6 +1116,18 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
   ],
   [
+    "単品角煮かつ",
+    1090,
+    {
+      "カロリー": "886kcal",
+      "たんぱく質": "31.1g",
+      "脂質": "67.4g",
+      "炭水化物": "38.1g",
+      "食塩相当量": "6.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_kakuni_hp_260311.html"
+  ],
+  [
     "単品ハニーレモン唐揚げ(5個)",
     690,
     {
@@ -1489,7 +1525,7 @@ const MATSUNOYA_MENU_LIST = [
   ],
   [
     "みそ汁",
-    70,
+    90,
     {
       "カロリー": "28kcal",
       "たんぱく質": "1.4g",
