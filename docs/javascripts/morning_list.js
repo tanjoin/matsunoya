@@ -1,5 +1,29 @@
 const MATSUNOYA_MORNING_LIST = [
   [
+    "“大麦豚”得朝ロースかつ定食(小鉢無し)",
+    590,
+    {
+      "カロリー": "973kcal",
+      "たんぱく質": "32.4g",
+      "脂質": "42g",
+      "炭水化物": "120.5g",
+      "食塩相当量": "4.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_oomugi_kobatinasi_hp_260401.html"
+  ],
+  [
+    "“大麦豚”得朝ロースかつ定食",
+    630,
+    {
+      "カロリー": "973kcal",
+      "たんぱく質": "32.4g",
+      "脂質": "42g",
+      "炭水化物": "120.5g",
+      "食塩相当量": "4.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_oomugi_hp_260401.html"
+  ],
+  [
     "得朝ささみかつ定食(小鉢無し)",
     590,
     {
@@ -72,18 +96,6 @@ const MATSUNOYA_MORNING_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_aji_hp_260128.html"
   ],
   [
-    "得朝ロースかつ定食(小鉢無し)",
-    550,
-    {
-      "カロリー": "872kcal",
-      "たんぱく質": "27.3g",
-      "脂質": "34.6g",
-      "炭水化物": "116.9g",
-      "食塩相当量": "2.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_rosu_kobatinasi_hp_250221.html"
-  ],
-  [
     "得朝ソーセージエッグ定食(小鉢無し)",
     490,
     {
@@ -94,18 +106,6 @@ const MATSUNOYA_MORNING_LIST = [
       "食塩相当量": "2.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_soseji_egg_kobatinasi_hp_250808.html"
-  ],
-  [
-    "得朝ロースかつ定食",
-    590,
-    {
-      "カロリー": "872kcal",
-      "たんぱく質": "27.3g",
-      "脂質": "34.6g",
-      "炭水化物": "116.9g",
-      "食塩相当量": "2.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_rosu_hp_250221.html"
   ],
   [
     "得朝ソーセージエッグ定食",
