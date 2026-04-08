@@ -480,18 +480,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_mootote_hp_260325.html"
   ],
   [
-    "角煮かつ定食",
-    1290,
-    {
-      "カロリー": "1256kcal",
-      "たんぱく質": "38g",
-      "脂質": "68.7g",
-      "炭水化物": "123.4g",
-      "食塩相当量": "8.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_kakuni_hp_260311.html"
-  ],
-  [
     "ハニーレモン唐揚げ定食(5個)",
     990,
     {
@@ -514,18 +502,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/mori_lemon_karaage8_hp_260304.html"
-  ],
-  [
-    "“牛”サーロインかつ定食",
-    1390,
-    {
-      "カロリー": "845kcal",
-      "たんぱく質": "25g",
-      "脂質": "34.5g",
-      "炭水化物": "109.9g",
-      "食塩相当量": "2.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_gyuu_hp_260225.html"
   ],
   [
     "ささみかつ定食",
@@ -574,42 +550,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/mori_sasami3_hp_260121.html"
-  ],
-  [
-    "カキフライ（5個）定食",
-    990,
-    {
-      "カロリー": "894.3kcal",
-      "たんぱく質": "16.9g",
-      "脂質": "39.6g",
-      "炭水化物": "121.5g",
-      "食塩相当量": "3.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_kaki5_hp_250924.html"
-  ],
-  [
-    "アジフライ（2枚）定食",
-    890,
-    {
-      "カロリー": "925.1kcal",
-      "たんぱく質": "29.4g",
-      "脂質": "38.9g",
-      "炭水化物": "119.9g",
-      "食塩相当量": "3.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_aji_hp_250924.html"
-  ],
-  [
-    "たっぷりカキフライ（7個）定食",
-    1290,
-    {
-      "カロリー": "1070.8kcal",
-      "たんぱく質": "20.3g",
-      "脂質": "52.5g",
-      "炭水化物": "133.3g",
-      "食塩相当量": "4.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_kaki7_hp_250924.html"
   ],
   [
     "本格唐揚げ定食（5個）",
@@ -804,30 +744,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_karaage_mootote_hp_260325.html"
   ],
   [
-    "ロースかつ＆角煮かつの合盛り定食",
-    990,
-    {
-      "カロリー": "1370kcal",
-      "たんぱく質": "46.7g",
-      "脂質": "70.4g",
-      "炭水化物": "139.3g",
-      "食塩相当量": "6.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_kakuni_hp_260325.html"
-  ],
-  [
-    "海鮮盛合せ定食（カキ2個・アジ１枚・海老１尾）",
-    990,
-    {
-      "カロリー": "1041.6kcal",
-      "たんぱく質": "27.7g",
-      "脂質": "49.9g",
-      "炭水化物": "125.1g",
-      "食塩相当量": "4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_kaisen_ebi1_hp_250924.html"
-  ],
-  [
     "“大麦豚”厚切りリブロースかつ丼 並盛",
     990,
     {
@@ -924,30 +840,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_mootote_hp_260325.html"
   ],
   [
-    "ロースかつ＆角煮かつの合盛り丼 並盛",
-    990,
-    {
-      "カロリー": "1357kcal",
-      "たんぱく質": "45.9g",
-      "脂質": "70.3g",
-      "炭水化物": "136.2g",
-      "食塩相当量": "6.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_kakuni_hp_260325.html"
-  ],
-  [
-    "ロースかつ＆角煮かつの合盛り丼 大盛",
-    1070,
-    {
-      "カロリー": "1513kcal",
-      "たんぱく質": "48.4g",
-      "脂質": "70.6g",
-      "炭水化物": "173.3g",
-      "食塩相当量": "6.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_kakuni_hp_260325.html"
-  ],
-  [
     "ハニーレモン唐揚げ丼 並盛",
     790,
     {
@@ -994,30 +886,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_sasami_hp_260211.html"
-  ],
-  [
-    "カキフライとじ丼 並盛",
-    890,
-    {
-      "カロリー": "922kcal",
-      "たんぱく質": "27.7g",
-      "脂質": "36.7g",
-      "炭水化物": "120g",
-      "食塩相当量": "5.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_kaki_hp_250924.html"
-  ],
-  [
-    "カキフライとじ丼 大盛",
-    970,
-    {
-      "カロリー": "1100.5kcal",
-      "たんぱく質": "31.3g",
-      "脂質": "37g",
-      "炭水化物": "161.1g",
-      "食塩相当量": "7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_kaki_hp_250924.html"
   ],
   [
     "お子様プレート",
@@ -1164,18 +1032,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_mootote_hp_260325.html"
   ],
   [
-    "単品角煮かつ",
-    1090,
-    {
-      "カロリー": "886kcal",
-      "たんぱく質": "31.1g",
-      "脂質": "67.4g",
-      "炭水化物": "38.1g",
-      "食塩相当量": "6.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_kakuni_hp_260311.html"
-  ],
-  [
     "単品ハニーレモン唐揚げ(5個)",
     690,
     {
@@ -1188,18 +1044,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_lemon_karaage_hp_260304.html"
   ],
   [
-    "単品“牛”サーロインかつ",
-    1150,
-    {
-      "カロリー": "458kcal",
-      "たんぱく質": "17.1g",
-      "脂質": "33g",
-      "炭水化物": "20.5g",
-      "食塩相当量": "1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_gyuu_hp_260225.html"
-  ],
-  [
     "単品ささみかつ",
     290,
     {
@@ -1210,30 +1054,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "0.6g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_sasami_hp_260211.html"
-  ],
-  [
-    "単品カキフライ（2個）",
-    400,
-    {
-      "カロリー": "242kcal",
-      "たんぱく質": "3.9g",
-      "脂質": "18.9g",
-      "炭水化物": "14.2g",
-      "食塩相当量": "1.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_kaki2_hp_250924.html"
-  ],
-  [
-    "単品アジフライ（1枚）",
-    350,
-    {
-      "カロリー": "301.5kcal",
-      "たんぱく質": "11g",
-      "脂質": "21.7g",
-      "炭水化物": "16.4g",
-      "食塩相当量": "1.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_aji_hp_250924.html"
   ],
   [
     "単品海老フライ（1尾）",
