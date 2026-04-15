@@ -336,30 +336,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_karaage_mootote_hp_260325.html"
   ],
   [
-    "ムートート丼 並盛",
-    890,
-    {
-      "カロリー": "1260kcal",
-      "たんぱく質": "37.3g",
-      "脂質": "73.1g",
-      "炭水化物": "108.4g",
-      "食塩相当量": "6.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_mootote_hp_260325.html"
-  ],
-  [
-    "ムートート丼 大盛",
-    970,
-    {
-      "カロリー": "1416kcal",
-      "たんぱく質": "39.8g",
-      "脂質": "73.4g",
-      "炭水化物": "145.5g",
-      "食塩相当量": "6.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_mootote_hp_260325.html"
-  ],
-  [
     "“大麦豚”厚切りリブロースかつ定食",
     990,
     {
@@ -814,30 +790,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_oomugi_miso_hp_260401.html"
-  ],
-  [
-    "ムートート丼 並盛",
-    890,
-    {
-      "カロリー": "1260kcal",
-      "たんぱく質": "37.3g",
-      "脂質": "73.1g",
-      "炭水化物": "108.4g",
-      "食塩相当量": "6.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_mootote_hp_260325.html"
-  ],
-  [
-    "ムートート丼 大盛",
-    970,
-    {
-      "カロリー": "1416kcal",
-      "たんぱく質": "39.8g",
-      "脂質": "73.4g",
-      "炭水化物": "145.5g",
-      "食塩相当量": "6.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_mootote_hp_260325.html"
   ],
   [
     "ハニーレモン唐揚げ丼 並盛",
