@@ -1,123 +1,123 @@
 const MATSUNOYA_MENU_LIST = [
   [
-    "“大麦豚”厚切りリブロースかつ定食",
-    990,
+    "超厚切りロースかつ定食",
+    980,
     {
-      "カロリー": "1122kcal",
-      "たんぱく質": "42g",
-      "脂質": "55g",
-      "炭水化物": "119.6g",
-      "食塩相当量": "4.1g"
+      "カロリー": "1181kcal",
+      "たんぱく質": "43.9g",
+      "脂質": "58g",
+      "炭水化物": "119.7g",
+      "食塩相当量": "4.3g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oomugiribu_hp_260401.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chouatu_hp_260422.html"
   ],
   [
-    "“大麦豚”厚切りリブ鬼おろしポン酢ロースかつ定食",
-    1090,
+    "超厚切り鬼おろしポン酢ロースかつ定食",
+    1080,
     {
-      "カロリー": "1154kcal",
-      "たんぱく質": "43.4g",
-      "脂質": "55.1g",
+      "カロリー": "1213kcal",
+      "たんぱく質": "45.3g",
+      "脂質": "58.1g",
       "炭水化物": "126.2g",
-      "食塩相当量": "5.8g"
+      "食塩相当量": "5.9g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oomugiribu_oni_hp_260401.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chouatu_oni_hp_260422.html"
   ],
   [
-    "“大麦豚”厚切りリブ味噌ロースかつ定食",
-    1090,
+    "超厚切り味噌ロースかつ定食",
+    1080,
     {
-      "カロリー": "1218kcal",
-      "たんぱく質": "44.5g",
-      "脂質": "57.5g",
+      "カロリー": "1277kcal",
+      "たんぱく質": "46.4g",
+      "脂質": "60.5g",
       "炭水化物": "134.1g",
-      "食塩相当量": "6.2g"
+      "食塩相当量": "6.4g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oomugiribu_miso_hp_260401.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chouatu_miso_hp_260422.html"
   ],
   [
-    "“大麦豚”厚切りリブロースかつ＆海老フライ１尾定食",
-    1290,
+    "超厚切りロースかつ＆海老フライ１尾定食",
+    1280,
     {
-      "カロリー": "1364kcal",
-      "たんぱく質": "48g",
-      "脂質": "75g",
-      "炭水化物": "129.3g",
-      "食塩相当量": "5.2g"
+      "カロリー": "1423kcal",
+      "たんぱく質": "49.9g",
+      "脂質": "78g",
+      "炭水化物": "129.4g",
+      "食塩相当量": "5.4g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oomugiribu_ebi1_hp_260401.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_ebi1_hp_260422.html"
   ],
   [
-    "“大麦豚”厚切りリブロースかつ＆海老フライ2尾定食",
-    1530,
+    "超厚切りロースかつ＆海老フライ2尾定食",
+    1520,
     {
-      "カロリー": "1540kcal",
-      "たんぱく質": "53.4g",
-      "脂質": "88.9g",
+      "カロリー": "1599kcal",
+      "たんぱく質": "55.3g",
+      "脂質": "91.9g",
       "炭水化物": "136.7g",
-      "食塩相当量": "5.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oomugiribu_ebi2_hp_260401.html"
-  ],
-  [
-    "“大麦豚”厚切りリブロースかつ＆ささみかつ１本定食",
-    1270,
-    {
-      "カロリー": "1384kcal",
-      "たんぱく質": "56.7g",
-      "脂質": "70.2g",
-      "炭水化物": "137.1g",
-      "食塩相当量": "5.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oomugiribu_sasami1_hp_260401.html"
-  ],
-  [
-    "“大麦豚”厚切りリブロースかつ＆ささみかつ2本定食",
-    1430,
-    {
-      "カロリー": "1581kcal",
-      "たんぱく質": "70.8g",
-      "脂質": "79.3g",
-      "炭水化物": "152.2g",
-      "食塩相当量": "6.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oomugiribu_sasami2_hp_260401.html"
-  ],
-  [
-    "“大麦豚”厚切りリブロースかつ＆本格唐揚げ定食",
-    1290,
-    {
-      "カロリー": "1403kcal",
-      "たんぱく質": "59g",
-      "脂質": "72.1g",
-      "炭水化物": "135.5g",
-      "食塩相当量": "5.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oomugiribu_karaage_hp_260401.html"
-  ],
-  [
-    "“大麦豚”厚切りリブロースかつ丼 並盛",
-    990,
-    {
-      "カロリー": "1304kcal",
-      "たんぱく質": "55g",
-      "脂質": "64.6g",
-      "炭水化物": "126.4g",
       "食塩相当量": "5.7g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_oomugiribu_hp_260401.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_ebi2_hp_260422.html"
   ],
   [
-    "“大麦豚”厚切りリブロースかつ丼 大盛",
-    1070,
+    "超厚切りロースかつ＆ささみかつ１本定食",
+    1260,
     {
-      "カロリー": "1482kcal",
+      "カロリー": "1443kcal",
       "たんぱく質": "58.6g",
-      "脂質": "64.9g",
-      "炭水化物": "167.5g",
-      "食塩相当量": "7g"
+      "脂質": "73.2g",
+      "炭水化物": "137.1g",
+      "食塩相当量": "5.7g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_oomugiribu_hp_260401.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_sasami1_hp_260422.html"
+  ],
+  [
+    "超厚切りロースかつ＆ささみかつ2本定食",
+    1420,
+    {
+      "カロリー": "1640kcal",
+      "たんぱく質": "72.7g",
+      "脂質": "82.3g",
+      "炭水化物": "152.3g",
+      "食塩相当量": "6.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_sasami2_hp_260422.html"
+  ],
+  [
+    "超厚切りロースかつ＆本格唐揚げ定食",
+    1280,
+    {
+      "カロリー": "1462kcal",
+      "たんぱく質": "61g",
+      "脂質": "75.1g",
+      "炭水化物": "135.5g",
+      "食塩相当量": "5.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_karaage_hp_260422.html"
+  ],
+  [
+    "超厚切りロースかつ丼 並盛",
+    980,
+    {
+      "カロリー": "1362kcal",
+      "たんぱく質": "56.9g",
+      "脂質": "67.6g",
+      "炭水化物": "126.4g",
+      "食塩相当量": "5.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_chouatu_hp_260422.html"
+  ],
+  [
+    "超厚切りロースかつ丼 大盛",
+    1060,
+    {
+      "カロリー": "1541kcal",
+      "たんぱく質": "60.5g",
+      "脂質": "67.9g",
+      "炭水化物": "167.5g",
+      "食塩相当量": "7.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_chouatu_hp_260422.html"
   ],
   [
     "“大麦豚”ロースかつ定食",
@@ -252,18 +252,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oomugi_kara_hp_260401.html"
   ],
   [
-    "“大麦豚”ロースかつ＆ムートート定食",
-    990,
-    {
-      "カロリー": "1360kcal",
-      "たんぱく質": "43g",
-      "脂質": "70.1g",
-      "炭水化物": "139.9g",
-      "食塩相当量": "6.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oomugi_mootote_hp_260401.html"
-  ],
-  [
     "“大麦豚”ロースかつ丼 並盛",
     750,
     {
@@ -312,64 +300,40 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_oomugi_miso_hp_260401.html"
   ],
   [
-    "ムートート定食",
-    990,
+    "超厚切りロースかつ定食",
+    980,
     {
-      "カロリー": "1168kcal",
-      "たんぱく質": "30.3g",
-      "脂質": "61.9g",
-      "炭水化物": "119.6g",
-      "食塩相当量": "4.8g"
+      "カロリー": "1181kcal",
+      "たんぱく質": "43.9g",
+      "脂質": "58g",
+      "炭水化物": "119.7g",
+      "食塩相当量": "4.3g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_mootote_hp_260325.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chouatu_hp_260422.html"
   ],
   [
-    "唐揚げ＆ムートート定食",
-    990,
+    "超厚切り鬼おろしポン酢ロースかつ定食",
+    1080,
     {
-      "カロリー": "1104kcal",
-      "たんぱく質": "36.5g",
-      "脂質": "49.5g",
-      "炭水化物": "129.8g",
-      "食塩相当量": "5.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_karaage_mootote_hp_260325.html"
-  ],
-  [
-    "“大麦豚”厚切りリブロースかつ定食",
-    990,
-    {
-      "カロリー": "1122kcal",
-      "たんぱく質": "42g",
-      "脂質": "55g",
-      "炭水化物": "119.6g",
-      "食塩相当量": "4.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oomugiribu_hp_260401.html"
-  ],
-  [
-    "“大麦豚”厚切りリブ鬼おろしポン酢ロースかつ定食",
-    1090,
-    {
-      "カロリー": "1154kcal",
-      "たんぱく質": "43.4g",
-      "脂質": "55.1g",
+      "カロリー": "1213kcal",
+      "たんぱく質": "45.3g",
+      "脂質": "58.1g",
       "炭水化物": "126.2g",
-      "食塩相当量": "5.8g"
+      "食塩相当量": "5.9g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oomugiribu_oni_hp_260401.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chouatu_oni_hp_260422.html"
   ],
   [
-    "“大麦豚”厚切りリブ味噌ロースかつ定食",
-    1090,
+    "超厚切り味噌ロースかつ定食",
+    1080,
     {
-      "カロリー": "1218kcal",
-      "たんぱく質": "44.5g",
-      "脂質": "57.5g",
+      "カロリー": "1277kcal",
+      "たんぱく質": "46.4g",
+      "脂質": "60.5g",
       "炭水化物": "134.1g",
-      "食塩相当量": "6.2g"
+      "食塩相当量": "6.4g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oomugiribu_miso_hp_260401.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chouatu_miso_hp_260422.html"
   ],
   [
     "“大麦豚”ロースかつ定食",
@@ -442,42 +406,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/mori_w_oomugi_miso_hp_260401.html"
-  ],
-  [
-    "ムートート定食",
-    990,
-    {
-      "カロリー": "1168kcal",
-      "たんぱく質": "30.3g",
-      "脂質": "61.9g",
-      "炭水化物": "119.6g",
-      "食塩相当量": "4.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_mootote_hp_260325.html"
-  ],
-  [
-    "ハニーレモン唐揚げ定食(5個)",
-    990,
-    {
-      "カロリー": "1120kcal",
-      "たんぱく質": "36.7g",
-      "脂質": "53.5g",
-      "炭水化物": "128.8g",
-      "食塩相当量": "5.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_lemon_karaage5i_hp_260304.html"
-  ],
-  [
-    "ハニーレモン唐揚げ定食(8個)",
-    1260,
-    {
-      "カロリー": "1653kcal",
-      "たんぱく質": "54g",
-      "脂質": "94g",
-      "炭水化物": "154.4g",
-      "食塩相当量": "7.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/mori_lemon_karaage8_hp_260304.html"
   ],
   [
     "ささみかつ定食",
@@ -576,64 +504,64 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_250221.html"
   ],
   [
-    "“大麦豚”厚切りリブロースかつ＆海老フライ１尾定食",
-    1290,
+    "超厚切りロースかつ＆海老フライ１尾定食",
+    1280,
     {
-      "カロリー": "1364kcal",
-      "たんぱく質": "48g",
-      "脂質": "75g",
-      "炭水化物": "129.3g",
-      "食塩相当量": "5.2g"
+      "カロリー": "1423kcal",
+      "たんぱく質": "49.9g",
+      "脂質": "78g",
+      "炭水化物": "129.4g",
+      "食塩相当量": "5.4g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oomugiribu_ebi1_hp_260401.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_ebi1_hp_260422.html"
   ],
   [
-    "“大麦豚”厚切りリブロースかつ＆海老フライ2尾定食",
-    1530,
+    "超厚切りロースかつ＆海老フライ2尾定食",
+    1520,
     {
-      "カロリー": "1540kcal",
-      "たんぱく質": "53.4g",
-      "脂質": "88.9g",
+      "カロリー": "1599kcal",
+      "たんぱく質": "55.3g",
+      "脂質": "91.9g",
       "炭水化物": "136.7g",
-      "食塩相当量": "5.5g"
+      "食塩相当量": "5.7g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oomugiribu_ebi2_hp_260401.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_ebi2_hp_260422.html"
   ],
   [
-    "“大麦豚”厚切りリブロースかつ＆ささみかつ１本定食",
-    1270,
+    "超厚切りロースかつ＆ささみかつ１本定食",
+    1260,
     {
-      "カロリー": "1384kcal",
-      "たんぱく質": "56.7g",
-      "脂質": "70.2g",
+      "カロリー": "1443kcal",
+      "たんぱく質": "58.6g",
+      "脂質": "73.2g",
       "炭水化物": "137.1g",
-      "食塩相当量": "5.5g"
+      "食塩相当量": "5.7g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oomugiribu_sasami1_hp_260401.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_sasami1_hp_260422.html"
   ],
   [
-    "“大麦豚”厚切りリブロースかつ＆ささみかつ2本定食",
-    1430,
+    "超厚切りロースかつ＆ささみかつ2本定食",
+    1420,
     {
-      "カロリー": "1581kcal",
-      "たんぱく質": "70.8g",
-      "脂質": "79.3g",
-      "炭水化物": "152.2g",
-      "食塩相当量": "6.1g"
+      "カロリー": "1640kcal",
+      "たんぱく質": "72.7g",
+      "脂質": "82.3g",
+      "炭水化物": "152.3g",
+      "食塩相当量": "6.2g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oomugiribu_sasami2_hp_260401.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_sasami2_hp_260422.html"
   ],
   [
-    "“大麦豚”厚切りリブロースかつ＆本格唐揚げ定食",
-    1290,
+    "超厚切りロースかつ＆本格唐揚げ定食",
+    1280,
     {
-      "カロリー": "1403kcal",
-      "たんぱく質": "59g",
-      "脂質": "72.1g",
+      "カロリー": "1462kcal",
+      "たんぱく質": "61g",
+      "脂質": "75.1g",
       "炭水化物": "135.5g",
-      "食塩相当量": "5.6g"
+      "食塩相当量": "5.8g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oomugiribu_karaage_hp_260401.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_karaage_hp_260422.html"
   ],
   [
     "“大麦豚”ロースかつ＆海老フライ（1尾）定食",
@@ -696,52 +624,28 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oomugi_kara_hp_260401.html"
   ],
   [
-    "“大麦豚”ロースかつ＆ムートート定食",
-    990,
+    "超厚切りロースかつ丼 並盛",
+    980,
     {
-      "カロリー": "1360kcal",
-      "たんぱく質": "43g",
-      "脂質": "70.1g",
-      "炭水化物": "139.9g",
-      "食塩相当量": "6.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_oomugi_mootote_hp_260401.html"
-  ],
-  [
-    "唐揚げ＆ムートート定食",
-    990,
-    {
-      "カロリー": "1104kcal",
-      "たんぱく質": "36.5g",
-      "脂質": "49.5g",
-      "炭水化物": "129.8g",
-      "食塩相当量": "5.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_karaage_mootote_hp_260325.html"
-  ],
-  [
-    "“大麦豚”厚切りリブロースかつ丼 並盛",
-    990,
-    {
-      "カロリー": "1304kcal",
-      "たんぱく質": "55g",
-      "脂質": "64.6g",
+      "カロリー": "1362kcal",
+      "たんぱく質": "56.9g",
+      "脂質": "67.6g",
       "炭水化物": "126.4g",
-      "食塩相当量": "5.7g"
+      "食塩相当量": "5.8g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_oomugiribu_hp_260401.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_chouatu_hp_260422.html"
   ],
   [
-    "“大麦豚”厚切りリブロースかつ丼 大盛",
-    1070,
+    "超厚切りロースかつ丼 大盛",
+    1060,
     {
-      "カロリー": "1482kcal",
-      "たんぱく質": "58.6g",
-      "脂質": "64.9g",
+      "カロリー": "1541kcal",
+      "たんぱく質": "60.5g",
+      "脂質": "67.9g",
       "炭水化物": "167.5g",
-      "食塩相当量": "7g"
+      "食塩相当量": "7.2g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_oomugiribu_hp_260401.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_chouatu_hp_260422.html"
   ],
   [
     "“大麦豚”ロースかつ丼 並盛",
@@ -790,30 +694,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_oomugi_miso_hp_260401.html"
-  ],
-  [
-    "ハニーレモン唐揚げ丼 並盛",
-    790,
-    {
-      "カロリー": "1014kcal",
-      "たんぱく質": "30.3g",
-      "脂質": "47.7g",
-      "炭水化物": "120.4g",
-      "食塩相当量": "4.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_lemon_karaage_hp_260304.html"
-  ],
-  [
-    "ハニーレモン唐揚げ丼 大盛",
-    870,
-    {
-      "カロリー": "1170kcal",
-      "たんぱく質": "32.8g",
-      "脂質": "48g",
-      "炭水化物": "157.5g",
-      "食塩相当量": "4.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_lemon_karaage_hp_260304.html"
   ],
   [
     "親子ささみかつ丼 並盛",
@@ -948,16 +828,16 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_bai_potatofry_sausage_koro_hp_260325.html"
   ],
   [
-    "単品“大麦豚”厚切りリブロースかつ",
-    690,
+    "単品超厚切りロースかつ",
+    680,
     {
-      "カロリー": "735kcal",
-      "たんぱく質": "34.1g",
-      "脂質": "53.5g",
-      "炭水化物": "30.1g",
-      "食塩相当量": "2.5g"
+      "カロリー": "793kcal",
+      "たんぱく質": "36g",
+      "脂質": "56.6g",
+      "炭水化物": "30.2g",
+      "食塩相当量": "2.7g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_oomugiribu_hp_260401.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_chouatu_hp_260422.html"
   ],
   [
     "単品“大麦豚”ロースかつ（1枚）",
@@ -970,30 +850,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "2.5g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_oomugi_nami1_hp_260401.html"
-  ],
-  [
-    "単品ムートート",
-    600,
-    {
-      "カロリー": "689kcal",
-      "たんぱく質": "21.7g",
-      "脂質": "58.9g",
-      "炭水化物": "11.4g",
-      "食塩相当量": "2.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_mootote_hp_260325.html"
-  ],
-  [
-    "単品ハニーレモン唐揚げ(5個)",
-    690,
-    {
-      "カロリー": "733kcal",
-      "たんぱく質": "28.8g",
-      "脂質": "52g",
-      "炭水化物": "39.3g",
-      "食塩相当量": "3.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_lemon_karaage_hp_260304.html"
   ],
   [
     "単品ささみかつ",
@@ -1090,18 +946,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_tonjiru_hp_240809.html"
-  ],
-  [
-    "単品スイートチリソース",
-    150,
-    {
-      "カロリー": "91kcal",
-      "たんぱく質": "0.7g",
-      "脂質": "1.5g",
-      "炭水化物": "18.7g",
-      "食塩相当量": "0.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_sauce_sweet_chili_hp_260325.html"
   ],
   [
     "タルタルソース",
