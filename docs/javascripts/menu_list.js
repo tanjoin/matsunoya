@@ -1,5 +1,53 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "うまトマ“大麦豚”ロースかつ定食",
+    1050,
+    {
+      "カロリー": "1136kcal",
+      "たんぱく質": "40.5g",
+      "脂質": "51.4g",
+      "炭水化物": "130.3g",
+      "食塩相当量": "5.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_umatoma_oomugi_hp_260429.html"
+  ],
+  [
+    "チーズうまトマ“大麦豚”ロースかつ定食",
+    1250,
+    {
+      "カロリー": "1295kcal",
+      "たんぱく質": "48.6g",
+      "脂質": "64.8g",
+      "炭水化物": "131.8g",
+      "食塩相当量": "6.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ch_umatoma_oomugi_hp_260429.html"
+  ],
+  [
+    "うまトマ超厚切りロースかつ定食",
+    1280,
+    {
+      "カロリー": "1387kcal",
+      "たんぱく質": "52.6g",
+      "脂質": "70.3g",
+      "炭水化物": "132.9g",
+      "食塩相当量": "5.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_umatoma_chouatu_hp_260429.html"
+  ],
+  [
+    "チーズうまトマ超厚切りロースかつ定食",
+    1480,
+    {
+      "カロリー": "1546kcal",
+      "たんぱく質": "60.7g",
+      "脂質": "83.6g",
+      "炭水化物": "134.4g",
+      "食塩相当量": "6.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ch_umatoma_chouatu_oni_hp_260429.html"
+  ],
+  [
     "超厚切りロースかつ定食",
     980,
     {
@@ -298,6 +346,54 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_oomugi_miso_hp_260401.html"
+  ],
+  [
+    "うまトマ“大麦豚”ロースかつ定食",
+    1050,
+    {
+      "カロリー": "1136kcal",
+      "たんぱく質": "40.5g",
+      "脂質": "51.4g",
+      "炭水化物": "130.3g",
+      "食塩相当量": "5.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_umatoma_oomugi_hp_260429.html"
+  ],
+  [
+    "チーズうまトマ“大麦豚”ロースかつ定食",
+    1250,
+    {
+      "カロリー": "1295kcal",
+      "たんぱく質": "48.6g",
+      "脂質": "64.8g",
+      "炭水化物": "131.8g",
+      "食塩相当量": "6.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ch_umatoma_oomugi_hp_260429.html"
+  ],
+  [
+    "うまトマ超厚切りロースかつ定食",
+    1280,
+    {
+      "カロリー": "1387kcal",
+      "たんぱく質": "52.6g",
+      "脂質": "70.3g",
+      "炭水化物": "132.9g",
+      "食塩相当量": "5.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_umatoma_chouatu_hp_260429.html"
+  ],
+  [
+    "チーズうまトマ超厚切りロースかつ定食",
+    1480,
+    {
+      "カロリー": "1546kcal",
+      "たんぱく質": "60.7g",
+      "脂質": "83.6g",
+      "炭水化物": "134.4g",
+      "食塩相当量": "6.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ch_umatoma_chouatu_oni_hp_260429.html"
   ],
   [
     "超厚切りロースかつ定食",
@@ -828,6 +924,54 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_bai_potatofry_sausage_koro_hp_260325.html"
   ],
   [
+    "単品うまトマ\"大麦豚\"ロースかつ",
+    750,
+    {
+      "カロリー": "749kcal",
+      "たんぱく質": "32.6g",
+      "脂質": "49.9g",
+      "炭水化物": "40.8g",
+      "食塩相当量": "3.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_umatoma_oomugi_hp_260429.html"
+  ],
+  [
+    "単品チーズうまトマ\"大麦豚\"ロースかつ",
+    950,
+    {
+      "カロリー": "908kcal",
+      "たんぱく質": "40.7g",
+      "脂質": "63.3g",
+      "炭水化物": "42.3g",
+      "食塩相当量": "4.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_ch_umatoma_oomugi_hp_260429.html"
+  ],
+  [
+    "単品うまトマ超厚切りロースかつ",
+    980,
+    {
+      "カロリー": "1000kcal",
+      "たんぱく質": "44.7g",
+      "脂質": "68.8g",
+      "炭水化物": "43.4g",
+      "食塩相当量": "3.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_umatoma_chouatu_hp_260429.html"
+  ],
+  [
+    "単品チーズうまトマ超厚切りロースかつ",
+    1180,
+    {
+      "カロリー": "1159kcal",
+      "たんぱく質": "52.8g",
+      "脂質": "82.2g",
+      "炭水化物": "44.9g",
+      "食塩相当量": "4.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_ch_umatoma__chouatu_hp_260429.html"
+  ],
+  [
     "単品超厚切りロースかつ",
     680,
     {
@@ -946,6 +1090,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_tonjiru_hp_240809.html"
+  ],
+  [
+    "単品チーズ",
+    200,
+    {
+      "カロリー": "159kcal",
+      "たんぱく質": "8.2g",
+      "脂質": "13.4g",
+      "炭水化物": "1.5g",
+      "食塩相当量": "0.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_cheese_hp_260429.html"
   ],
   [
     "タルタルソース",
