@@ -120,6 +120,30 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_yuki_rosu_hp_260506.html"
   ],
   [
+    "うまトマロースかつ定食",
+    990,
+    {
+      "カロリー": "1036kcal",
+      "たんぱく質": "35.4g",
+      "脂質": "44.1g",
+      "炭水化物": "126.7g",
+      "食塩相当量": "5.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_umatoma_rosu_hp_260506.html"
+  ],
+  [
+    "チーズうまトマロースかつ定食",
+    1190,
+    {
+      "カロリー": "1195kcal",
+      "たんぱく質": "43.5g",
+      "脂質": "57.4g",
+      "炭水化物": "128.2g",
+      "食塩相当量": "6.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ch_umatoma_rosu_oni_hp_260506.html"
+  ],
+  [
     "うまトマ超厚切りロースかつ定食",
     1280,
     {
@@ -298,6 +322,30 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "6.2g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_yuki_rosu_miso_hp_260506.html"
+  ],
+  [
+    "うまトマロースかつ定食",
+    990,
+    {
+      "カロリー": "1036kcal",
+      "たんぱく質": "35.4g",
+      "脂質": "44.1g",
+      "炭水化物": "126.7g",
+      "食塩相当量": "5.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_umatoma_rosu_hp_260506.html"
+  ],
+  [
+    "チーズうまトマロースかつ定食",
+    1190,
+    {
+      "カロリー": "1195kcal",
+      "たんぱく質": "43.5g",
+      "脂質": "57.4g",
+      "炭水化物": "128.2g",
+      "食塩相当量": "6.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ch_umatoma_rosu_oni_hp_260506.html"
   ],
   [
     "うまトマ超厚切りロースかつ定食",
@@ -886,6 +934,30 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "2.5g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_yuki_rosu_hp_260506.html"
+  ],
+  [
+    "単品うまトマロースかつ",
+    690,
+    {
+      "カロリー": "648kcal",
+      "たんぱく質": "27.5g",
+      "脂質": "42.6g",
+      "炭水化物": "37.2g",
+      "食塩相当量": "3.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_umatoma_rosu_hp_260506.html"
+  ],
+  [
+    "単品チーズうまトマロースかつ",
+    890,
+    {
+      "カロリー": "807kcal",
+      "たんぱく質": "35.6g",
+      "脂質": "55.9g",
+      "炭水化物": "38.7g",
+      "食塩相当量": "4.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_ch_umatoma__rosu_hp_260506.html"
   ],
   [
     "単品うまトマ超厚切りロースかつ",
