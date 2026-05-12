@@ -885,7 +885,7 @@ const MATSUNOYA_MENU_LIST = [
       "炭水化物": "116.8g",
       "食塩相当量": "1.7g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/sumikko/kobito_okosama_hp_260331.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/sumikko/kobito_okosama_hp_260512.html"
   ],
   [
     "お子様パンケーキプレート",
@@ -897,7 +897,7 @@ const MATSUNOYA_MENU_LIST = [
       "炭水化物": "79.5g",
       "食塩相当量": "1.1g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/sumikko/kobito_okosama_pan_hp_260331.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/sumikko/kobito_okosama_pan_hp_260512.html"
   ],
   [
     "マミー",
