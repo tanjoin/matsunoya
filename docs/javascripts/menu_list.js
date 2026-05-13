@@ -1,5 +1,29 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "うまトマ“国産雪国育ち”ロースかつ定食",
+    1090,
+    {
+      "カロリー": "1168.7kcal",
+      "たんぱく質": "42.4g",
+      "脂質": "54.3g",
+      "炭水化物": "129.8g",
+      "食塩相当量": "5.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_umatoma_yuki_rosu_hp_260513.html"
+  ],
+  [
+    "チーズうまトマ“国産雪国育ち”ロースかつ定食",
+    1290,
+    {
+      "カロリー": "1327.7kcal",
+      "たんぱく質": "50.6g",
+      "脂質": "67.7g",
+      "炭水化物": "131.4g",
+      "食塩相当量": "6.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ch_umatoma_yuki_rosu_oni_hp_260513.html"
+  ],
+  [
     "“国産雪国育ち”ロースかつ定食",
     890,
     {
@@ -144,148 +168,28 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ch_umatoma_rosu_oni_hp_260506.html"
   ],
   [
-    "うまトマ超厚切りロースかつ定食",
-    1280,
+    "うまトマ“国産雪国育ち”ロースかつ定食",
+    1090,
     {
-      "カロリー": "1387kcal",
-      "たんぱく質": "52.6g",
-      "脂質": "70.3g",
-      "炭水化物": "132.9g",
-      "食塩相当量": "5.5g"
+      "カロリー": "1168.7kcal",
+      "たんぱく質": "42.4g",
+      "脂質": "54.3g",
+      "炭水化物": "129.8g",
+      "食塩相当量": "5.3g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_umatoma_chouatu_hp_260429.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_umatoma_yuki_rosu_hp_260513.html"
   ],
   [
-    "チーズうまトマ超厚切りロースかつ定食",
-    1480,
+    "チーズうまトマ“国産雪国育ち”ロースかつ定食",
+    1290,
     {
-      "カロリー": "1546kcal",
-      "たんぱく質": "60.7g",
-      "脂質": "83.6g",
-      "炭水化物": "134.4g",
-      "食塩相当量": "6.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ch_umatoma_chouatu_oni_hp_260429.html"
-  ],
-  [
-    "超厚切りロースかつ定食",
-    980,
-    {
-      "カロリー": "1181kcal",
-      "たんぱく質": "43.9g",
-      "脂質": "58g",
-      "炭水化物": "119.7g",
-      "食塩相当量": "4.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chouatu_hp_260422.html"
-  ],
-  [
-    "超厚切り鬼おろしポン酢ロースかつ定食",
-    1080,
-    {
-      "カロリー": "1213kcal",
-      "たんぱく質": "45.3g",
-      "脂質": "58.1g",
-      "炭水化物": "126.2g",
-      "食塩相当量": "5.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chouatu_oni_hp_260422.html"
-  ],
-  [
-    "超厚切り味噌ロースかつ定食",
-    1080,
-    {
-      "カロリー": "1277kcal",
-      "たんぱく質": "46.4g",
-      "脂質": "60.5g",
-      "炭水化物": "134.1g",
-      "食塩相当量": "6.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chouatu_miso_hp_260422.html"
-  ],
-  [
-    "超厚切りロースかつ＆海老フライ１尾定食",
-    1280,
-    {
-      "カロリー": "1423kcal",
-      "たんぱく質": "49.9g",
-      "脂質": "78g",
-      "炭水化物": "129.4g",
-      "食塩相当量": "5.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_ebi1_hp_260422.html"
-  ],
-  [
-    "超厚切りロースかつ＆海老フライ2尾定食",
-    1520,
-    {
-      "カロリー": "1599kcal",
-      "たんぱく質": "55.3g",
-      "脂質": "91.9g",
-      "炭水化物": "136.7g",
-      "食塩相当量": "5.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_ebi2_hp_260422.html"
-  ],
-  [
-    "超厚切りロースかつ＆ささみかつ１本定食",
-    1260,
-    {
-      "カロリー": "1443kcal",
-      "たんぱく質": "58.6g",
-      "脂質": "73.2g",
-      "炭水化物": "137.1g",
-      "食塩相当量": "5.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_sasami1_hp_260422.html"
-  ],
-  [
-    "超厚切りロースかつ＆ささみかつ2本定食",
-    1420,
-    {
-      "カロリー": "1640kcal",
-      "たんぱく質": "72.7g",
-      "脂質": "82.3g",
-      "炭水化物": "152.3g",
+      "カロリー": "1327.7kcal",
+      "たんぱく質": "50.6g",
+      "脂質": "67.7g",
+      "炭水化物": "131.4g",
       "食塩相当量": "6.2g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_sasami2_hp_260422.html"
-  ],
-  [
-    "超厚切りロースかつ＆本格唐揚げ定食",
-    1280,
-    {
-      "カロリー": "1462kcal",
-      "たんぱく質": "61g",
-      "脂質": "75.1g",
-      "炭水化物": "135.5g",
-      "食塩相当量": "5.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_karaage_hp_260422.html"
-  ],
-  [
-    "超厚切りロースかつ丼 並盛",
-    980,
-    {
-      "カロリー": "1362kcal",
-      "たんぱく質": "56.9g",
-      "脂質": "67.6g",
-      "炭水化物": "126.4g",
-      "食塩相当量": "5.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_chouatu_hp_260422.html"
-  ],
-  [
-    "超厚切りロースかつ丼 大盛",
-    1060,
-    {
-      "カロリー": "1541kcal",
-      "たんぱく質": "60.5g",
-      "脂質": "67.9g",
-      "炭水化物": "167.5g",
-      "食塩相当量": "7.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_chouatu_hp_260422.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ch_umatoma_yuki_rosu_oni_hp_260513.html"
   ],
   [
     "“国産雪国育ち”ロースかつ定食",
@@ -346,66 +250,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "6.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ch_umatoma_rosu_oni_hp_260506.html"
-  ],
-  [
-    "うまトマ超厚切りロースかつ定食",
-    1280,
-    {
-      "カロリー": "1387kcal",
-      "たんぱく質": "52.6g",
-      "脂質": "70.3g",
-      "炭水化物": "132.9g",
-      "食塩相当量": "5.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_umatoma_chouatu_hp_260429.html"
-  ],
-  [
-    "チーズうまトマ超厚切りロースかつ定食",
-    1480,
-    {
-      "カロリー": "1546kcal",
-      "たんぱく質": "60.7g",
-      "脂質": "83.6g",
-      "炭水化物": "134.4g",
-      "食塩相当量": "6.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ch_umatoma_chouatu_oni_hp_260429.html"
-  ],
-  [
-    "超厚切りロースかつ定食",
-    980,
-    {
-      "カロリー": "1181kcal",
-      "たんぱく質": "43.9g",
-      "脂質": "58g",
-      "炭水化物": "119.7g",
-      "食塩相当量": "4.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chouatu_hp_260422.html"
-  ],
-  [
-    "超厚切り鬼おろしポン酢ロースかつ定食",
-    1080,
-    {
-      "カロリー": "1213kcal",
-      "たんぱく質": "45.3g",
-      "脂質": "58.1g",
-      "炭水化物": "126.2g",
-      "食塩相当量": "5.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chouatu_oni_hp_260422.html"
-  ],
-  [
-    "超厚切り味噌ロースかつ定食",
-    1080,
-    {
-      "カロリー": "1277kcal",
-      "たんぱく質": "46.4g",
-      "脂質": "60.5g",
-      "炭水化物": "134.1g",
-      "食塩相当量": "6.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_chouatu_miso_hp_260422.html"
   ],
   [
     "ささみかつ定食",
@@ -636,66 +480,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_yuki_rosu_karaage_hp_260506.html"
   ],
   [
-    "超厚切りロースかつ＆海老フライ１尾定食",
-    1280,
-    {
-      "カロリー": "1423kcal",
-      "たんぱく質": "49.9g",
-      "脂質": "78g",
-      "炭水化物": "129.4g",
-      "食塩相当量": "5.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_ebi1_hp_260422.html"
-  ],
-  [
-    "超厚切りロースかつ＆海老フライ2尾定食",
-    1520,
-    {
-      "カロリー": "1599kcal",
-      "たんぱく質": "55.3g",
-      "脂質": "91.9g",
-      "炭水化物": "136.7g",
-      "食塩相当量": "5.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_ebi2_hp_260422.html"
-  ],
-  [
-    "超厚切りロースかつ＆ささみかつ１本定食",
-    1260,
-    {
-      "カロリー": "1443kcal",
-      "たんぱく質": "58.6g",
-      "脂質": "73.2g",
-      "炭水化物": "137.1g",
-      "食塩相当量": "5.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_sasami1_hp_260422.html"
-  ],
-  [
-    "超厚切りロースかつ＆ささみかつ2本定食",
-    1420,
-    {
-      "カロリー": "1640kcal",
-      "たんぱく質": "72.7g",
-      "脂質": "82.3g",
-      "炭水化物": "152.3g",
-      "食塩相当量": "6.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_sasami2_hp_260422.html"
-  ],
-  [
-    "超厚切りロースかつ＆本格唐揚げ定食",
-    1280,
-    {
-      "カロリー": "1462kcal",
-      "たんぱく質": "61g",
-      "脂質": "75.1g",
-      "炭水化物": "135.5g",
-      "食塩相当量": "5.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_chouatu_karaage_hp_260422.html"
-  ],
-  [
     "ロースかつ＆ささみかつ１本定食",
     980,
     {
@@ -778,30 +562,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_yuki_rosu_hp_260506.html"
-  ],
-  [
-    "超厚切りロースかつ丼 並盛",
-    980,
-    {
-      "カロリー": "1362kcal",
-      "たんぱく質": "56.9g",
-      "脂質": "67.6g",
-      "炭水化物": "126.4g",
-      "食塩相当量": "5.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_chouatu_hp_260422.html"
-  ],
-  [
-    "超厚切りロースかつ丼 大盛",
-    1060,
-    {
-      "カロリー": "1541kcal",
-      "たんぱく質": "60.5g",
-      "脂質": "67.9g",
-      "炭水化物": "167.5g",
-      "食塩相当量": "7.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_chouatu_hp_260422.html"
   ],
   [
     "親子ささみかつ丼 並盛",
@@ -924,6 +684,30 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/side_potatofry_hp_240809.html"
   ],
   [
+    "単品うまトマ“国産雪国育ち”ロースかつ",
+    890,
+    {
+      "カロリー": "781.1kcal",
+      "たんぱく質": "34.5g",
+      "脂質": "52.8g",
+      "炭水化物": "40.4g",
+      "食塩相当量": "3.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_umatoma_yuki_rosu_hp_260513.html"
+  ],
+  [
+    "単品チーズうまトマ“国産雪国育ち”ロースかつ",
+    1090,
+    {
+      "カロリー": "940.1kcal",
+      "たんぱく質": "42.7g",
+      "脂質": "66.2g",
+      "炭水化物": "41.9g",
+      "食塩相当量": "4.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_ch_umatoma__yuki_rosu_hp_260513.html"
+  ],
+  [
     "単品“国産雪国育ち”ロースかつ",
     590,
     {
@@ -958,42 +742,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4.5g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_ch_umatoma__rosu_hp_260506.html"
-  ],
-  [
-    "単品うまトマ超厚切りロースかつ",
-    980,
-    {
-      "カロリー": "1000kcal",
-      "たんぱく質": "44.7g",
-      "脂質": "68.8g",
-      "炭水化物": "43.4g",
-      "食塩相当量": "3.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_umatoma_chouatu_hp_260429.html"
-  ],
-  [
-    "単品チーズうまトマ超厚切りロースかつ",
-    1180,
-    {
-      "カロリー": "1159kcal",
-      "たんぱく質": "52.8g",
-      "脂質": "82.2g",
-      "炭水化物": "44.9g",
-      "食塩相当量": "4.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_ch_umatoma__chouatu_hp_260429.html"
-  ],
-  [
-    "単品超厚切りロースかつ",
-    680,
-    {
-      "カロリー": "793kcal",
-      "たんぱく質": "36g",
-      "脂質": "56.6g",
-      "炭水化物": "30.2g",
-      "食塩相当量": "2.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_chouatu_hp_260422.html"
   ],
   [
     "単品ささみかつ",
