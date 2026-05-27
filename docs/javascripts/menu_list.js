@@ -1,5 +1,125 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "ジャンボチキンかつ定食",
+    980,
+    {
+      "カロリー": "1283kcal",
+      "たんぱく質": "47.7g",
+      "脂質": "67.4g",
+      "炭水化物": "119.3g",
+      "食塩相当量": "2.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jumbo_chicken_hp_260527.html"
+  ],
+  [
+    "鬼おろしポン酢ジャンボチキンかつ定食",
+    1080,
+    {
+      "カロリー": "1314kcal",
+      "たんぱく質": "49g",
+      "脂質": "67.4g",
+      "炭水化物": "125.9g",
+      "食塩相当量": "4.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jumbo_chicken_oni_hp_260527.html"
+  ],
+  [
+    "味噌ジャンボチキンかつ定食",
+    1080,
+    {
+      "カロリー": "1378kcal",
+      "たんぱく質": "50.2g",
+      "脂質": "69.8g",
+      "炭水化物": "133.8g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jumbo_chicken_miso_hp_260527.html"
+  ],
+  [
+    "うまトマジャンボチキンかつ定食",
+    1080,
+    {
+      "カロリー": "1489kcal",
+      "たんぱく質": "56.3g",
+      "脂質": "79.6g",
+      "炭水化物": "132.6g",
+      "食塩相当量": "5.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jumbo_chicken_umatoma_hp_260527.html"
+  ],
+  [
+    "チーズうまトマジャンボチキンかつ定食",
+    1280,
+    {
+      "カロリー": "1648kcal",
+      "たんぱく質": "64.4g",
+      "脂質": "92.9g",
+      "炭水化物": "134.1g",
+      "食塩相当量": "6.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jumbo_chicken_umatoma_ch_hp_260527.html"
+  ],
+  [
+    "タルタルジャンボチキンかつ定食",
+    1080,
+    {
+      "カロリー": "1560kcal",
+      "たんぱく質": "50.6g",
+      "脂質": "91.5g",
+      "炭水化物": "131.5g",
+      "食塩相当量": "7.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jumbo_chicken_tarutaru_hp_260527.html"
+  ],
+  [
+    "ロースかつ＆ジャンボチキンかつ定食",
+    1350,
+    {
+      "カロリー": "1725kcal",
+      "たんぱく質": "66.5g",
+      "脂質": "97.7g",
+      "炭水化物": "143.3g",
+      "食塩相当量": "3.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_jumbo_chicken_rosu_hp_260527.html"
+  ],
+  [
+    "ジャンボチキンかつ＆海老フライ1尾定食",
+    1280,
+    {
+      "カロリー": "1524kcal",
+      "たんぱく質": "53.6g",
+      "脂質": "87.3g",
+      "炭水化物": "129g",
+      "食塩相当量": "4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_jumbo_chicken_ebi1_hp_260527.html"
+  ],
+  [
+    "ジャンボチキンかつ＆海老フライ2尾定食",
+    1520,
+    {
+      "カロリー": "1700kcal",
+      "たんぱく質": "59g",
+      "脂質": "101.2g",
+      "炭水化物": "136.4g",
+      "食塩相当量": "4.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_jumbo_chicken_ebi2_hp_260527.html"
+  ],
+  [
+    "ジャンボチキンかつ＆本格唐揚げ定食",
+    1280,
+    {
+      "カロリー": "1563kcal",
+      "たんぱく質": "64.7g",
+      "脂質": "84.4g",
+      "炭水化物": "135.2g",
+      "食塩相当量": "4.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_jumbo_chicken_karaage_hp_260527.html"
+  ],
+  [
     "“国産雪国育ち”丸太ヒレかつ定食",
     1090,
     {
@@ -106,30 +226,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_yuki_marutahire_hp_260520.html"
-  ],
-  [
-    "うまトマ“国産雪国育ち”ロースかつ定食",
-    1090,
-    {
-      "カロリー": "1168.7kcal",
-      "たんぱく質": "42.4g",
-      "脂質": "54.3g",
-      "炭水化物": "129.8g",
-      "食塩相当量": "5.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_umatoma_yuki_rosu_hp_260513.html"
-  ],
-  [
-    "チーズうまトマ“国産雪国育ち”ロースかつ定食",
-    1290,
-    {
-      "カロリー": "1327.7kcal",
-      "たんぱく質": "50.6g",
-      "脂質": "67.7g",
-      "炭水化物": "131.4g",
-      "食塩相当量": "6.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ch_umatoma_yuki_rosu_oni_hp_260513.html"
   ],
   [
     "“国産雪国育ち”ロースかつ定食",
@@ -276,6 +372,78 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ch_umatoma_rosu_oni_hp_260506.html"
   ],
   [
+    "ジャンボチキンかつ定食",
+    980,
+    {
+      "カロリー": "1283kcal",
+      "たんぱく質": "47.7g",
+      "脂質": "67.4g",
+      "炭水化物": "119.3g",
+      "食塩相当量": "2.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jumbo_chicken_hp_260527.html"
+  ],
+  [
+    "鬼おろしポン酢ジャンボチキンかつ定食",
+    1080,
+    {
+      "カロリー": "1314kcal",
+      "たんぱく質": "49g",
+      "脂質": "67.4g",
+      "炭水化物": "125.9g",
+      "食塩相当量": "4.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jumbo_chicken_oni_hp_260527.html"
+  ],
+  [
+    "味噌ジャンボチキンかつ定食",
+    1080,
+    {
+      "カロリー": "1378kcal",
+      "たんぱく質": "50.2g",
+      "脂質": "69.8g",
+      "炭水化物": "133.8g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jumbo_chicken_miso_hp_260527.html"
+  ],
+  [
+    "うまトマジャンボチキンかつ定食",
+    1080,
+    {
+      "カロリー": "1489kcal",
+      "たんぱく質": "56.3g",
+      "脂質": "79.6g",
+      "炭水化物": "132.6g",
+      "食塩相当量": "5.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jumbo_chicken_umatoma_hp_260527.html"
+  ],
+  [
+    "チーズうまトマジャンボチキンかつ定食",
+    1280,
+    {
+      "カロリー": "1648kcal",
+      "たんぱく質": "64.4g",
+      "脂質": "92.9g",
+      "炭水化物": "134.1g",
+      "食塩相当量": "6.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jumbo_chicken_umatoma_ch_hp_260527.html"
+  ],
+  [
+    "タルタルジャンボチキンかつ定食",
+    1080,
+    {
+      "カロリー": "1560kcal",
+      "たんぱく質": "50.6g",
+      "脂質": "91.5g",
+      "炭水化物": "131.5g",
+      "食塩相当量": "7.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jumbo_chicken_tarutaru_hp_260527.html"
+  ],
+  [
     "“国産雪国育ち”丸太ヒレかつ定食",
     1090,
     {
@@ -298,30 +466,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "5.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_yuki_marutahire_oni_hp_260520.html"
-  ],
-  [
-    "うまトマ“国産雪国育ち”ロースかつ定食",
-    1090,
-    {
-      "カロリー": "1168.7kcal",
-      "たんぱく質": "42.4g",
-      "脂質": "54.3g",
-      "炭水化物": "129.8g",
-      "食塩相当量": "5.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_umatoma_yuki_rosu_hp_260513.html"
-  ],
-  [
-    "チーズうまトマ“国産雪国育ち”ロースかつ定食",
-    1290,
-    {
-      "カロリー": "1327.7kcal",
-      "たんぱく質": "50.6g",
-      "脂質": "67.7g",
-      "炭水化物": "131.4g",
-      "食塩相当量": "6.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ch_umatoma_yuki_rosu_oni_hp_260513.html"
   ],
   [
     "“国産雪国育ち”ロースかつ定食",
@@ -550,6 +694,54 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_250221.html"
+  ],
+  [
+    "ロースかつ＆ジャンボチキンかつ定食",
+    1350,
+    {
+      "カロリー": "1725kcal",
+      "たんぱく質": "66.5g",
+      "脂質": "97.7g",
+      "炭水化物": "143.3g",
+      "食塩相当量": "3.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_jumbo_chicken_rosu_hp_260527.html"
+  ],
+  [
+    "ジャンボチキンかつ＆海老フライ1尾定食",
+    1280,
+    {
+      "カロリー": "1524kcal",
+      "たんぱく質": "53.6g",
+      "脂質": "87.3g",
+      "炭水化物": "129g",
+      "食塩相当量": "4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_jumbo_chicken_ebi1_hp_260527.html"
+  ],
+  [
+    "ジャンボチキンかつ＆海老フライ2尾定食",
+    1520,
+    {
+      "カロリー": "1700kcal",
+      "たんぱく質": "59g",
+      "脂質": "101.2g",
+      "炭水化物": "136.4g",
+      "食塩相当量": "4.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_jumbo_chicken_ebi2_hp_260527.html"
+  ],
+  [
+    "ジャンボチキンかつ＆本格唐揚げ定食",
+    1280,
+    {
+      "カロリー": "1563kcal",
+      "たんぱく質": "64.7g",
+      "脂質": "84.4g",
+      "炭水化物": "135.2g",
+      "食塩相当量": "4.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_jumbo_chicken_karaage_hp_260527.html"
   ],
   [
     "“国産雪国育ち”ダブル丸太ヒレかつ定食",
@@ -888,6 +1080,54 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
   ],
   [
+    "単品ジャンボチキンかつ",
+    680,
+    {
+      "カロリー": "895kcal",
+      "たんぱく質": "39.8g",
+      "脂質": "65.9g",
+      "炭水化物": "29.8g",
+      "食塩相当量": "1.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_jumbo_chicken_hp_260527.html"
+  ],
+  [
+    "単品うまトマジャンボチキンかつ",
+    780,
+    {
+      "カロリー": "1101kcal",
+      "たんぱく質": "48.4g",
+      "脂質": "78.1g",
+      "炭水化物": "43.1g",
+      "食塩相当量": "3.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_jumbo_chicken_umatoma_hp_260527.html"
+  ],
+  [
+    "単品チーズうまトマジャンボチキンかつ",
+    980,
+    {
+      "カロリー": "1260kcal",
+      "たんぱく質": "56.5g",
+      "脂質": "91.5g",
+      "炭水化物": "44.6g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_jumbo_chicken_umatoma_ch_hp_260527.html"
+  ],
+  [
+    "単品タルタルジャンボチキンかつ",
+    780,
+    {
+      "カロリー": "1172kcal",
+      "たんぱく質": "42.7g",
+      "脂質": "90g",
+      "炭水化物": "42g",
+      "食塩相当量": "5.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_jumbo_chicken_tarutaru_hp_260527.html"
+  ],
+  [
     "単品“国産雪国育ち”丸太ヒレかつ",
     850,
     {
@@ -910,30 +1150,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "2.5g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_yuki_rosu_hp_260506.html"
-  ],
-  [
-    "単品うまトマ“国産雪国育ち”ロースかつ",
-    890,
-    {
-      "カロリー": "781.1kcal",
-      "たんぱく質": "34.5g",
-      "脂質": "52.8g",
-      "炭水化物": "40.4g",
-      "食塩相当量": "3.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_umatoma_yuki_rosu_hp_260513.html"
-  ],
-  [
-    "単品チーズうまトマ“国産雪国育ち”ロースかつ",
-    1090,
-    {
-      "カロリー": "940.1kcal",
-      "たんぱく質": "42.7g",
-      "脂質": "66.2g",
-      "炭水化物": "41.9g",
-      "食塩相当量": "4.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_ch_umatoma__yuki_rosu_hp_260513.html"
   ],
   [
     "単品うまトマロースかつ",
