@@ -1,5 +1,29 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "シュクメルリロースかつ定食",
+    990,
+    {
+      "カロリー": "1123kcal",
+      "たんぱく質": "33.8g",
+      "脂質": "47g",
+      "炭水化物": "145.8g",
+      "食塩相当量": "4.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_rosu_syukumeruri_hp_260616.html"
+  ],
+  [
+    "シュクメルリジャンボチキンかつ定食",
+    1190,
+    {
+      "カロリー": "1670kcal",
+      "たんぱく質": "56.8g",
+      "脂質": "88.7g",
+      "炭水化物": "159.6g",
+      "食塩相当量": "5.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jumbo_chicken_syukumeruri_hp_260616.html"
+  ],
+  [
     "にんにく醤油の“揚げる”厚切り豚テキ定食",
     1050,
     {
@@ -322,6 +346,30 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "6.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ch_umatoma_rosu_oni_hp_260506.html"
+  ],
+  [
+    "シュクメルリロースかつ定食",
+    990,
+    {
+      "カロリー": "1123kcal",
+      "たんぱく質": "33.8g",
+      "脂質": "47g",
+      "炭水化物": "145.8g",
+      "食塩相当量": "4.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_rosu_syukumeruri_hp_260616.html"
+  ],
+  [
+    "シュクメルリジャンボチキンかつ定食",
+    1190,
+    {
+      "カロリー": "1670kcal",
+      "たんぱく質": "56.8g",
+      "脂質": "88.7g",
+      "炭水化物": "159.6g",
+      "食塩相当量": "5.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jumbo_chicken_syukumeruri_hp_260616.html"
   ],
   [
     "にんにく醤油の“揚げる”厚切り豚テキ定食",
@@ -910,6 +958,30 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "0～0.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
+  ],
+  [
+    "単品シュクメルリロースかつ",
+    730,
+    {
+      "カロリー": "735kcal",
+      "たんぱく質": "25.9g",
+      "脂質": "45.5g",
+      "炭水化物": "56.3g",
+      "食塩相当量": "2.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_rosu_syukumeruri_hp_260616.html"
+  ],
+  [
+    "単品シュクメルリジャンボチキンかつ",
+    930,
+    {
+      "カロリー": "1283kcal",
+      "たんぱく質": "48.9g",
+      "脂質": "87.2g",
+      "炭水化物": "70.1g",
+      "食塩相当量": "4.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_jumbo_chicken_syukumeruri_hp_260616.html"
   ],
   [
     "単品にんにく醤油の“揚げる”厚切り豚テキ",
