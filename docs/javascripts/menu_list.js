@@ -1089,7 +1089,7 @@ const MATSUNOYA_MENU_LIST = [
       "炭水化物": "79.5g",
       "食塩相当量": "1.1g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/sumikko/kobito_okosama_pan_hp_260512.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/sumikko/okosama_pan_hp_251126.html"
   ],
   [
     "マミー",
