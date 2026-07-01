@@ -1,5 +1,41 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "海鮮盛合せ定食（イカ・白身魚・海老）",
+    1190,
+    {
+      "カロリー": "1084.3kcal",
+      "たんぱく質": "32.4g",
+      "脂質": "50.9g",
+      "炭水化物": "128.3g",
+      "食塩相当量": "4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_kaisen_ikashiromiebi_hp_260701.html"
+  ],
+  [
+    "ロースかつ＆イカフライ定食",
+    990,
+    {
+      "カロリー": "1006.7kcal",
+      "たんぱく質": "33.4g",
+      "脂質": "44.1g",
+      "炭水化物": "124.1g",
+      "食塩相当量": "4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_ika_hp_260701.html"
+  ],
+  [
+    "ロースかつ＆白身魚フライ定食",
+    990,
+    {
+      "カロリー": "1127.4kcal",
+      "たんぱく質": "33.8g",
+      "脂質": "55g",
+      "炭水化物": "128.3g",
+      "食塩相当量": "4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_shiromi_hp_260701.html"
+  ],
+  [
     "超厚切りリブロースかつ定食",
     1050,
     {
@@ -118,30 +154,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7.2g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_ribu_hp_260624.html"
-  ],
-  [
-    "シュクメルリロースかつ定食",
-    990,
-    {
-      "カロリー": "1123kcal",
-      "たんぱく質": "33.8g",
-      "脂質": "47g",
-      "炭水化物": "145.8g",
-      "食塩相当量": "4.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_rosu_syukumeruri_hp_260616.html"
-  ],
-  [
-    "シュクメルリジャンボチキンかつ定食",
-    1190,
-    {
-      "カロリー": "1670kcal",
-      "たんぱく質": "56.8g",
-      "脂質": "88.7g",
-      "炭水化物": "159.6g",
-      "食塩相当量": "5.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jumbo_chicken_syukumeruri_hp_260616.html"
   ],
   [
     "にんにく醤油の“揚げる”厚切り豚テキ定食",
@@ -528,30 +540,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ch_umatoma_ribu_oni_hp_260624.html"
   ],
   [
-    "シュクメルリロースかつ定食",
-    990,
-    {
-      "カロリー": "1123kcal",
-      "たんぱく質": "33.8g",
-      "脂質": "47g",
-      "炭水化物": "145.8g",
-      "食塩相当量": "4.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_rosu_syukumeruri_hp_260616.html"
-  ],
-  [
-    "シュクメルリジャンボチキンかつ定食",
-    1190,
-    {
-      "カロリー": "1670kcal",
-      "たんぱく質": "56.8g",
-      "脂質": "88.7g",
-      "炭水化物": "159.6g",
-      "食塩相当量": "5.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jumbo_chicken_syukumeruri_hp_260616.html"
-  ],
-  [
     "にんにく醤油の“揚げる”厚切り豚テキ定食",
     1050,
     {
@@ -814,6 +802,42 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "5.5g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/mori_w_rosu_miso_hp_260506.html"
+  ],
+  [
+    "海鮮盛合せ定食（イカ・白身魚・海老）",
+    1190,
+    {
+      "カロリー": "1084.3kcal",
+      "たんぱく質": "32.4g",
+      "脂質": "50.9g",
+      "炭水化物": "128.3g",
+      "食塩相当量": "4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_kaisen_ikashiromiebi_hp_260701.html"
+  ],
+  [
+    "ロースかつ＆イカフライ定食",
+    990,
+    {
+      "カロリー": "1006.7kcal",
+      "たんぱく質": "33.4g",
+      "脂質": "44.1g",
+      "炭水化物": "124.1g",
+      "食塩相当量": "4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_ika_hp_260701.html"
+  ],
+  [
+    "ロースかつ＆白身魚フライ定食",
+    990,
+    {
+      "カロリー": "1127.4kcal",
+      "たんぱく質": "33.8g",
+      "脂質": "55g",
+      "炭水化物": "128.3g",
+      "食塩相当量": "4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_shiromi_hp_260701.html"
   ],
   [
     "超厚切りリブロースかつ＆海老フライ１尾定食",
@@ -1104,6 +1128,30 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
   ],
   [
+    "単品イカフライ",
+    300,
+    {
+      "カロリー": "111.5kcal",
+      "たんぱく質": "6.1g",
+      "脂質": "6.2g",
+      "炭水化物": "8.3g",
+      "食塩相当量": "0g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_ika_hp_260701.html"
+  ],
+  [
+    "単品白身魚フライ",
+    300,
+    {
+      "カロリー": "232.2kcal",
+      "たんぱく質": "6.5g",
+      "脂質": "17.1g",
+      "炭水化物": "12.5g",
+      "食塩相当量": "0g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_shiromi_hp_260701.html"
+  ],
+  [
     "単品超厚切りリブロースかつ",
     750,
     {
@@ -1138,30 +1186,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4.8g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_ch_umatoma__ribu_hp_260624.html"
-  ],
-  [
-    "単品シュクメルリロースかつ",
-    730,
-    {
-      "カロリー": "735kcal",
-      "たんぱく質": "25.9g",
-      "脂質": "45.5g",
-      "炭水化物": "56.3g",
-      "食塩相当量": "2.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_rosu_syukumeruri_hp_260616.html"
-  ],
-  [
-    "単品シュクメルリジャンボチキンかつ",
-    930,
-    {
-      "カロリー": "1283kcal",
-      "たんぱく質": "48.9g",
-      "脂質": "87.2g",
-      "炭水化物": "70.1g",
-      "食塩相当量": "4.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_jumbo_chicken_syukumeruri_hp_260616.html"
   ],
   [
     "単品にんにく醤油の“揚げる”厚切り豚テキ",
