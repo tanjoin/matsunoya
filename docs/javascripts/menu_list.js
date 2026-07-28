@@ -324,30 +324,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_miso_rosu_miniudon_hp_260715.html"
   ],
   [
-    "創業ビーフカレー 並盛",
-    780,
-    {
-      "カロリー": "765kcal",
-      "たんぱく質": "17.9g",
-      "脂質": "28.2g",
-      "炭水化物": "109.6g",
-      "食塩相当量": "5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_sougyou_hp_260708.html"
-  ],
-  [
-    "創業ビーフカレー 大盛",
-    860,
-    {
-      "カロリー": "921kcal",
-      "たんぱく質": "20.4g",
-      "脂質": "28.5g",
-      "炭水化物": "146.7g",
-      "食塩相当量": "5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_sougyou_hp_260708.html"
-  ],
-  [
     "創業ビーフロースかつカレー 並盛",
     980,
     {
@@ -1798,18 +1774,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "2.5g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/men__miniudon_hp_260715.html"
-  ],
-  [
-    "単品創業ビーフカレーソース",
-    660,
-    {
-      "カロリー": "386kcal",
-      "たんぱく質": "10.9g",
-      "脂質": "26.9g",
-      "炭水化物": "22.2g",
-      "食塩相当量": "3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_sougyou_hp_260708.html"
   ],
   [
     "単品ガーリックバターソース",
