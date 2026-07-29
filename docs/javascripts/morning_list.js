@@ -1,5 +1,41 @@
 const MATSUNOYA_MORNING_LIST = [
   [
+    "ミニ冷やしうどん朝定食",
+    490,
+    {
+      "カロリー": "680kcal",
+      "たんぱく質": "23.6g",
+      "脂質": "10.6g",
+      "炭水化物": "122.9g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_udon_asatei_hp_260729.html"
+  ],
+  [
+    "玉子丼ミニ冷やしうどんセット 並盛",
+    490,
+    {
+      "カロリー": "730kcal",
+      "たんぱく質": "25.6g",
+      "脂質": "11.6g",
+      "炭水化物": "128g",
+      "食塩相当量": "7.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_udon_tamagodon_hp_260729.html"
+  ],
+  [
+    "玉子丼ミニ冷やしうどんセット 大盛",
+    570,
+    {
+      "カロリー": "909kcal",
+      "たんぱく質": "29.2g",
+      "脂質": "11.9g",
+      "炭水化物": "169g",
+      "食塩相当量": "8.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_udon_tamagodon_hp_260729.html"
+  ],
+  [
     "得朝ロースかつ定食(小鉢無し)",
     550,
     {
