@@ -1,5 +1,77 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "“白”麻婆ライス 並盛",
+    690,
+    {
+      "カロリー": "737kcal",
+      "たんぱく質": "22.4g",
+      "脂質": "29.7g",
+      "炭水化物": "98.1g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_shiromabo_hp_260805.html"
+  ],
+  [
+    "“白”麻婆ライス 大盛",
+    770,
+    {
+      "カロリー": "893kcal",
+      "たんぱく質": "24.9g",
+      "脂質": "30g",
+      "炭水化物": "135.2g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_shiromabo_hp_260805.html"
+  ],
+  [
+    "ロースかつ“白”麻婆ライス 並盛",
+    890,
+    {
+      "カロリー": "1180kcal",
+      "たんぱく質": "41.3g",
+      "脂質": "60g",
+      "炭水化物": "122g",
+      "食塩相当量": "5.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_shiromabo_rosu_hp_260805.html"
+  ],
+  [
+    "ロースかつ“白”麻婆ライス 大盛",
+    970,
+    {
+      "カロリー": "1336kcal",
+      "たんぱく質": "43.8g",
+      "脂質": "60.3g",
+      "炭水化物": "159.1g",
+      "食塩相当量": "5.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_shiromabo_rosu_hp_260805.html"
+  ],
+  [
+    "超厚切りリブロースかつ“白”麻婆ライス 並盛",
+    1190,
+    {
+      "カロリー": "1531kcal",
+      "たんぱく質": "58.5g",
+      "脂質": "86.2g",
+      "炭水化物": "128.3g",
+      "食塩相当量": "6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_shiromabo_ribu_hp_260805.html"
+  ],
+  [
+    "超厚切りリブロースかつ“白”麻婆ライス 大盛",
+    1270,
+    {
+      "カロリー": "1687kcal",
+      "たんぱく質": "61g",
+      "脂質": "86.5g",
+      "炭水化物": "165.4g",
+      "食塩相当量": "6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_shiromabo_ribu_hp_260805.html"
+  ],
+  [
     "“超厚”リブロースand玉子のタレかつ丼 並盛",
     1090,
     {
@@ -82,30 +154,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "5.4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_ribu_yuki_marutahire_hp_260722.html"
-  ],
-  [
-    "創業ビーフ国産雪国育ち丸太ヒレかつ（１本）カレー 並盛",
-    1190,
-    {
-      "カロリー": "1178kcal",
-      "たんぱく質": "44.7g",
-      "脂質": "50.4g",
-      "炭水化物": "137.2g",
-      "食塩相当量": "5.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_marutahire_sougyou_hp_260722.html"
-  ],
-  [
-    "創業ビーフ国産雪国育ち丸太ヒレかつ（１本）カレー 大盛",
-    1270,
-    {
-      "カロリー": "1334kcal",
-      "たんぱく質": "47.2g",
-      "脂質": "50.7g",
-      "炭水化物": "174.3g",
-      "食塩相当量": "5.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_marutahire_sougyou_hp_260722.html"
   ],
   [
     "“肉厚”チキン“むね”かつ定食",
@@ -370,54 +418,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_miso_rosu_miniudon_hp_260715.html"
-  ],
-  [
-    "創業ビーフロースかつカレー 並盛",
-    980,
-    {
-      "カロリー": "1207kcal",
-      "たんぱく質": "36.7g",
-      "脂質": "58.6g",
-      "炭水化物": "133.5g",
-      "食塩相当量": "6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_rosu_sougyou_hp_260708.html"
-  ],
-  [
-    "創業ビーフロースかつカレー 大盛",
-    1060,
-    {
-      "カロリー": "1363kcal",
-      "たんぱく質": "39.2g",
-      "脂質": "58.9g",
-      "炭水化物": "170.6g",
-      "食塩相当量": "6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_rosu_sougyou_hp_260708.html"
-  ],
-  [
-    "創業ビーフ超厚切りリブロースかつカレー 並盛",
-    1170,
-    {
-      "カロリー": "1559kcal",
-      "たんぱく質": "53.9g",
-      "脂質": "84.8g",
-      "炭水化物": "139.7g",
-      "食塩相当量": "6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_ribu_sougyo_hp_260708.html"
-  ],
-  [
-    "創業ビーフ超厚切りリブロースかつカレー 大盛",
-    1250,
-    {
-      "カロリー": "1715kcal",
-      "たんぱく質": "56.4g",
-      "脂質": "85.1g",
-      "炭水化物": "176.8g",
-      "食塩相当量": "6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_ribu_sougyo_hp_260708.html"
   ],
   [
     "海鮮盛合せ定食（イカ・白身魚・海老）",
@@ -994,6 +994,78 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_kara_hp_260708.html"
+  ],
+  [
+    "“白”麻婆ライス 並盛",
+    690,
+    {
+      "カロリー": "737kcal",
+      "たんぱく質": "22.4g",
+      "脂質": "29.7g",
+      "炭水化物": "98.1g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_shiromabo_hp_260805.html"
+  ],
+  [
+    "“白”麻婆ライス 大盛",
+    770,
+    {
+      "カロリー": "893kcal",
+      "たんぱく質": "24.9g",
+      "脂質": "30g",
+      "炭水化物": "135.2g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_shiromabo_hp_260805.html"
+  ],
+  [
+    "ロースかつ“白”麻婆ライス 並盛",
+    890,
+    {
+      "カロリー": "1180kcal",
+      "たんぱく質": "41.3g",
+      "脂質": "60g",
+      "炭水化物": "122g",
+      "食塩相当量": "5.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_shiromabo_rosu_hp_260805.html"
+  ],
+  [
+    "ロースかつ“白”麻婆ライス 大盛",
+    970,
+    {
+      "カロリー": "1336kcal",
+      "たんぱく質": "43.8g",
+      "脂質": "60.3g",
+      "炭水化物": "159.1g",
+      "食塩相当量": "5.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_shiromabo_rosu_hp_260805.html"
+  ],
+  [
+    "超厚切りリブロースかつ“白”麻婆ライス 並盛",
+    1190,
+    {
+      "カロリー": "1531kcal",
+      "たんぱく質": "58.5g",
+      "脂質": "86.2g",
+      "炭水化物": "128.3g",
+      "食塩相当量": "6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_shiromabo_ribu_hp_260805.html"
+  ],
+  [
+    "超厚切りリブロースかつ“白”麻婆ライス 大盛",
+    1270,
+    {
+      "カロリー": "1687kcal",
+      "たんぱく質": "61g",
+      "脂質": "86.5g",
+      "炭水化物": "165.4g",
+      "食塩相当量": "6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_shiromabo_ribu_hp_260805.html"
   ],
   [
     "“超厚”リブロースand玉子のタレかつ丼 並盛",
