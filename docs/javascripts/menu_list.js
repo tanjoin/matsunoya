@@ -1,5 +1,65 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "オレンジソース唐揚げ（５個）定食",
+    1050,
+    {
+      "カロリー": "1075kcal",
+      "たんぱく質": "38.1g",
+      "脂質": "45.6g",
+      "炭水化物": "133.1g",
+      "食塩相当量": "6.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_orange_karaage5_hp_260812.html"
+  ],
+  [
+    "オレンジソース唐揚げ（８個）定食",
+    1290,
+    {
+      "カロリー": "1390kcal",
+      "たんぱく質": "55.8g",
+      "脂質": "63.1g",
+      "炭水化物": "155.6g",
+      "食塩相当量": "8.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_orange_karaage8_hp_260812.html"
+  ],
+  [
+    "オレンジソース“肉厚”チキン“むね”定食",
+    990,
+    {
+      "カロリー": "1184kcal",
+      "たんぱく質": "50g",
+      "脂質": "51.1g",
+      "炭水化物": "136.7g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_orange_nikuatu_mune_hp_260812.html"
+  ],
+  [
+    "ロースかつ＆オレンジソース唐揚げ（３個）定食",
+    1090,
+    {
+      "カロリー": "1290kcal",
+      "たんぱく質": "44.8g",
+      "脂質": "64.2g",
+      "炭水化物": "138.5g",
+      "食塩相当量": "5.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_orange_kara_hp_260812.html"
+  ],
+  [
+    "超厚切りリブロースかつ＆オレンジソース唐揚げ（３個）定食",
+    1450,
+    {
+      "カロリー": "1641kcal",
+      "たんぱく質": "61.9g",
+      "脂質": "90.4g",
+      "炭水化物": "144.7g",
+      "食塩相当量": "5.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_ribu_orange_orange_karaage_hp_260812.html"
+  ],
+  [
     "“白”麻婆ライス 並盛",
     690,
     {
@@ -456,6 +516,42 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_shiromi_hp_260701.html"
   ],
   [
+    "オレンジソース唐揚げ（５個）定食",
+    1050,
+    {
+      "カロリー": "1075kcal",
+      "たんぱく質": "38.1g",
+      "脂質": "45.6g",
+      "炭水化物": "133.1g",
+      "食塩相当量": "6.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_orange_karaage5_hp_260812.html"
+  ],
+  [
+    "オレンジソース唐揚げ（８個）定食",
+    1290,
+    {
+      "カロリー": "1390kcal",
+      "たんぱく質": "55.8g",
+      "脂質": "63.1g",
+      "炭水化物": "155.6g",
+      "食塩相当量": "8.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_orange_karaage8_hp_260812.html"
+  ],
+  [
+    "オレンジソース“肉厚”チキン“むね”定食",
+    990,
+    {
+      "カロリー": "1184kcal",
+      "たんぱく質": "50g",
+      "脂質": "51.1g",
+      "炭水化物": "136.7g",
+      "食塩相当量": "4.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_orange_nikuatu_mune_hp_260812.html"
+  ],
+  [
     "国産雪国育ち丸太ヒレかつ（２本）定食",
     1590,
     {
@@ -790,6 +886,30 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_karaage8_hp_260708.html"
+  ],
+  [
+    "ロースかつ＆オレンジソース唐揚げ（３個）定食",
+    1090,
+    {
+      "カロリー": "1290kcal",
+      "たんぱく質": "44.8g",
+      "脂質": "64.2g",
+      "炭水化物": "138.5g",
+      "食塩相当量": "5.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_orange_kara_hp_260812.html"
+  ],
+  [
+    "超厚切りリブロースかつ＆オレンジソース唐揚げ（３個）定食",
+    1450,
+    {
+      "カロリー": "1641kcal",
+      "たんぱく質": "61.9g",
+      "脂質": "90.4g",
+      "炭水化物": "144.7g",
+      "食塩相当量": "5.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_ribu_orange_orange_karaage_hp_260812.html"
   ],
   [
     "ロースかつ＆国産雪国育ち丸太ヒレかつ（１本）定食",
@@ -1366,6 +1486,30 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "2.5g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_set_kara3_koro2_hp_260729.html"
+  ],
+  [
+    "単品オレンジソース“肉厚”チキン“むね”かつ",
+    790,
+    {
+      "カロリー": "797kcal",
+      "たんぱく質": "42.1g",
+      "脂質": "49.7g",
+      "炭水化物": "47.2g",
+      "食塩相当量": "3.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_orange_nikuatu_mune_hp_260812.html"
+  ],
+  [
+    "単品オレンジソース唐揚げ（５個）",
+    750,
+    {
+      "カロリー": "687kcal",
+      "たんぱく質": "30.2g",
+      "脂質": "44.2g",
+      "炭水化物": "43.7g",
+      "食塩相当量": "4.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_orange_kara5_hp_260812.html"
   ],
   [
     "単品 国産雪国育ち丸太ヒレかつ",
