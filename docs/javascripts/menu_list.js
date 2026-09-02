@@ -1,5 +1,77 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "ロースと野菜の合い盛りタレかつ丼 並盛",
+    730,
+    {
+      "カロリー": "851kcal",
+      "たんぱく質": "20.7g",
+      "脂質": "27.7g",
+      "炭水化物": "132.2g",
+      "食塩相当量": "5.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_yasai_tare_hp_260902.html"
+  ],
+  [
+    "ロースと野菜の合い盛りタレかつ丼 大盛",
+    810,
+    {
+      "カロリー": "1007kcal",
+      "たんぱく質": "23.2g",
+      "脂質": "28g",
+      "炭水化物": "169.3g",
+      "食塩相当量": "5.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_yasai_tare_hp_260902.html"
+  ],
+  [
+    "ロースと野菜の合い盛りタレかつ丼＋トッピング鬼おろし 並盛",
+    790,
+    {
+      "カロリー": "861kcal",
+      "たんぱく質": "21g",
+      "脂質": "27.7g",
+      "炭水化物": "134.5g",
+      "食塩相当量": "5.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_yasai_tare_oroshi_hp_260902.html"
+  ],
+  [
+    "ロースと野菜の合い盛りタレかつ丼＋トッピング鬼おろし 大盛",
+    870,
+    {
+      "カロリー": "1017kcal",
+      "たんぱく質": "23.5g",
+      "脂質": "28g",
+      "炭水化物": "171.6g",
+      "食塩相当量": "5.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_yasai_tare_oroshi_hp_260902.html"
+  ],
+  [
+    "ロースと野菜の合い盛りタレかつ丼＋トッピング半熟玉子 並盛",
+    790,
+    {
+      "カロリー": "928kcal",
+      "たんぱく質": "26.7g",
+      "脂質": "32.6g",
+      "炭水化物": "133.6g",
+      "食塩相当量": "5.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_yasai_tare_hanjyuku_hp_260902.html"
+  ],
+  [
+    "ロースと野菜の合い盛りタレかつ丼＋トッピング半熟玉子 大盛",
+    870,
+    {
+      "カロリー": "1084kcal",
+      "たんぱく質": "29.2g",
+      "脂質": "32.9g",
+      "炭水化物": "170.7g",
+      "食塩相当量": "5.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_yasai_tare_hanjyuku_hp_260902.html"
+  ],
+  [
     "油淋鶏定食（5個）",
     990,
     {
@@ -46,66 +118,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "6g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_ribu_yurinchi_hp_260826.html"
-  ],
-  [
-    "オレンジソース唐揚げ（５個）定食",
-    1050,
-    {
-      "カロリー": "1075kcal",
-      "たんぱく質": "38.1g",
-      "脂質": "45.6g",
-      "炭水化物": "133.1g",
-      "食塩相当量": "6.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_orange_karaage5_hp_260812.html"
-  ],
-  [
-    "オレンジソース唐揚げ（８個）定食",
-    1290,
-    {
-      "カロリー": "1390kcal",
-      "たんぱく質": "55.8g",
-      "脂質": "63.1g",
-      "炭水化物": "155.6g",
-      "食塩相当量": "8.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_orange_karaage8_hp_260812.html"
-  ],
-  [
-    "オレンジソース“肉厚”チキン“むね”定食",
-    990,
-    {
-      "カロリー": "1184kcal",
-      "たんぱく質": "50g",
-      "脂質": "51.1g",
-      "炭水化物": "136.7g",
-      "食塩相当量": "4.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_orange_nikuatu_mune_hp_260812.html"
-  ],
-  [
-    "ロースかつ＆オレンジソース唐揚げ（３個）定食",
-    1090,
-    {
-      "カロリー": "1290kcal",
-      "たんぱく質": "44.8g",
-      "脂質": "64.2g",
-      "炭水化物": "138.5g",
-      "食塩相当量": "5.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_orange_kara_hp_260812.html"
-  ],
-  [
-    "超厚切りリブロースかつ＆オレンジソース唐揚げ（３個）定食",
-    1450,
-    {
-      "カロリー": "1641kcal",
-      "たんぱく質": "61.9g",
-      "脂質": "90.4g",
-      "炭水化物": "144.7g",
-      "食塩相当量": "5.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_ribu_orange_orange_karaage_hp_260812.html"
   ],
   [
     "“白”麻婆ライス 並盛",
@@ -180,54 +192,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_shiromabo_ribu_hp_260805.html"
   ],
   [
-    "“超厚”リブロースand玉子のタレかつ丼 並盛",
-    1090,
-    {
-      "カロリー": "1426kcal",
-      "たんぱく質": "61.7g",
-      "脂質": "72.8g",
-      "炭水化物": "125.1g",
-      "食塩相当量": "6.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_ribu_tare_hp_260729.html"
-  ],
-  [
-    "“超厚”リブロースand玉子のタレかつ丼 大盛",
-    1170,
-    {
-      "カロリー": "1582kcal",
-      "たんぱく質": "64.2g",
-      "脂質": "73.1g",
-      "炭水化物": "162.2g",
-      "食塩相当量": "6.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_ribu_tare_hp_260729.html"
-  ],
-  [
-    "“超厚”リブロースand玉子のタレかつ丼ミニうどんセット 並盛",
-    1190,
-    {
-      "カロリー": "1585kcal",
-      "たんぱく質": "66.3g",
-      "脂質": "73.4g",
-      "炭水化物": "156.1g",
-      "食塩相当量": "9.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_ribu_tare_miniudon_hp_260729.html"
-  ],
-  [
-    "“超厚”リブロースand玉子のタレかつ丼ミニうどんセット 大盛",
-    1270,
-    {
-      "カロリー": "1741kcal",
-      "たんぱく質": "68.8g",
-      "脂質": "73.7g",
-      "炭水化物": "193.2g",
-      "食塩相当量": "9.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_ribu_tare_miniudon_hp_260729.html"
-  ],
-  [
     "“肉厚”チキン“むね”かつ定食",
     890,
     {
@@ -286,210 +250,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "5.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_nikuatu_mune_kara_hp_260715.html"
-  ],
-  [
-    "ガーリックソースチキンむねかつ定食",
-    890,
-    {
-      "カロリー": "922kcal",
-      "たんぱく質": "36.1g",
-      "脂質": "34.7g",
-      "炭水化物": "121.7g",
-      "食塩相当量": "3.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_garimune_hp_260715.html"
-  ],
-  [
-    "ガーリックソースたっぷりチキンむねかつ定食",
-    990,
-    {
-      "カロリー": "1148kcal",
-      "たんぱく質": "50g",
-      "脂質": "47.2g",
-      "炭水化物": "136.9g",
-      "食塩相当量": "4.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_tappurimune_hp_260715.html"
-  ],
-  [
-    "鬼おろしポン酢チキンむねかつ定食",
-    890,
-    {
-      "カロリー": "871kcal",
-      "たんぱく質": "37.1g",
-      "脂質": "26.5g",
-      "炭水化物": "126.4g",
-      "食塩相当量": "4.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_mune_oro_hp_260715.html"
-  ],
-  [
-    "鬼おろしポン酢たっぷりチキンむねかつ定食",
-    990,
-    {
-      "カロリー": "1096kcal",
-      "たんぱく質": "51.1g",
-      "脂質": "39g",
-      "炭水化物": "141.6g",
-      "食塩相当量": "5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_tappurimune_oro_hp_260715.html"
-  ],
-  [
-    "味噌チキンむねかつ定食",
-    890,
-    {
-      "カロリー": "935kcal",
-      "たんぱく質": "38.3g",
-      "脂質": "28.9g",
-      "炭水化物": "134.3g",
-      "食塩相当量": "4.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_mune_miso_hp_260715.html"
-  ],
-  [
-    "味噌たっぷりチキンむねかつ定食",
-    990,
-    {
-      "カロリー": "1160kcal",
-      "たんぱく質": "52.2g",
-      "脂質": "41.4g",
-      "炭水化物": "149.5g",
-      "食塩相当量": "5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_tappurimune_miso_hp_260715.html"
-  ],
-  [
-    "ロースかつ＆ガーリックソースチキンむねかつ１本定食",
-    990,
-    {
-      "カロリー": "1139kcal",
-      "たんぱく質": "41g",
-      "脂質": "52.5g",
-      "炭水化物": "130.5g",
-      "食塩相当量": "3.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_mune1_hp_260715.html"
-  ],
-  [
-    "ロースかつ＆ガーリックソースチキンむねかつ２本定食",
-    1190,
-    {
-      "カロリー": "1365kcal",
-      "たんぱく質": "55g",
-      "脂質": "65g",
-      "炭水化物": "145.7g",
-      "食塩相当量": "4.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_mune2_hp_260715.html"
-  ],
-  [
-    "ロースかつ丼ミニうどんセット 並盛",
-    890,
-    {
-      "カロリー": "1169kcal",
-      "たんぱく質": "44.3g",
-      "脂質": "41.9g",
-      "炭水化物": "151.2g",
-      "食塩相当量": "8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_miniudon_hp_260715.html"
-  ],
-  [
-    "ロースかつ丼ミニうどんセット 大盛",
-    970,
-    {
-      "カロリー": "1348kcal",
-      "たんぱく質": "47.9g",
-      "脂質": "42.2g",
-      "炭水化物": "192.3g",
-      "食塩相当量": "9.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_miniudon_hp_260715.html"
-  ],
-  [
-    "鬼おろしポン酢ロースかつ丼ミニうどんセット 並盛",
-    890,
-    {
-      "カロリー": "1007kcal",
-      "たんぱく質": "31.9g",
-      "脂質": "32.3g",
-      "炭水化物": "147.9g",
-      "食塩相当量": "6.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_orishi_miniudon_hp_260715.html"
-  ],
-  [
-    "鬼おろしポン酢ロースかつ丼ミニうどんセット 大盛",
-    970,
-    {
-      "カロリー": "1163kcal",
-      "たんぱく質": "34.4g",
-      "脂質": "32.6g",
-      "炭水化物": "185g",
-      "食塩相当量": "6.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_orishi_miniudon_hp_260715.html"
-  ],
-  [
-    "味噌ロースかつ丼ミニうどんセット 並盛",
-    890,
-    {
-      "カロリー": "1071kcal",
-      "たんぱく質": "33.1g",
-      "脂質": "34.7g",
-      "炭水化物": "155.8g",
-      "食塩相当量": "7.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_miso_miniudon_hp_260715.html"
-  ],
-  [
-    "味噌ロースかつ丼ミニうどんセット 大盛",
-    970,
-    {
-      "カロリー": "1227kcal",
-      "たんぱく質": "35.6g",
-      "脂質": "35g",
-      "炭水化物": "192.9g",
-      "食塩相当量": "7.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_miso_miniudon_hp_260715.html"
-  ],
-  [
-    "ロースかつ定食ミニうどんセット",
-    930,
-    {
-      "カロリー": "988kcal",
-      "たんぱく質": "31.3g",
-      "脂質": "32.3g",
-      "炭水化物": "144.5g",
-      "食塩相当量": "5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_rosu_miniudon_hp_260715.html"
-  ],
-  [
-    "鬼おろしポン酢ロースかつ定食ミニうどんセット",
-    990,
-    {
-      "カロリー": "1020kcal",
-      "たんぱく質": "32.7g",
-      "脂質": "32.4g",
-      "炭水化物": "151g",
-      "食塩相当量": "6.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_rosu_miniudon_hp_260715.html"
-  ],
-  [
-    "味噌ロースかつ定食ミニうどんセット",
-    990,
-    {
-      "カロリー": "1084kcal",
-      "たんぱく質": "33.8g",
-      "脂質": "34.8g",
-      "炭水化物": "159g",
-      "食塩相当量": "7.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_miso_rosu_miniudon_hp_260715.html"
   ],
   [
     "海鮮盛合せ定食（イカ・白身魚・海老）",
@@ -552,42 +312,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_yurinchi8_hp_260826.html"
   ],
   [
-    "オレンジソース唐揚げ（５個）定食",
-    1050,
-    {
-      "カロリー": "1075kcal",
-      "たんぱく質": "38.1g",
-      "脂質": "45.6g",
-      "炭水化物": "133.1g",
-      "食塩相当量": "6.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_orange_karaage5_hp_260812.html"
-  ],
-  [
-    "オレンジソース唐揚げ（８個）定食",
-    1290,
-    {
-      "カロリー": "1390kcal",
-      "たんぱく質": "55.8g",
-      "脂質": "63.1g",
-      "炭水化物": "155.6g",
-      "食塩相当量": "8.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_orange_karaage8_hp_260812.html"
-  ],
-  [
-    "オレンジソース“肉厚”チキン“むね”定食",
-    990,
-    {
-      "カロリー": "1184kcal",
-      "たんぱく質": "50g",
-      "脂質": "51.1g",
-      "炭水化物": "136.7g",
-      "食塩相当量": "4.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_orange_nikuatu_mune_hp_260812.html"
-  ],
-  [
     "“肉厚”チキン“むね”かつ定食",
     890,
     {
@@ -598,114 +322,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "3.6g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_nikuatu_mune_hp_260715.html"
-  ],
-  [
-    "ガーリックソースチキンむねかつ定食",
-    890,
-    {
-      "カロリー": "922kcal",
-      "たんぱく質": "36.1g",
-      "脂質": "34.7g",
-      "炭水化物": "121.7g",
-      "食塩相当量": "3.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_garimune_hp_260715.html"
-  ],
-  [
-    "ガーリックソースたっぷりチキンむねかつ定食",
-    990,
-    {
-      "カロリー": "1148kcal",
-      "たんぱく質": "50g",
-      "脂質": "47.2g",
-      "炭水化物": "136.9g",
-      "食塩相当量": "4.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_tappurimune_hp_260715.html"
-  ],
-  [
-    "鬼おろしポン酢チキンむねかつ定食",
-    890,
-    {
-      "カロリー": "871kcal",
-      "たんぱく質": "37.1g",
-      "脂質": "26.5g",
-      "炭水化物": "126.4g",
-      "食塩相当量": "4.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_mune_oro_hp_260715.html"
-  ],
-  [
-    "鬼おろしポン酢たっぷりチキンむねかつ定食",
-    990,
-    {
-      "カロリー": "1096kcal",
-      "たんぱく質": "51.1g",
-      "脂質": "39g",
-      "炭水化物": "141.6g",
-      "食塩相当量": "5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_tappurimune_oro_hp_260715.html"
-  ],
-  [
-    "味噌チキンむねかつ定食",
-    890,
-    {
-      "カロリー": "935kcal",
-      "たんぱく質": "38.3g",
-      "脂質": "28.9g",
-      "炭水化物": "134.3g",
-      "食塩相当量": "4.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_mune_miso_hp_260715.html"
-  ],
-  [
-    "味噌たっぷりチキンむねかつ定食",
-    990,
-    {
-      "カロリー": "1160kcal",
-      "たんぱく質": "52.2g",
-      "脂質": "41.4g",
-      "炭水化物": "149.5g",
-      "食塩相当量": "5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_tappurimune_miso_hp_260715.html"
-  ],
-  [
-    "ロースかつ定食ミニうどんセット",
-    930,
-    {
-      "カロリー": "988kcal",
-      "たんぱく質": "31.3g",
-      "脂質": "32.3g",
-      "炭水化物": "144.5g",
-      "食塩相当量": "5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_rosu_miniudon_hp_260715.html"
-  ],
-  [
-    "鬼おろしポン酢ロースかつ定食ミニうどんセット",
-    990,
-    {
-      "カロリー": "1020kcal",
-      "たんぱく質": "32.7g",
-      "脂質": "32.4g",
-      "炭水化物": "151g",
-      "食塩相当量": "6.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_oroshipon_rosu_miniudon_hp_260715.html"
-  ],
-  [
-    "味噌ロースかつ定食ミニうどんセット",
-    990,
-    {
-      "カロリー": "1084kcal",
-      "たんぱく質": "33.8g",
-      "脂質": "34.8g",
-      "炭水化物": "159g",
-      "食塩相当量": "7.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_miso_rosu_miniudon_hp_260715.html"
   ],
   [
     "超厚切りリブロースかつ定食",
@@ -936,30 +552,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_ribu_yurinchi_hp_260826.html"
   ],
   [
-    "ロースかつ＆オレンジソース唐揚げ（３個）定食",
-    1090,
-    {
-      "カロリー": "1290kcal",
-      "たんぱく質": "44.8g",
-      "脂質": "64.2g",
-      "炭水化物": "138.5g",
-      "食塩相当量": "5.2g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_orange_kara_hp_260812.html"
-  ],
-  [
-    "超厚切りリブロースかつ＆オレンジソース唐揚げ（３個）定食",
-    1450,
-    {
-      "カロリー": "1641kcal",
-      "たんぱく質": "61.9g",
-      "脂質": "90.4g",
-      "炭水化物": "144.7g",
-      "食塩相当量": "5.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_ribu_orange_orange_karaage_hp_260812.html"
-  ],
-  [
     "“肉厚”チキン“むね”かつ＆ロースかつ定食",
     1190,
     {
@@ -1006,30 +598,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "5.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_nikuatu_mune_kara_hp_260715.html"
-  ],
-  [
-    "ロースかつ＆ガーリックソースチキンむねかつ１本定食",
-    990,
-    {
-      "カロリー": "1139kcal",
-      "たんぱく質": "41g",
-      "脂質": "52.5g",
-      "炭水化物": "130.5g",
-      "食塩相当量": "3.8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_mune1_hp_260715.html"
-  ],
-  [
-    "ロースかつ＆ガーリックソースチキンむねかつ２本定食",
-    1190,
-    {
-      "カロリー": "1365kcal",
-      "たんぱく質": "55g",
-      "脂質": "65g",
-      "炭水化物": "145.7g",
-      "食塩相当量": "4.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_mune2_hp_260715.html"
   ],
   [
     "海鮮盛合せ定食（イカ・白身魚・海老）",
@@ -1140,6 +708,78 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_kara_hp_260708.html"
   ],
   [
+    "ロースと野菜の合い盛りタレかつ丼 並盛",
+    730,
+    {
+      "カロリー": "851kcal",
+      "たんぱく質": "20.7g",
+      "脂質": "27.7g",
+      "炭水化物": "132.2g",
+      "食塩相当量": "5.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_yasai_tare_hp_260902.html"
+  ],
+  [
+    "ロースと野菜の合い盛りタレかつ丼 大盛",
+    810,
+    {
+      "カロリー": "1007kcal",
+      "たんぱく質": "23.2g",
+      "脂質": "28g",
+      "炭水化物": "169.3g",
+      "食塩相当量": "5.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_yasai_tare_hp_260902.html"
+  ],
+  [
+    "ロースと野菜の合い盛りタレかつ丼＋トッピング鬼おろし 並盛",
+    790,
+    {
+      "カロリー": "861kcal",
+      "たんぱく質": "21g",
+      "脂質": "27.7g",
+      "炭水化物": "134.5g",
+      "食塩相当量": "5.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_yasai_tare_oroshi_hp_260902.html"
+  ],
+  [
+    "ロースと野菜の合い盛りタレかつ丼＋トッピング鬼おろし 大盛",
+    870,
+    {
+      "カロリー": "1017kcal",
+      "たんぱく質": "23.5g",
+      "脂質": "28g",
+      "炭水化物": "171.6g",
+      "食塩相当量": "5.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_yasai_tare_oroshi_hp_260902.html"
+  ],
+  [
+    "ロースと野菜の合い盛りタレかつ丼＋トッピング半熟玉子 並盛",
+    790,
+    {
+      "カロリー": "928kcal",
+      "たんぱく質": "26.7g",
+      "脂質": "32.6g",
+      "炭水化物": "133.6g",
+      "食塩相当量": "5.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_yasai_tare_hanjyuku_hp_260902.html"
+  ],
+  [
+    "ロースと野菜の合い盛りタレかつ丼＋トッピング半熟玉子 大盛",
+    870,
+    {
+      "カロリー": "1084kcal",
+      "たんぱく質": "29.2g",
+      "脂質": "32.9g",
+      "炭水化物": "170.7g",
+      "食塩相当量": "5.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_yasai_tare_hanjyuku_hp_260902.html"
+  ],
+  [
     "“白”麻婆ライス 並盛",
     690,
     {
@@ -1210,126 +850,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "6g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_shiromabo_ribu_hp_260805.html"
-  ],
-  [
-    "“超厚”リブロースand玉子のタレかつ丼 並盛",
-    1090,
-    {
-      "カロリー": "1426kcal",
-      "たんぱく質": "61.7g",
-      "脂質": "72.8g",
-      "炭水化物": "125.1g",
-      "食塩相当量": "6.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_ribu_tare_hp_260729.html"
-  ],
-  [
-    "“超厚”リブロースand玉子のタレかつ丼 大盛",
-    1170,
-    {
-      "カロリー": "1582kcal",
-      "たんぱく質": "64.2g",
-      "脂質": "73.1g",
-      "炭水化物": "162.2g",
-      "食塩相当量": "6.9g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_ribu_tare_hp_260729.html"
-  ],
-  [
-    "“超厚”リブロースand玉子のタレかつ丼ミニうどんセット 並盛",
-    1190,
-    {
-      "カロリー": "1585kcal",
-      "たんぱく質": "66.3g",
-      "脂質": "73.4g",
-      "炭水化物": "156.1g",
-      "食塩相当量": "9.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_ribu_tare_miniudon_hp_260729.html"
-  ],
-  [
-    "“超厚”リブロースand玉子のタレかつ丼ミニうどんセット 大盛",
-    1270,
-    {
-      "カロリー": "1741kcal",
-      "たんぱく質": "68.8g",
-      "脂質": "73.7g",
-      "炭水化物": "193.2g",
-      "食塩相当量": "9.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_ribu_tare_miniudon_hp_260729.html"
-  ],
-  [
-    "ロースかつ丼ミニうどんセット 並盛",
-    890,
-    {
-      "カロリー": "1169kcal",
-      "たんぱく質": "44.3g",
-      "脂質": "41.9g",
-      "炭水化物": "151.2g",
-      "食塩相当量": "8g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_miniudon_hp_260715.html"
-  ],
-  [
-    "ロースかつ丼ミニうどんセット 大盛",
-    970,
-    {
-      "カロリー": "1348kcal",
-      "たんぱく質": "47.9g",
-      "脂質": "42.2g",
-      "炭水化物": "192.3g",
-      "食塩相当量": "9.4g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_miniudon_hp_260715.html"
-  ],
-  [
-    "鬼おろしポン酢ロースかつ丼ミニうどんセット 並盛",
-    890,
-    {
-      "カロリー": "1007kcal",
-      "たんぱく質": "31.9g",
-      "脂質": "32.3g",
-      "炭水化物": "147.9g",
-      "食塩相当量": "6.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_orishi_miniudon_hp_260715.html"
-  ],
-  [
-    "鬼おろしポン酢ロースかつ丼ミニうどんセット 大盛",
-    970,
-    {
-      "カロリー": "1163kcal",
-      "たんぱく質": "34.4g",
-      "脂質": "32.6g",
-      "炭水化物": "185g",
-      "食塩相当量": "6.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_orishi_miniudon_hp_260715.html"
-  ],
-  [
-    "味噌ロースかつ丼ミニうどんセット 並盛",
-    890,
-    {
-      "カロリー": "1071kcal",
-      "たんぱく質": "33.1g",
-      "脂質": "34.7g",
-      "炭水化物": "155.8g",
-      "食塩相当量": "7.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_miso_miniudon_hp_260715.html"
-  ],
-  [
-    "味噌ロースかつ丼ミニうどんセット 大盛",
-    970,
-    {
-      "カロリー": "1227kcal",
-      "たんぱく質": "35.6g",
-      "脂質": "35g",
-      "炭水化物": "192.9g",
-      "食塩相当量": "7.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_miso_miniudon_hp_260715.html"
   ],
   [
     "超厚切りリブロースかつ丼 並盛",
@@ -1512,30 +1032,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_set_kara3_koro2_hp_260729.html"
   ],
   [
-    "単品オレンジソース“肉厚”チキン“むね”かつ",
-    790,
-    {
-      "カロリー": "797kcal",
-      "たんぱく質": "42.1g",
-      "脂質": "49.7g",
-      "炭水化物": "47.2g",
-      "食塩相当量": "3.3g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_orange_nikuatu_mune_hp_260812.html"
-  ],
-  [
-    "単品オレンジソース唐揚げ（５個）",
-    750,
-    {
-      "カロリー": "687kcal",
-      "たんぱく質": "30.2g",
-      "脂質": "44.2g",
-      "炭水化物": "43.7g",
-      "食塩相当量": "4.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_orange_kara5_hp_260812.html"
-  ],
-  [
     "単品“肉厚”チキン“むね”かつ",
     590,
     {
@@ -1546,18 +1042,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "1.2g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_nikuatu_mune_hp_260715.html"
-  ],
-  [
-    "単品チキンむねかつ",
-    250,
-    {
-      "カロリー": "226kcal",
-      "たんぱく質": "13.9g",
-      "脂質": "12.5g",
-      "炭水化物": "15.2g",
-      "食塩相当量": "0.6g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_mune_hp_260715.html"
   ],
   [
     "単品イカフライ",
@@ -1764,6 +1248,18 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_tonjiru_hp_240809.html"
   ],
   [
+    "単品半熟玉子",
+    100,
+    {
+      "カロリー": "71kcal",
+      "たんぱく質": "5.8g",
+      "脂質": "4.8g",
+      "炭水化物": "0.1g",
+      "食塩相当量": "0.2g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_hanjyuku_egg_hp_260902.html"
+  ],
+  [
     "単品油淋鶏ソース",
     150,
     {
@@ -1786,18 +1282,6 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "0g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_lemon_hp_260826.html"
-  ],
-  [
-    "単品ミニうどん",
-    290,
-    {
-      "カロリー": "158kcal",
-      "たんぱく質": "4.6g",
-      "脂質": "0.5g",
-      "炭水化物": "31g",
-      "食塩相当量": "2.5g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/men__miniudon_hp_260715.html"
   ],
   [
     "単品ガーリックバターソース",
@@ -1872,8 +1356,8 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_hurikake_tamago_hp_240809.html"
   ],
   [
-    "生玉子",
-    80,
+    "単品生玉子",
+    100,
     {
       "カロリー": "71kcal",
       "たんぱく質": "5.8g",
@@ -1881,7 +1365,7 @@ const MATSUNOYA_MENU_LIST = [
       "炭水化物": "0.1g",
       "食塩相当量": "0.2g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_namatamago_hp_240809.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/side_menu/side_namatamago_hp_260902.html"
   ],
   [
     "トッピングポテサラ",
