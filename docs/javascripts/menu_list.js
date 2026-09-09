@@ -1,5 +1,77 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "チーズトマトハヤシライス 並盛",
+    780,
+    {
+      "カロリー": "769kcal",
+      "たんぱく質": "16.2g",
+      "脂質": "33.9g",
+      "炭水化物": "101.5g",
+      "食塩相当量": "3.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_ch_tmt_hayshi_hp_260909.html"
+  ],
+  [
+    "チーズトマトハヤシライス 大盛",
+    930,
+    {
+      "カロリー": "994kcal",
+      "たんぱく質": "19.9g",
+      "脂質": "39.6g",
+      "炭水化物": "142.4g",
+      "食塩相当量": "3.6g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_ch_tmt_hayshi_hp_260909.html"
+  ],
+  [
+    "ロースかつチーズトマトハヤシライス 並盛",
+    990,
+    {
+      "カロリー": "1211kcal",
+      "たんぱく質": "35.1g",
+      "脂質": "64.3g",
+      "炭水化物": "125.4g",
+      "食塩相当量": "4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_ch_tmt_hayshi_rosu_hp_260909.html"
+  ],
+  [
+    "ロースかつチーズトマトハヤシライス 大盛",
+    1140,
+    {
+      "カロリー": "1436kcal",
+      "たんぱく質": "38.8g",
+      "脂質": "70g",
+      "炭水化物": "166.3g",
+      "食塩相当量": "4.4g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_ch_tmt_hayshi_rosu_hp_260909.html"
+  ],
+  [
+    "超厚切りリブロースかつチーズトマトハヤシライス 並盛",
+    1290,
+    {
+      "カロリー": "1562kcal",
+      "たんぱく質": "52.3g",
+      "脂質": "90.5g",
+      "炭水化物": "131.6g",
+      "食塩相当量": "4.3g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_ch_tmt_hayshi_ribu_hp_260909.html"
+  ],
+  [
+    "超厚切りリブロースかつチーズトマトハヤシライス 大盛",
+    1440,
+    {
+      "カロリー": "1788kcal",
+      "たんぱく質": "55.9g",
+      "脂質": "96.2g",
+      "炭水化物": "172.5g",
+      "食塩相当量": "4.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/osusume/cry_ch_tmt_hayshi_ribu_hp_260909.html"
+  ],
+  [
     "ロースと野菜の合い盛りタレかつ丼 並盛",
     730,
     {
