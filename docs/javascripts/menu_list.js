@@ -3,11 +3,11 @@ const MATSUNOYA_MENU_LIST = [
     "カキフライ（5個）定食",
     1030,
     {
-      "カロリー": "925kcal",
-      "たんぱく質": "29.4g",
-      "脂質": "38.9g",
-      "炭水化物": "119.9g",
-      "食塩相当量": "3.9g"
+      "カロリー": "894kcal",
+      "たんぱく質": "16.9g",
+      "脂質": "39.6g",
+      "炭水化物": "121.5g",
+      "食塩相当量": "3.6g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_kaki5_hp_260916.html"
   ],
@@ -27,11 +27,11 @@ const MATSUNOYA_MENU_LIST = [
     "アジフライ（2枚）定食",
     930,
     {
-      "カロリー": "894kcal",
-      "たんぱく質": "16.9g",
-      "脂質": "39.6g",
-      "炭水化物": "121.5g",
-      "食塩相当量": "3.6g"
+      "カロリー": "925kcal",
+      "たんぱく質": "29.4g",
+      "脂質": "38.9g",
+      "炭水化物": "119.9g",
+      "食塩相当量": "3.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_aji_hp_260916.html"
   ],
@@ -363,11 +363,11 @@ const MATSUNOYA_MENU_LIST = [
     "カキフライ（5個）定食",
     1030,
     {
-      "カロリー": "925kcal",
-      "たんぱく質": "29.4g",
-      "脂質": "38.9g",
-      "炭水化物": "119.9g",
-      "食塩相当量": "3.9g"
+      "カロリー": "894kcal",
+      "たんぱく質": "16.9g",
+      "脂質": "39.6g",
+      "炭水化物": "121.5g",
+      "食塩相当量": "3.6g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_kaki5_hp_260916.html"
   ],
@@ -387,11 +387,11 @@ const MATSUNOYA_MENU_LIST = [
     "アジフライ（2枚）定食",
     930,
     {
-      "カロリー": "894kcal",
-      "たんぱく質": "16.9g",
-      "脂質": "39.6g",
-      "炭水化物": "121.5g",
-      "食塩相当量": "3.6g"
+      "カロリー": "925kcal",
+      "たんぱく質": "29.4g",
+      "脂質": "38.9g",
+      "炭水化物": "119.9g",
+      "食塩相当量": "3.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_aji_hp_260916.html"
   ],
