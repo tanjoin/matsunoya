@@ -12,6 +12,18 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ginger_ribu_fpork_hp_260930.html"
   ],
   [
+    "背脂生姜タレのダブルロースポークフライドステーキ定食",
+    1090,
+    {
+      "カロリー": "1301kcal",
+      "たんぱく質": "45.6g",
+      "脂質": "77g",
+      "炭水化物": "111.2g",
+      "食塩相当量": "6.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ginger_w_fpork_hp_261002.html"
+  ],
+  [
     "背脂生姜タレのポークフライドステーキ＆ロースかつ定食",
     1090,
     {
@@ -334,6 +346,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "6.9g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ginger_ribu_fpork_hp_260930.html"
+  ],
+  [
+    "背脂生姜タレのダブルロースポークフライドステーキ定食",
+    1090,
+    {
+      "カロリー": "1301kcal",
+      "たんぱく質": "45.6g",
+      "脂質": "77g",
+      "炭水化物": "111.2g",
+      "食塩相当量": "6.9g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_ginger_w_fpork_hp_261002.html"
   ],
   [
     "カキフライ（5個）定食",
