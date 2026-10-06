@@ -1020,18 +1020,6 @@ const MATSUNOYA_MENU_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/donburi/don_rosu_miso_hp_260506.html"
   ],
   [
-    "お子様パンケーキプレート",
-    500,
-    {
-      "カロリー": "413kcal",
-      "たんぱく質": "4.2g",
-      "脂質": "8.5g",
-      "炭水化物": "79.5g",
-      "食塩相当量": "1.1g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/sumikko/okosama_pan_hp_251126.html"
-  ],
-  [
     "お子様プレート",
     500,
     {
@@ -1041,7 +1029,7 @@ const MATSUNOYA_MENU_LIST = [
       "炭水化物": "124g",
       "食塩相当量": "1.6g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/sumikko/ageage_okosama_hp_240809_nn.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/sumikko/sumikko_okosama_hp_261006.html"
   ],
   [
     "マミー",
