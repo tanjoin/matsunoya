@@ -1,5 +1,17 @@
 const MATSUNOYA_MENU_LIST = [
   [
+    "ジンギスカン定食",
+    1190,
+    {
+      "カロリー": "814kcal",
+      "たんぱく質": "26.6g",
+      "脂質": "32.4g",
+      "炭水化物": "109.2g",
+      "食塩相当量": "6.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jingisukan_hp_261014.html"
+  ],
+  [
     "【惣菜セット】ロースかつ１枚＋カキフライ２個＋ハーフ皮付きポテト",
     490,
     {
@@ -286,6 +298,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "4g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/moriawase/mori_rosu_shiromi_hp_260701.html"
+  ],
+  [
+    "ジンギスカン定食",
+    1190,
+    {
+      "カロリー": "814kcal",
+      "たんぱく質": "26.6g",
+      "脂質": "32.4g",
+      "炭水化物": "109.2g",
+      "食塩相当量": "6.1g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/teishoku/tei_jingisukan_hp_261014.html"
   ],
   [
     "背脂生姜タレの“リブ”ロースポークフライドステーキ定食",
@@ -862,6 +886,18 @@ const MATSUNOYA_MENU_LIST = [
       "食塩相当量": "0～0.1g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/okosama/okosama_mammy_hp_230222.html"
+  ],
+  [
+    "単品ジンギスカン",
+    990,
+    {
+      "カロリー": "443kcal",
+      "たんぱく質": "19.7g",
+      "脂質": "31.1g",
+      "炭水化物": "23.8g",
+      "食塩相当量": "4.5g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/souzai/souzai_jingisukan_hp_261014.html"
   ],
   [
     "【惣菜セット】ロースかつ１枚＋カキフライ２個＋ハーフ皮付きポテト",
