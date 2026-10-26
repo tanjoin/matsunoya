@@ -5,18 +5,23 @@
   "main": "tools/matsunoya.js",
   "scripts": {
     "collect": "node tools/matsunoya.js",
-    "build:jade": "jade src --obj src/variables.json --out docs",
+    "build:pug": "pug src -O src/variables.json -o docs",
     "build:sass": "sass src/*.scss docs/stylesheets/style.css",
-    "build": "npm run build:jade && npm run build:sass",
+    "build": "npm run build:pug && npm run build:sass",
     "watch:sass": "sass --watch src/*.scss docs/stylesheets/style.css",
     "watch": "node tools/watch.js"
   },
   "dependencies": {
-    "express": "^5.1.0",
-    "puppeteer": "^24.22.3"
+    "pug": "^3.0.4",
+    "puppeteer": "^25.16.0"
+  },
+  "allowScripts": {
+    "puppeteer": true,
+    "@parcel/watcher": true,
+    "core-js": true
   },
   "devDependencies": {
-    "jade": "^1.11.0",
-    "sass": "^1.93.2"
+    "pug-cli": "^1.0.0-alpha6",
+    "sass": "^1.106.1"
   }
 }
