@@ -24,30 +24,6 @@ const MATSUNOYA_MORNING_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_aji_hp_260916.html"
   ],
   [
-    "得朝ロースかつ定食(小鉢無し)",
-    550,
-    {
-      "カロリー": "872kcal",
-      "たんぱく質": "27.3g",
-      "脂質": "34.6g",
-      "炭水化物": "116.9g",
-      "食塩相当量": "2.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_rosu_kobatinasi_hp_260506.html"
-  ],
-  [
-    "得朝ソーセージエッグ定食(小鉢無し)",
-    490,
-    {
-      "カロリー": "676kcal",
-      "たんぱく質": "23.5g",
-      "脂質": "23.3g",
-      "炭水化物": "94g",
-      "食塩相当量": "2.7g"
-    },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_soseji_egg_kobatinasi_hp_250808.html"
-  ],
-  [
     "得朝ロースかつ定食",
     590,
     {
@@ -58,6 +34,18 @@ const MATSUNOYA_MORNING_LIST = [
       "食塩相当量": "2.7g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_rosu_hp_260506.html"
+  ],
+  [
+    "得朝ロースかつ定食(小鉢無し)",
+    550,
+    {
+      "カロリー": "872kcal",
+      "たんぱく質": "27.3g",
+      "脂質": "34.6g",
+      "炭水化物": "116.9g",
+      "食塩相当量": "2.7g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_rosu_kobatinasi_hp_260506.html"
   ],
   [
     "得朝ソーセージエッグ定食",
@@ -72,16 +60,16 @@ const MATSUNOYA_MORNING_LIST = [
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_soseji_egg_hp_260128.html"
   ],
   [
-    "玉子かけごはん定食",
-    380,
+    "得朝ソーセージエッグ定食(小鉢無し)",
+    490,
     {
-      "カロリー": "444kcal",
-      "たんぱく質": "13.1g",
-      "脂質": "6.2g",
-      "炭水化物": "85.9g",
-      "食塩相当量": "1.8g"
+      "カロリー": "676kcal",
+      "たんぱく質": "23.5g",
+      "脂質": "23.3g",
+      "炭水化物": "94g",
+      "食塩相当量": "2.7g"
     },
-    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_tamago_gohan_hp_260128.html"
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_soseji_egg_kobatinasi_hp_250808.html"
   ],
   [
     "コロッケ＜選べる小鉢＞",
@@ -130,6 +118,18 @@ const MATSUNOYA_MORNING_LIST = [
       "食塩相当量": "0g"
     },
     "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_kobachi_yakko_hp_240809.html"
+  ],
+  [
+    "玉子かけごはん定食",
+    380,
+    {
+      "カロリー": "444kcal",
+      "たんぱく質": "13.1g",
+      "脂質": "6.2g",
+      "炭水化物": "85.9g",
+      "食塩相当量": "1.8g"
+    },
+    "https://www.matsuyafoods.co.jp/matsunoya/menu/morning/asa_tamago_gohan_hp_260128.html"
   ],
   [
     "玉子丼 並盛",
